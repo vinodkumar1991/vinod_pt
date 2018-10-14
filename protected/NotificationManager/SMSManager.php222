@@ -1,0 +1,76 @@
+<?php
+
+/**
+ * @author Ctel
+ * @ignore It will handle sms operations
+ */
+class SMSManager {
+
+    public $strUser;
+    public $strPassword;
+    public $strMobileNumber;
+    public $strMessage;
+    public $strSenderId;
+    public $strMessageType;
+    public $strDReport;
+    public $strURL;
+
+    /**
+     * @author Ctel
+     * @param array $arrSmsData
+     */
+    public function __construct($arrSmsData) {
+        $this->strUser = $arrSmsData['user'];
+        $this->strPassword = $arrSmsData['password'];
+        $this->strMobileNumber = $arrSmsData['mobile'];
+        $this->strMessage = $arrSmsData['message'];
+        $this->strSenderId = $arrSmsData['sender'];
+        $this->strMessageType = $arrSmsData['message_type'];
+        $this->strDReport = $arrSmsData['dreport'];
+        $this->strURL = $arrSmsData['url'];
+    }
+
+    /**
+     * @author Ctel
+     * @return string It will return a token response upon sms success
+     */
+    public function fireSMS() {
+        $strSMS = self::send($this->getData());
+        return $strSMS;
+    }
+
+    /**
+     * @author Ctel
+     * @return array It will return sms data
+     */
+    public function getData() {
+        return array(
+            'User' => $this->strUser,
+            'passwd' => $this->strPassword,
+            'mobilenumber' => $this->strMobileNumber,
+            'message' => $this->strMessage,
+            'sid' => $this->strSenderId,
+            'mtype' => $this->strMessageType,
+            'DR' => $this->strDReport,
+            'url' => $this->strURL,
+        );
+    }
+
+    /**
+     * @author Ctel
+     * @return string It will return a token upon sms success
+     */
+    public static function send($arrSMS) {
+        $objCI = curl_init();
+        curl_setopt($objCI, CURLOPT_URL, $arrSMS['url']);
+        unset($arrSMS['url']);
+        curl_setopt($objCI, CURLOPT_POST, 1);
+        curl_setopt($objCI, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($objCI, CURLOPT_SSL_VERIFYHOST, 2);
+        curl_setopt($objCI, CURLOPT_POSTFIELDS, $arrSMS);
+        curl_setopt($objCI, CURLOPT_RETURNTRANSFER, 1);
+        $strResponse = curl_exec($objCI);
+        return $strResponse;
+    }
+
+}
