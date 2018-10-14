@@ -1,0 +1,6 @@
+[11-Nov-2016 09:33:56 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 89 bytes) in /home/digitaltodayhyd/public_html/metrepersecond.com/yii/framework/db/CDbCommand.php on line 516
+[11-Nov-2016 09:33:56 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 84 bytes) in /home/digitaltodayhyd/public_html/metrepersecond.com/yii/framework/db/CDbCommand.php on line 516
+[11-Nov-2016 09:34:31 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 81 bytes) in /home/digitaltodayhyd/public_html/metrepersecond.com/yii/framework/db/CDbCommand.php on line 516
+[11-Nov-2016 09:34:32 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 89 bytes) in /home/digitaltodayhyd/public_html/metrepersecond.com/yii/framework/db/CDbCommand.php on line 516
+[11-Nov-2016 09:37:31 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 89 bytes) in /home/digitaltodayhyd/public_html/metrepersecond.com/yii/framework/db/CDbCommand.php on line 516
+[11-Nov-2016 09:37:32 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 2 bytes) in /home/digitaltodayhyd/public_html/metrepersecond.com/yii/framework/db/CDbCommand.php on line 516

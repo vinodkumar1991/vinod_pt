@@ -1,0 +1,4 @@
+[07-Sep-2016 19:56:13 UTC] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /home/digitaltodayhyd/public_html/metrepersecond.com/Staging/MPS/protected/tests/wp-slider.php on line 18
+[07-Sep-2016 19:56:16 UTC] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /home/digitaltodayhyd/public_html/metrepersecond.com/Staging/MPS/protected/tests/wp-slider.php on line 18
+[08-Sep-2016 06:06:16 UTC] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /home/digitaltodayhyd/public_html/metrepersecond.com/Staging/MPS/protected/tests/wp-slider.php on line 18
+[08-Sep-2016 12:24:42 UTC] PHP Deprecated:  preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead in /home/digitaltodayhyd/public_html/metrepersecond.com/Staging/MPS/protected/tests/wp-slider.php on line 18
