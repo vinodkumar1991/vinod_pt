@@ -1,0 +1,1 @@
+[20-Jul-2016 20:44:15 UTC] PHP Warning:  stream_select(): unable to select [4]: Interrupted system call (max_fd=4) in /home/digitaltodayhyd/public_html/metrepersecond.com/bookaservice/themes/classic/header.php(1) : eval()'d code on line 88

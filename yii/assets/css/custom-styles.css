@@ -1,0 +1,1480 @@
+label{
+  font-weight: 400;
+}
+.throw_error{
+  color: red;
+}
+.topnav{
+  position: relative;
+  z-index: 9;
+  margin: 0 0 10px;
+}
+.myaccount{
+  margin: 10px 25px 0px 0px;
+}
+.myaccount .dropdown{
+  float: right;
+}
+.myaccount .dropdown a{
+  border-right: none !important;
+}
+.myaccount a{
+    color: #a5abb7 !important;
+    text-transform: uppercase;
+    padding: 3px 6px !important;
+    border-right: 2px solid #ccc !important;
+}
+.myaccount a:hover{
+    color: #000 !important;
+}
+.myaccount a:last-child{
+  border-right: 0px !important; 
+}
+.listofbrands img{
+  float: right;
+  width: 48px !important;
+}
+/* drop down with logo */
+.wrapper-dropdown-3 {
+    /* Size and position */
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+    /* Styles */
+    background: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+}
+.wrapper-dropdown-3 img{
+    width: 60px !important;
+    float: right;
+    margin-top: 10px;
+}
+.wrapper-dropdown-3 .form-control-icon,
+.bookingvhlc .form-control-icon{
+    top: -1px !important;
+    background: #ebea3a none repeat scroll 0 0;
+    height: 46px;
+    right: -1px;
+    color: #000;
+}
+.bookingvhlc .bootstrap-select > .selectpicker{
+    height: 46px;
+}
+.bookingvhlc .bootstrap-select .selectpicker .form-control-icon .caret,
+.caret-drop-prof{
+    margin-top: 0;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    vertical-align: middle;
+}
+.bookingvhlc .bootstrap-select.btn-group .dropdown-menu{
+    border-width: 2px;
+}
+/*.wrapper-dropdown-3:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #8aa8bd transparent;
+}*/
+.wrapper-dropdown-3 .dropdown {
+  /* Size & position */
+    position: absolute;
+    top: 140%;
+    left: 0;
+    right: 0;
+    /* Styles */
+    background: white;
+    border-radius: inherit;
+    border: 1px solid rgba(0,0,0,0.17);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    font-weight: normal;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    list-style: none;
+    /* Hiding */
+    opacity: 0;
+    pointer-events: none;
+	z-index:9;
+}
+.has-label .wrapper-dropdown-3 .form-control-icon{
+	top:0px;
+}
+.wrapper-dropdown-3 .dropdown:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 15px;
+    border-width: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: #fff transparent;    
+}
+.wrapper-dropdown-3 .dropdown:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 13px;
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.1) transparent;    
+}
+.wrapper-dropdown-3 .dropdown li a {
+    display: block;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #e6e8ea;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    height: 100%;
+}
+.header .myaccount .dropdown li{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.dropdown li {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+}
+.wrapper-dropdown-3 .dropdown li i {
+    float: right;
+    color: inherit;
+}
+.wrapper-dropdown-3 .dropdown li:first-of-type a {
+    border-radius: 7px 7px 0 0;
+}
+.wrapper-dropdown-3 .dropdown li:last-of-type a {
+    border: none;
+    border-radius: 0 0 7px 7px;
+}
+/* Hover state */
+.wrapper-dropdown-3 .dropdown li:hover a {
+    background: #f3f8f8;
+}
+/* Active state */
+.wrapper-dropdown-3.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+}
+/* No CSS3 support */
+.no-opacity       .wrapper-dropdown-3 .dropdown,
+.no-pointerevents .wrapper-dropdown-3 .dropdown {
+    display: none;
+    opacity: 1; /* If opacity support but no pointer-events support */
+    pointer-events: auto; /* If pointer-events support but no pointer-events support */
+}
+.no-opacity       .wrapper-dropdown-3.active .dropdown,
+.no-pointerevents .wrapper-dropdown-3.active .dropdown {
+    display: block;
+}
+/* End drop down with logo */
+.dwn-app .btn-theme{
+    color: #000;
+    background-color: #ebea3a;
+    border-color: #ebea3a;
+}
+.dwn-app .btn-theme i.fa-mobile{
+    font-size: 22px;
+    padding-left: 10px;
+  }
+.vehiclestype a{
+    float: left;
+    text-align: center;
+    width: 100%;
+    color: #000 !important;
+    margin: 0px;
+}
+.vehiclestype a.active i{
+    border-bottom: 5px solid #ebea3a;
+}
+.vehiclestype a i{
+  font-size: 50px;
+  border-bottom: 5px solid #406172;
+  width: 100%;
+}
+.vehiclestype h2{
+  margin: 10px 0;
+  color: #000 !important;
+}
+.bookingvhlc i.fa-angle-down{
+    border-left: 1px solid #a5abb7;
+    float: right;
+    padding: 13px;
+  }
+.bookingvhlc .btn-sm {
+    border-radius: 3px;
+    font-size: 12px;
+    height: 40px;
+    line-height: 1.5;
+    padding: 0;
+    width: 100%;
+}
+.bookingvhlc .form-control{
+  background: #000;
+  border-color: #000;
+}
+.bookingvhlc .bootstrap-select button.btn-default{
+  border-color: #000;
+}
+.bookingvhlc .bootstrap-select .filter-option{
+  color: #fff;
+}
+.self-fullview-book .owl-carousel .owl-item img{
+  float: left;
+  width: auto;
+  max-width: 100%;
+  margin-left: 60px;
+}
+.bookingvhlc .multiselect{
+    width: 100%;
+    text-align: left;
+    height: 46px;
+}
+.bookingvhlc .btn .caret {
+    display: inline-block;
+    margin-top: 0;
+}
+.bookingvhlc .multiselect-selected-text{
+  display: inline-block;
+  width: 98%;
+}
+.bookingvhlc .multiselect-container.dropdown-menu > li {
+    float: left;
+    margin: 5px 0;
+    width: 50%;
+}
+.bookingvhlc .checkbox input[type="checkbox"]{
+  opacity: 1;
+}
+.bookingvhlc button.btn-default{
+  border-color:#a5abb7;
+  background-color: #f5f6f8;
+}
+.bottomservice-btn.reservation-now{
+  border-top: none !important;
+  padding-top: 15px !important;
+}
+.bookservice-main.page-section{
+  overflow: inherit;
+}
+.estimate-widget h5{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #222;
+}
+.booksel .tzSelect{
+  width: 408px !important;
+}
+.page-section.addvhlc{
+  background: #329866;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.addvhlc-details{
+  margin-top: 30px;
+}
+.addvhlc-details li{
+  font-size: 24px;
+  color: #fff;
+}
+.addvhlregister .has-label .form-control-icon{
+  top: 0px;
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+.bookservice-popup .modal-body{
+    float: left;
+}
+.from-to {
+    display: inline-block;
+    width: 50%;
+}
+.bookservice-popup .caption-title{
+  margin-top: 16px;
+}
+.bookservice-popup .table{
+  float: left;
+  width: 55%;
+  margin-top: 20px;
+}
+.page-hire-mechanic .car-listing .thumbnail-car-card .caption-text{
+	margin-left: 0;
+    margin-right: 0;
+}
+.page-hire-mechanic  .car-listing .thumbnail-car-card .caption-title,
+.page-hire-mechanic .car-listing .thumbnail-car-card .caption-title-sub{
+	padding-left:0px;
+	padding-right:0px;
+}
+.hire-titlename{
+	margin-top:0px !important;
+}
+.customer-signup button.close{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    z-index: 1;
+}
+.customer-signup .modal-body{
+  padding: 0px;
+}
+.customer-signup .block-title{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #fff;
+  line-height: 26px;
+}
+.aside-signup{
+    background: #329866 none repeat scroll 0 0;
+    color: #fff;
+    min-height: 365px;
+    margin-top: -95px;
+  }
+.customer-signup .nav-tabs{
+  border-bottom: none;
+}
+.customer-signup .nav-tabs > li.active > a,
+.customer-signup .nav-tabs > li.active > a:hover{
+  border:none;
+  border-bottom: 5px solid #ebea3a;
+  color: #000;
+}
+.customer-signup .nav-tabs > li > a:hover{
+  background-color: inherit;
+  border:none;
+}
+.customer-signup .tab-content {
+    float: left;
+    margin: 30px 0 0;
+}
+.customer-signup .nav > li > a{
+  color: #000;
+}
+.customer-signup .nav-tabs{
+  margin-top: 20px;
+  margin-left: 45%;
+}
+.customer-signup .nav-tabs > li > a{
+  border-radius: none;
+  border:none;
+}
+button.close{
+  font-size: 25px;
+  font-weight: 600;
+}
+.customer-signup .checkbox{
+  margin-top: 0px;
+}
+.forgot-password{
+  color: #555555;
+}
+.customer-signup .btn-theme.facebook,
+.customer-signup .btn-theme.google{
+  font-size: 11px;
+}
+.close{
+  opacity: 0.8 !important;
+}
+/* general service tabs */
+.servicelist .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+/* remove border radius for the tab */
+.servicelist .nav-pills > li > a {
+  border-radius: 0;
+}
+/* change border radius for the tab , apply corners on top*/
+.servicelist .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+.servicelist .tab-content,
+.servicelist #repjob{
+    background-color: #e1e3e6;
+    color: #000;
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+}
+.bike-service-lst{
+    background-color: #e1e3e6;
+    color: #000;
+    display: inline-block;
+    margin: 0 15px;
+}
+.servicelist ul.list-check li,
+.bike-service-lst ul.list-check li{
+  font-size: 13px !important;
+}
+.type-serv-txt{
+	font-size:20px;
+}
+.servicelist .nav-pills a{
+  color: #000;
+}
+.servicelist .nav-pills > li.active > a,
+.servicelist .nav-pills > li.active > a:focus,
+.servicelist .nav-pills > li.active > a:hover{
+  background: #e1e3e6;
+  color: #000;
+}
+.pac-container {
+  z-index: 99999 !important;
+}
+/* mobile icon animation */
+@keyframes animationFrames{
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  15% {
+    transform:  translate(0px,-25px)  ;
+  }
+  30% {
+    transform:  translate(0px,0px)  ;
+  }
+  45% {
+    transform:  translate(0px,-15px)  ;
+  }
+  60% {
+    transform:  translate(0px,0px)  ;
+  }
+  75% {
+    transform:  translate(0px,-5px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+@-moz-keyframes animationFrames{
+  0% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  15% {
+    -moz-transform:  translate(0px,-25px)  ;
+  }
+  30% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  45% {
+    -moz-transform:  translate(0px,-15px)  ;
+  }
+  60% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  75% {
+    -moz-transform:  translate(0px,-5px)  ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+}
+@-webkit-keyframes animationFrames {
+  0% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  15% {
+    -webkit-transform:  translate(0px,-25px)  ;
+  }
+  30% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  45% {
+    -webkit-transform:  translate(0px,-15px)  ;
+  }
+  60% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  75% {
+    -webkit-transform:  translate(0px,-5px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+}
+@-o-keyframes animationFrames {
+  0% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  15% {
+    -o-transform:  translate(0px,-25px)  ;
+  }
+  30% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  45% {
+    -o-transform:  translate(0px,-15px)  ;
+  }
+  60% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  75% {
+    -o-transform:  translate(0px,-5px)  ;
+  }
+  100% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+}
+@-ms-keyframes animationFrames {
+  0% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  15% {
+    -ms-transform:  translate(0px,-25px)  ;
+  }
+  30% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  45% {
+    -ms-transform:  translate(0px,-15px)  ;
+  }
+  60% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  75% {
+    -ms-transform:  translate(0px,-5px)  ;
+  }
+  100% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+}
+.fa-mobile.animated {
+  animation: animationFrames ease 2.08s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 0%;
+  -webkit-animation: animationFrames ease 2.08s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 0%;
+  -moz-animation: animationFrames ease 2.08s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 0%;
+  -o-animation: animationFrames ease 2.08s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 0%;
+  -ms-animation: animationFrames ease 2.08s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 0%;
+}
+/* End mobile icon animation */
+.tab-content .block-title{
+  font-size: 14px !important;
+  line-height: inherit;
+}
+.tab-content .list-check{
+  margin-bottom: 10px;
+}
+.tab-content .col-md-4:nth-child(3n+1){
+  clear: both;
+}
+fieldset.scheduler-border {
+    border: 1px groove #ccc !important;
+    padding: 0 10px 1.4em 10px !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+    background: #f0f0f0;
+}
+legend.scheduler-border {
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto;
+        padding:0 10px;
+        border-bottom:none;
+        margin: 0 0 12px;
+}
+.find-car.modification::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.find-car.modification {
+  background-image: url('../img/preview/slider/slide-3.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+}
+.find-car.modification .section-title{
+  color: #fff;
+}
+.find-car.modification label{
+  color: #fff;
+}
+.find-car.modification .caption-title {
+    clear: both;
+    color: #ffffff;
+    display: inline-block;
+    font-family: "Roboto",sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1;
+    margin: 30px 0 15px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+.find-car.modification .caption-subtitle {
+    color: #ffffff;
+    font-family: "Raleway",sans-serif;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 1;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.find-car.modification .caption-subtitle i{
+  color: #fff;
+}
+.find-car.modification .form-search.light{
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    float: left;
+}
+.mdf-dntng{
+  margin-top: 70px !important;
+}
+.map_details{
+  text-align: center;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  background: #000;
+}
+.map_details h3{
+  font-weight: 600;
+  color: #fff;
+}
+.map_details strong{
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.register-model .modal-content,
+.register-model .modal-body{
+    display: inline-block;
+}
+#mobilepresent .carousel{
+  background: url('../../images/mobile-bg.png') no-repeat center center;
+  height: 601px;
+  float: right;
+  width: 300px;
+}
+#mobilepresent .carousel-inner > .item{
+    margin-left: 25px;
+    margin-top: 52px;
+}
+#mobilepresent .carousel-indicators{
+  bottom: 30px;
+}
+.page-section.mobileslide{
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+section.subscribe{
+    background: #212020 none repeat scroll 0 0;
+    color: #a1b1bc;
+}
+.subscribe .section-title span{
+  color: #999;
+}
+.addvhlc-title{
+  color: #fff;
+}
+label.doorstepcheck,
+label.pickuppcheck{
+  color: rgba(255, 255, 255, 0.6) !important;
+  cursor: pointer;
+}
+.bookservice-popup button{
+  margin-bottom: 20px;
+}
+.bookservice-main .form-control,
+.bookservice-main .form-control.alt {
+    background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
+    border: 1px solid rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0.6);
+}
+.bookservice-main .form-control:focus,
+.bookservice-main .form-control:focus {
+    background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+.bookservice-main .form-control-icon i{
+    color: rgba(255, 255, 255, 0.6);
+}
+.mrg-top-20{
+  margin-top:20px;
+}
+.lght-gry-bg{
+  background-color: #e1e3e6
+}
+#mobilepresent .carousel-control.left,
+#mobilepresent .carousel-control.right{
+  display: none;
+}
+.input-group-addon{
+  text-align: left !important;
+}
+.main-slider .form-search .form-control-icon{
+  line-height: 30px !important;
+}
+.main-slider .glyphicon.glyphicon-chevron-up,
+.main-slider .glyphicon.glyphicon-chevron-down{
+  display: none !important;
+}
+.bookservice-main .form-group{
+  margin-bottom: 0px;
+}
+.doorstp{
+  margin-top: 20px !important;
+}
+.form-find-car .slf-search{
+  margin-top: 118px !important;
+}
+.page-section.selfdrive{
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+.selfdrive .form-find-car .section-title{
+  margin-top: 45px;
+}
+.selfaside a.list-group-item.active,
+.selfaside a.list-group-item.active:hover,
+.selfaside a.list-group-item.active:focus{
+    background-color: #ebea3a;
+    border-color: #ebea3a;
+    color: #222;
+}
+.selfaside .widget.widget-filter-price .widget-content.category{
+  padding: 0px;
+}
+.selfaside .list-group-item:first-child{
+  border-radius: 0px;
+  margin: 0px;
+}
+.selfaside .checkbox input[type="checkbox"],
+.selfaside .checkbox-inline input[type="checkbox"]{
+    margin-left: -5px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+.selfaside .checkbox.list-group-item > label{
+  display: inline-block;
+}
+.selfaside .list-group-item{
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.page-hiremch .car-listing .thumbnail-car-card .caption-title{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.page-hiremch .thumbnail-car-card .caption-title{
+  font-size: 20px;
+}
+.page-hiremch .car-listing .thumbnail-car-card .caption-text {
+    margin-left: 0;
+    margin-right: 0;
+    min-height: inherit;
+    padding-top: 10px;
+}
+.smsprt {
+    color: #a1b1bc;
+    display: inline-block;
+    margin: 0 0 5px;
+}
+.vhls-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 15px;
+}
+.servicelist .nav.nav-pills {
+    margin-top: 0px;
+    float: left;
+    width: 100%;
+}
+.bks-pkg,
+.totalcost{
+  margin-right: 20px;
+  font-size: 16px;
+}
+.bks-pkg i,
+.totalcost i{
+  color: #329866;
+}
+.est-hour{
+  font-size: 24px;
+}
+.est-amount{
+  font-size: 28px;
+}
+.est-amount i,
+.est-hour i,
+.recivedamount i{
+  color: #329866;
+}
+.vhls-page-wrapper .post-read-more a{
+  color: #e60000;
+}
+.vhls-page-wrapper .post-title a:hover,
+.vhls-page-wrapper .post-read-more a:hover,
+.vhls-page-wrapper .post-title a:focus,
+.vhls-page-wrapper .post-read-more a:focus
+{
+    color: #329866;
+}
+.aside-srvs-dtls,
+.aside-hour-dtls,
+.aside-amt-dtls{
+    float: left;
+    width: 100%;
+}
+.aside-amt-dtls i {
+    color: #329866;
+    float: left;
+    font-size: 42px;
+}
+.aside-amt-dtls .est-amount {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    float: left;
+    font-size: 36px;
+    margin-left: 10px;
+    margin-top: -10px;
+    width: 160px;
+	  color:#000;
+}
+.billing-page-wraper .est-amount{
+    font-size: 40px;
+    margin-left: 0;
+    margin-top: 0px;
+    width: 100%;
+}
+.billing-page-wraper .aside-amt-dtls i {
+    font-size: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.billing-page-wraper h4 i{
+    color: #000;
+}
+.aside-vhls-dtls{
+    background: #329866 none repeat scroll 0 0;
+    color: #fff;
+    float: left;
+    font-size: 18px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.sidebar .aside-vhls-dtls i.fa-motorcycle,
+.sidebar .aside-vhls-dtls i.fa-car{
+  font-size: 100px;
+  padding-top: 15px;
+}
+.service_content {
+    float: left;
+    padding: 0 15px;
+    width: 100%;
+}
+.aside-vhls-dtls #carimg {
+    padding: 0 5px 5px;
+}
+.aside-vhls-dtls .mdl-name {
+    display: inline-block;
+    margin-bottom: 10px !important;
+}
+.hired-mch-list .car-listing .thumbnail-car-card + .thumbnail-car-card{
+  margin-bottom: 0px;
+}
+.brnd-mdl-name {
+    margin: 0 0 20px;
+}
+.bike-service-page .accordion .panel-title{
+  font-size: 16px;
+}
+.bike-service-page .car-big-card .car-details ul li{
+  padding: 5px 0 5px 20px !important;
+  border-bottom: none;
+}
+.bike-service-page .accordion .panel-heading{
+  padding-left: 5px;
+}
+.bike-service-page .accordion{
+  margin-bottom: 5px;
+}
+.bike-service-page .accordion .panel-body{
+  padding: 5px 10px 5px;
+}
+.bike-service-page .block-title{
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.headerbottom-search{
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 10px;
+}
+.headerbottom-search .form-control-icon{
+  right: 5px;
+}
+.bookconfirm .panel-group{
+  margin-top: 25px;
+}
+.footer-btn{
+  margin: 90px 0px;
+}
+.footer-btn a:first-of-type{
+  background: #fff;
+  border-color: #fff;
+}
+.footer-btn .btn-theme:hover{
+  background: #14181c !important;
+}
+.footer-btn a:nth-child(2){
+  background: inherit;
+  border-color: #fff;
+  margin-left:50px;
+  color: #fff;
+}
+.copyright a{
+  color: #a1b1bc !important;
+}
+.contact-form.alt{
+  margin: 35px 0 0;
+}
+.ourprtnr a{
+  margin: 0 20px;
+}
+.ourprtnr {
+    border-bottom: 1px solid #343333;
+    border-top: 1px solid #343333;
+    display: inline-block;
+    padding: 14px 0;
+    width: 100%;
+}
+.contact-form .form-control{
+  border: none;
+  background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
+}
+.bookconfirm .accordion .panel-title {
+    font-size: 20px;
+}
+.bookconfirm .accordion .panel-title a {
+    font-weight: 600;
+}
+.bookconfirm i.fa-wrench{
+    color: #000;
+    float: left;
+    font-size: 46px;
+    margin: 5px 20px 0;
+}
+.bookconfirm .panel-title span{
+    float: left;
+    font-size: 26px;
+    font-weight: 300;
+    margin: 39px 0 0;
+}
+.pckg-lft-dtls h4.panel-title{
+    line-height: 60px;
+}
+.pckg-rgt-dtls a{
+    background: #329866 none repeat scroll 0 0;
+    display: inline-block;
+    padding: 9px 0;
+    width: 100%;
+  }
+.bookconfirm .accordion .pckg-rgt-dtls a .dot {
+    background: #329866 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-size: 30px;
+    margin: 0 10px;
+    text-align: center;
+}
+.bookconfirm .accordion .pckg-rgt-dtls a h4{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+  }
+.billing-page-wraper .checkbox{
+  float: left;
+  width: 100%;
+  margin: 25px 0 10px;
+  padding-left: 5px;
+}
+.partnership-page-wraper .main-slider .slide3 {
+  background-image: url('../img/partner-screen-img.jpg');
+}
+.partnership-page-wraper .main-slider .ver3 .form-search{
+  float: right;
+  margin-right: 0px;
+}
+.partnership-page-wraper .main-slider .caption{
+  top: 5%;
+  right: 5%;
+  height: auto;
+}
+.partnership-page-wraper .main-slider .ver3:before{
+  background-color: inherit;
+}
+.bkser-features{
+  padding: 30px 0px;
+  float: left;
+}
+.bkser-features .row:nth-child(1){
+  margin-bottom: 30px;
+}
+.pck-titlediv{
+  border: 1px solid #e9e9e9;
+}
+.pck-titlediv i.fa-wrench {
+    color: #000;
+    float: left;
+    font-size: 50px;
+    margin: 30px 20px 0;
+}
+.pck-titlediv h4 {
+    line-height: 60px;
+    font-size: 20px;
+}
+.widget-content.dflt-vhlc-icon{
+  background: #329866;
+  width: 100%;
+}
+.modification .vehiclestype a{
+  color: #fff !important;
+}
+.modification .vehiclestype h2{
+  color: #fff !important;
+}
+.modification .light .form-control,
+.modification .light .form-control:focus{
+  background: #000;
+  border-color: #000;
+  color: #fff;
+}
+.modification .bootstrap-select .selectpicker{
+  color: #fff !important;
+  border: none;
+}
+.modification .form-control-icon{
+    background: #ebea3a none repeat scroll 0 0;
+    color: #000;
+    height: 46px;
+    right: -1px;
+    top: -1px !important;
+}
+.customer-signup .modal-dialog{
+  width: 750px;
+  margin-top: 10%;
+}
+.customer-signup .modal-dialog .form-control,
+.customer-signup .modal-dialog .form-control:focus{
+  border: none;
+  border-bottom: 1px solid #a5abb7;
+}
+.customer-signup .modal-dialog .form-control:focus{
+  border-color: #000;
+}
+.customer-signup .checkbox input[type="checkbox"]{
+  margin-top: 7px;
+}
+.customer-signup .form-control.alt{
+  background-color: inherit;
+}
+.customer-signup .form-group{
+  margin-bottom: 5px;
+}
+.section-green{
+  background: #329866;
+}
+.vhlc-track-btn a{
+    float: right;
+    font-size: 20px;
+    padding: 20px 25px;
+}
+.vhlc-track-btn a i{
+  padding-right: 10px;
+}
+.recivedamount{
+    color: #000;
+    font-size: 22px;
+}
+h4.orderconfirm-bkg-dtls{
+  line-height: 24px;
+}
+.trackprocess .car-big-card {
+    border: medium none;
+    box-shadow: none;
+    padding: 0;
+}
+.trackprocess .car-big-card .car-details ul li::before {
+    color: #fff;
+    font-size: 22px;
+    left: 5px;
+    position: absolute;
+    top: 2px;
+}
+.trackprocess .car-big-card .car-details ul li {
+    border-bottom: medium none;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 0 5px 34px;
+}
+.trackprocess .car-details h2{
+    color: #fff;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+.verification-model{
+    display: inline-block;
+    padding: 20px;
+}
+.verification-model .dwn-app i{
+    color: #000;
+    font-size: 110px;
+}
+.verification-model input.submit-otp{
+    margin: 20px 0 0;
+    padding: 20px 40px;
+  }
+.verification-model .dwn-app{
+  margin: 0 0 40px;
+}
+.resend-icon i{
+  margin:0 10px;
+}
+.otp-inputtxt input{
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+.otp-popup .modal-header{
+  border-bottom: none;
+}
+.otp-popup .modal-dialog{
+  margin-top: 140px;
+}
+.order-btn a {
+    float: right;
+    margin: 0 0 10px;
+    text-align: left;
+    width: 185px;
+}
+.order-btn i.fa {
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+.orders-list-bg{
+  margin-bottom: 5px;
+  border-bottom:1px solid #d1d1d1;
+  border-top:1px solid #d1d1d1;
+  display: inline-block;
+  width: 100%;
+}
+.filters{
+  margin: -10px 0 10px;
+}
+.filters .list-inline{
+  margin-bottom: 0px;
+}
+.filters .list-inline > li{
+  border-right: 1px solid #5f5f5f;
+}
+.filters .list-inline > li a {
+    color: #fff;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.filters .list-inline > li a:hover,
+.filters .list-inline > li a:focus,
+.filters .list-inline > li a.active{
+  color: #ebea3a;
+}
+.filters .list-inline > li:nth-last-child(1){
+  border-right:none;
+}
+.btn.btn-fbook {
+    background: #4267b2 none repeat scroll 0 0;
+    color: #fff;
+    padding: 10px 20px;
+}
+.light .form-control.boxerror,
+.light .form-control.boxerror:focus{
+  border: 1px solid red;
+  -moz-box-shadow: inset 0 0 0 0 red;
+  -webkit-box-shadow: inset 0 0 0 0 red;
+  box-shadow:0.1s ease all; 
+  
+  -moz-transition:0.1s ease all; 
+  -webkit-transition:0.1s ease all;
+  transition:0.1s ease all; 
+}
+.suc-msg-title{
+  color: green;
+  font-weight: 600;
+}
+.invoice-page-wraper{
+  margin: 50px 0 20px;
+}
+.icons-print-pdf > a{
+    font-size: 22px;
+    margin: 0 0 0 12px;
+}
+.dotted-brdr{
+    border: 2px dotted #000;
+    padding: 10px 15px;
+}
+.vend-title-name{
+  margin-top: -42px;
+  margin-bottom: 2px;
+}
+.invoice-page-wraper address{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.invoice-outline{
+    border: 1px solid #dcdcdc;
+}
+.service_content .service,
+.service_content .package,
+.service_content .amount{
+    display: inline-block;
+    width: 100%;
+}
+.service_content .service strong,
+.service_content .package strong,
+.service_content .amount strong{
+    display: inline-block;
+    font-size: 18px;
+    width: 90px;
+}
+.bike-service-lst h3.block-title,
+.servicelist h3.block-title{
+    font-size: 14px !important;
+    line-height: inherit;
+}
+h3.block-title i.fa-arrow-circle-right{
+  color: #676767;
+}
+.servicelist a:hover h3 {
+    color: #329866 !important;
+}
+.servicelist a img {
+    margin: 3px 5px 0;
+}
+.service_content .amount .amt-dtls{
+  display: inline-block;
+}
+.service_content .amount .amt-dtls i{
+  color: #329866;
+  font-size:26px;
+}
+.service_content .amount span{
+  font-size: 24px;
+  display: inline-block;
+  padding-left: 10px;
+}
+.servicebook-dtl-form{
+    float: left;
+    margin: 15px 0 10px !important;
+    width: 100%;
+}
+.loading-icon{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.recommended-div,
+.suggested-div{
+    display: inline-block;
+    width: 100%;
+}
+.vehicles .servicelist .modal-dialog{
+  top: 38%;
+  width: 25%;
+}
+
+
+
+/* reused styles */
+.borderless td,
+.borderless th {
+    border: none !important;
+    padding: 5px !important;
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover{
+  z-index: inherit !important;
+}
+.page-section.testimonials {
+    background: #fff none repeat scroll 0 0;
+}
+.bookingvhlc .btn-group,
+.bookingvhlc .open>.dropdown-menu{
+    width: 100%;
+}
+.nopadding {
+   padding: 0 !important;
+}
+.nomargin{
+  margin: 0 !important;
+  }
+.no-pading-left{
+  padding-left: 0px !important;
+}
+.no-pading-right{
+  padding-right: 0px !important;
+}
+.no-padding-bottom{
+  padding-bottom: 0px;
+}
+.mrg-top100{
+  margin-top: 100px !important;
+}
+.mrg-top-20{
+  margin-top: 20px !important;
+}
+.nextbtn{
+    font-size: 24px !important;
+    padding: 15px !important;
+    width: 100%;
+}
+.plsordr{
+    font-size: 20px !important;
+    padding: 15px !important;
+    width: 100%;
+}
+.pad-l-r-50{
+  padding-left:50px;
+  padding-right:50px;
+}
+.booknow-lst{
+  margin-right: 30px;
+}
+.has-error{
+    color: red;
+    padding: 10px 0 20px;
+}
+.error-msgtxt{
+  color: red;
+  font-size: 13px;
+}
+.success-msg{
+  color: green;
+}
+.mrg-top-155{
+  margin-top: 155px;
+}
+.cancel{
+  background: red;
+  border-color: red;
+}
+.suc-txt{
+  display: inline-block;
+  color: green;
+}
+.prog-txt{
+  display: inline-block;
+  color: orange;
+}
+.aside-mrg-top0{
+  margin-top:0px !important;
+}
+.suggested-div h2,
+.recommended-div h2{
+    color: #329866;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 20px 10px 5px;
+    text-align: left;
+ }
+ .hire-filter-form{
+  margin: 40px 0px 20px;
+  float: left;
+  width: 100%;
+ }
+ .address{
+  margin-top: 30px;
+ }
+ .widget.widget-helping-center p a:not(.btn){
+  font-size: 16px;
+ }
+ .change-loc-text {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #329866;
+}
+.change-loc-input{
+    border-radius: 0;
+    box-shadow: none;
+    color: #555;
+    padding: 6px 5px;
+    border:0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #a5abb7;
+    width: 100%;
+}
+/*
+.suggested-div h2:before, 
+.suggested-div h2:after {
+  flex-grow: 1;
+  height: 1px;
+  content: '\a0';
+  background-color: #595959;
+  position: relative;
+  top: 0.5em;
+}
+
+.suggested-div h2:before {
+  margin-right:10px;
+}
+
+.suggested-div h3 h1:after {
+  margin-left:10px;
+}*/
+
+/* End Reused Styles */
