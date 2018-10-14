@@ -272,53 +272,43 @@
                                 <small>Our Partners</small>
                             </h2>
                             <div class="ourprtnr">
-                                <a href="#">
-                                    <img src="https://msg91.com/images/startups/msg91Badge.png" width="60" title="MSG91 - SMS for Startups" alt="Bulk SMS - MSG91">
-                                </a>
-                                <a href="#">
-                                    <img src="<?php echo Yii::app()->baseUrl; ?>/images/citruspay_logo.jpg" title="Citruspay" alt="Citruspay">
-                                </a>
-                                <a href="#">
-                                    <img src="<?php echo Yii::app()->baseUrl; ?>/images/ccevenue_logo.png" title="CCAvenue" alt="CCAvenue">
-                                </a>
-                                <a href="#">
-                                    <img src="<?php echo Yii::app()->baseUrl; ?>/images/vakil-search.png" title="Vakil Search" alt="CCAvenue">
-                                </a>
-                                <a href="#">
-                                    <img src="<?php echo Yii::app()->baseUrl; ?>/images/SMS-country.png" title="SM Country" alt="CCAvenue">
-                                </a>
-                                <a href="#">
-                                    <img src="<?php echo Yii::app()->baseUrl; ?>/images/Keka.png" title="Keka" alt="CCAvenue">
-                                </a>
+                                <div class="carousel slide" data-ride="carousel" data-type="multi" data-interval="2000" id="myCarousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                          <div class="col-md-2 col-sm-6 col-xs-12"><a href="#"><img src="https://msg91.com/images/startups/msg91Badge.png" class="img-responsive" title="MSG91 - SMS for Startups" alt="Bulk SMS - MSG91"></a></div>
+                                        </div>
+                                        <div class="item">
+                                          <div class="col-md-2 col-sm-6 col-xs-12"><a href="#">
+                                              <img src="<?php echo Yii::app()->baseUrl; ?>/images/citruspay_logo.jpg" title="Citruspay" alt="Citruspay">
+                                          </a></div>
+                                        </div>
+                                        <div class="item">
+                                          <div class="col-md-2 col-sm-6 col-xs-12"><a href="#">
+                                              <img src="<?php echo Yii::app()->baseUrl; ?>/images/vakil-search.png" title="Vakil Search" alt="Vakil Search">
+                                          </a></div>
+                                        </div>
+                                        <div class="item">
+                                          <div class="col-md-2 col-sm-6 col-xs-12"><a href="#">
+                                              <img src="<?php echo Yii::app()->baseUrl; ?>/images/SMS-country.png" title="SM Country" alt="SM Country">
+                                          </a></div>
+                                        </div>
+                                        <div class="item">
+                                          <div class="col-md-2 col-sm-6 col-xs-12"><a href="#">
+                                              <img src="<?php echo Yii::app()->baseUrl; ?>/images/Keka.png" title="Keka" alt="Keka">
+                                          </a></div>
+                                        </div>
+                                      </div>
+                                      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                                      <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                                </div>
                             </div>
-                            
-<!--                            <div class="ourprtnr">
-                                <a href="https://msg91.com/startups/?utm_source=startup-banner" target="_blank">
-                                    <img src="https://msg91.com/images/startups/msg91Badge.png" width="60" title="MSG91 - SMS for Startups" alt="Bulk SMS - MSG91">
-                                </a>
-                                <a href="http://www.citruspay.com/" target="_blank">
-                                    <img src="<?php echo Yii::app()->baseUrl; ?>/images/citruspay_logo.jpg" title="Citruspay" alt="Citruspay">
-                                </a>
-                                <a href="https://www.ccavenue.com/" target="_blank">
-                                    <img src="<?php echo Yii::app()->baseUrl; ?>/images/ccevenue_logo.png" title="CCAvenue" alt="CCAvenue">
-                                </a>
-                                <a href="https://vakilsearch.com" target="_blank">
-                                    <img src="<?php echo Yii::app()->baseUrl; ?>/images/vakil-search.png" title="Vakil Search" alt="CCAvenue">
-                                </a>
-                                <a href="http://www.smscountry.com/" target="_blank">
-                                    <img src="<?php echo Yii::app()->baseUrl; ?>/images/SMS-country.png" title="SM Country" alt="CCAvenue">
-                                </a>
-                                <a href="https://www.keka.com/" target="_blank">
-                                    <img src="<?php echo Yii::app()->baseUrl; ?>/images/Keka.png" title="Keka" alt="CCAvenue">
-                                </a>
-                            </div>-->
                         </div>
-                            <!-- <p class="btn-row text-center">
-                                <a href="#" class="btn btn-theme ripple-effect btn-icon-left facebook wow fadeInDown" data-wow-offset="20" data-wow-delay="100ms"><i class="fa fa-facebook"></i>FACEBOOK</a>
-                                <a href="#" class="btn btn-theme btn-icon-left ripple-effect twitter wow fadeInDown" data-wow-offset="20" data-wow-delay="200ms"><i class="fa fa-twitter"></i>TWITTER</a>
-                                <a href="#" class="btn btn-theme btn-icon-left ripple-effect pinterest wow fadeInDown" data-wow-offset="20" data-wow-delay="300ms"><i class="fa fa-pinterest"></i>PINTEREST</a>
-                                <a href="#" class="btn btn-theme btn-icon-left ripple-effect google wow fadeInDown" data-wow-offset="20" data-wow-delay="400ms"><i class="fa fa-google"></i>GOOGLE</a>
-                            </p> -->
+                        <!-- <p class="btn-row text-center">
+                            <a href="#" class="btn btn-theme ripple-effect btn-icon-left facebook wow fadeInDown" data-wow-offset="20" data-wow-delay="100ms"><i class="fa fa-facebook"></i>FACEBOOK</a>
+                            <a href="#" class="btn btn-theme btn-icon-left ripple-effect twitter wow fadeInDown" data-wow-offset="20" data-wow-delay="200ms"><i class="fa fa-twitter"></i>TWITTER</a>
+                            <a href="#" class="btn btn-theme btn-icon-left ripple-effect pinterest wow fadeInDown" data-wow-offset="20" data-wow-delay="300ms"><i class="fa fa-pinterest"></i>PINTEREST</a>
+                            <a href="#" class="btn btn-theme btn-icon-left ripple-effect google wow fadeInDown" data-wow-offset="20" data-wow-delay="400ms"><i class="fa fa-google"></i>GOOGLE</a>
+                        </p> -->
                     </div>
                     <div class="row">
                         <div class="col-sm-12">
@@ -564,5 +554,22 @@
                     });
                 });
 
+                //Our Partners Slider :: START
+                $('.carousel[data-type="multi"] .item').each(function(){
+                    var next = $(this).next();
+                    if (!next.length) {
+                    next = $(this).siblings(':first');
+                    }
+                    next.children(':first-child').clone().appendTo($(this));
+
+                    for (var i=0;i<4;i++) {
+                    next=next.next();
+                    if (!next.length) {
+                        next = $(this).siblings(':first');
+                    }
+
+                    next.children(':first-child').clone().appendTo($(this));
+                    }
+                });
             });
 </script>

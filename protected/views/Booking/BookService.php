@@ -38,40 +38,52 @@
                         <input type="hidden" id="lng"  value="" class="locationone">
                         <span class="form-control-icon"><i class="fa fa-map-marker"></i></span>  
                     </div>
-                    <div class="form-group has-icon col-sm-3">
-                        <input type="text" class="picupdate form-control" id="picdate" name="picdate" placeholder="Picking Up Date" value="<?php
-                        if (empty(Yii::app()->session['picdate'])) {
-                            $date = new DateTime('now', new DateTimeZone('Asia/Kolkata'));
-
-                            if (isset($fromdates)) {
-                                echo $fromdates;
-                            } else {
-                                echo isset($booked_date) ? $booked_date : $date->format('d-m-Y');
-                                //echo $date->format('d-m-Y');
-                            }
-                        } else {
-                            echo isset($booked_date) ? $booked_date : NULL;
-                        }
-                        ?>" required>
-                        <span class="form-control-icon"><i class="fa fa-calendar"></i></span>
+                    <div class="col-sm-6">
+                        <div class="choose-serv-type">
+                            <div class="pull-right">
+                                <button type="submit" id="" class="btn btn-submit btn-theme">As Soon As Possible</button>
+                                <button type="submit" id="" class="btn btn-submit btn-theme">Schedule</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group has-icon col-sm-3">
-                        <input type="text" class="pictimer form-control" id="pickhr" name="pickhr" placeholder="Picking Up Hour" value="<?php
-                        if (empty(Yii::app()->session['bookhour'])) {
-                            $date = new DateTime('now', new DateTimeZone('Asia/Kolkata'));
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="form-group has-icon col-sm-3">
+                                <input type="text" class="picupdate form-control" id="picdate" name="picdate" placeholder="Picking Up Date" value="<?php
+                                if (empty(Yii::app()->session['picdate'])) {
+                                    $date = new DateTime('now', new DateTimeZone('Asia/Kolkata'));
 
-                            if (isset($fromdates)) {
-                                echo $fromdates;
-                            } else {
-                                echo isset($booked_time) ? $booked_time : $date->format('h:i');
-                                //echo $date->format('h:i');
-                            }
-                        } else {
+                                    if (isset($fromdates)) {
+                                        echo $fromdates;
+                                    } else {
+                                        echo isset($booked_date) ? $booked_date : $date->format('d-m-Y');
+                                        //echo $date->format('d-m-Y');
+                                    }
+                                } else {
+                                    echo isset($booked_date) ? $booked_date : NULL;
+                                }
+                                ?>" required>
+                                <span class="form-control-icon"><i class="fa fa-calendar"></i></span>
+                            </div>
+                            <div class="form-group has-icon col-sm-3">
+                                <input type="text" class="pictimer form-control" id="pickhr" name="pickhr" placeholder="Picking Up Hour" value="<?php
+                                if (empty(Yii::app()->session['bookhour'])) {
+                                    $date = new DateTime('now', new DateTimeZone('Asia/Kolkata'));
 
-                            echo isset($booked_time) ? $booked_time : NULL;
-                        }
-                        ?>" required>
-                        <span class="form-control-icon"><i class="fa fa-clock-o"></i></span>
+                                    if (isset($fromdates)) {
+                                        echo $fromdates;
+                                    } else {
+                                        echo isset($booked_time) ? $booked_time : $date->format('h:i');
+                                        //echo $date->format('h:i');
+                                    }
+                                } else {
+
+                                    echo isset($booked_time) ? $booked_time : NULL;
+                                }
+                                ?>" required>
+                                <span class="form-control-icon"><i class="fa fa-clock-o"></i></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -90,38 +102,7 @@
             </div> -->
             <!-- CONTENT -->
             <div class="col-md-9 content" id="content">
-                <!--Service Types :: START-->
-                <div class="form-group has-icon has-label">
-                    <div class="vehiclestype">
-                        <?php
-                        if (!empty($vehicles)) {
 
-                            foreach ($vehicles as $eleVehicle) {
-                                $strActive = '';
-                                if (2 == $eleVehicle['id'] && 0 == $isCar && 1 == $isBike) {
-                                    $strActive = 'active';
-                                } else if (1 == $isCar && 1 == $eleVehicle['id'] && 0 == $isBike) {
-                                    $strActive = 'active';
-                                }
-
-                                $eleVehicle['isActive'] = $strActive;
-                                ?>
-                                <div class="col-sm-6 text-center">
-                                    <a class="<?php
-                                    echo $eleVehicle['isActive'];
-                                    ?>" href="<?php
-                                       echo Yii::app()->params['webURL'] . $eleVehicle['service_url'];
-                                       ?>" 
-                                       data-vehicleType ="<?php echo $eleVehicle['id']; ?>"><i aria-hidden="true" class="<?php echo $eleVehicle['class_css']; ?>"></i>
-                                        <h2><?php echo $eleVehicle['name']; ?></h2></a>
-                                </div>
-                                <?php
-                            }
-                        }
-                        ?>
-                    </div>
-                </div>
-                <!--Service Types :: END-->
                 <!-- Vehicle Category Car -->
                 <div id="addcar" class="vehicles">
                     <div class="row">
@@ -263,6 +244,7 @@
                             </div>
                         </div>
                         <!--GENERAL Service :: END-->
+
                         <!--PERIODIC Service :: START-->
                         <div id="periodic_serv" class="servicelist col-md-12" style="display:none;">
                             <div id="periodic_servtab"> 
@@ -291,6 +273,7 @@
                             </div>  
                         </div>
                         <!--PERIODIC Service :: END-->
+
                         <!--REPAIR Service :: START-->
                         <div id="repair_serv" class="servicelist" style="display:none;">
                             <div id="repjob"></div>
@@ -469,6 +452,14 @@
                                 <div class="amt-dtls">
                                     <i class="fa fa-inr" aria-hidden="true"></i><span id="estimated_amount" class="showrs"></span>
                                 </div>
+                            </span>
+                            <span class="chose-sec-m">
+                                <label class="radio-inline">
+                                  <input type="radio" name="optradio" checked>Door Step
+                                </label>
+                                <label class="radio-inline">
+                                  <input type="radio" name="optradio">Garage
+                                </label>
                             </span>
                             <span id="Error"></span>
                         </div>

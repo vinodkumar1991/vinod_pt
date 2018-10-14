@@ -82,7 +82,6 @@ datepicker:false,
     <div class="container full-width">
 
         <div class="main-slider">
-            <div class="owl-carousel" id="main-slider">
 
                 <!-- Book a Service slide -->
                 <div class="item slide1 ver1">
@@ -110,47 +109,55 @@ datepicker:false,
                                                         <div class="row row-inputs">
                                                             <div class="container-fluid">
                                                                 <div class="col-sm-6">
-                                                                    <div class="form-group has-icon has-label">
+                                                                    <div class="form-group has-icon has-label pic-loc-input">
                                                                         <label>Pick Location</label>
                                                                         <input type="text" class="form-control geocomplete" id="bookloc" name="bookloc" value="<?php echo Yii::app()->session['location']; ?>" placeholder="Current Location">
-                                                                        <span class="form-control-icon"><i class="fa fa-map-marker"></i></span>
-                                                                    </div>
-                                                                    <div>
-                                                                        <a data-target="#us6-dialog" data-toggle="modal" id="r" class="btn btn-submit btn-theme"><i class="fa fa-map-marker"></i>Change Location</a>
-                                                                        <input type="hidden" id="l" value="" class="locationone">
-                                                                        <input type="hidden" id="t"  value="" class="locationone">
+                                                                        <span class="form-control-icon">
+                                                                            <a data-target="#us6-dialog" data-toggle="modal" id="r" class="btn btn-submit btn-theme" title="Change Location"><i class="fa fa-map-marker fa-2x"></i></a>
+                                                                            <input type="hidden" id="l" value="" class="locationone">
+                                                                            <input type="hidden" id="t"  value="" class="locationone">
+                                                                        </span>
+                                                                    </div>            
+                                                                </div>
+                                                                <div class="col-sm-6">
+                                                                    <div class="choose-serv-type">
+                                                                        <button type="submit" id="" class="btn btn-submit btn-theme">As Soon As Possible</button>
+                                                                        <button type="submit" id="" class="btn btn-submit btn-theme">Schedule</button>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-3">
-                                                                    <div class="form-group input-group date has-icon has-label">
-                                                                        <label for="picdate">Pick Date</label>
-                                                                        <input type='text' id="picdate" name="picdate" class="picupdate form-control input-group-addon" value="<?php
-                                                                        $date = new DateTime('now', new DateTimeZone('Asia/Kolkata'));
-                                                                        if (isset($fromdates)) {
-                                                                            echo $fromdates;
-                                                                        } else {
-                                                                            echo $date->format('d-m-Y');
-                                                                        }
-                                                                        ?>" />
-                                                                        <span class="form-control-icon"><i class="fa fa-calendar"></i></span>
+                                                                <div class="col-sm-12">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-3">
+                                                                            <div class="form-group input-group date has-icon has-label">
+                                                                                <label for="picdate">Pick Date</label>
+                                                                                <input type='text' id="picdate" name="picdate" class="picupdate form-control input-group-addon" value="<?php
+                                                                                $date = new DateTime('now', new DateTimeZone('Asia/Kolkata'));
+                                                                                if (isset($fromdates)) {
+                                                                                    echo $fromdates;
+                                                                                } else {
+                                                                                    echo $date->format('d-m-Y');
+                                                                                }
+                                                                                ?>" />
+                                                                                <span class="form-control-icon"><i class="fa fa-calendar"></i></span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-3">
+                                                                            <div class="form-group input-group date has-icon has-label">
+                                                                                <label>Pick Hour</label>
+                                                                                <input type='text' id='pictimer' name="pictimer" class="pictimer form-control input-group-addon" value="<?php
+                                                                                $date = new DateTime('now', new DateTimeZone('Asia/Kolkata'));
+                                                                                if (isset($fromdates)) {
+                                                                                    echo $fromdates;
+                                                                                } else {
+                                                                                    echo $date->format('H:i:s A');
+                                                                                }
+                                                                                ?>" />
+                                                                                <span class="form-control-icon"><i class="fa fa-clock-o"></i></span>                           
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
-                                                                <div class="col-sm-3">
-                                                                    <div class="form-group input-group date has-icon has-label">
-                                                                        <label>Pick Hour</label>
-                                                                        <input type='text' id='pictimer' name="pictimer" class="pictimer form-control input-group-addon" value="<?php
-                                                                        $date = new DateTime('now', new DateTimeZone('Asia/Kolkata'));
-                                                                        if (isset($fromdates)) {
-                                                                            echo $fromdates;
-                                                                        } else {
-                                                                            echo $date->format('H:i:s A');
-                                                                        }
-                                                                        ?>" />
-                                                                        <span class="form-control-icon"><i class="fa fa-clock-o"></i></span>                           
-                                                                    </div>
-                                                                </div>
+                                                                </div>                                                      
                                                             </div>
-                                                        </div>
                                                         <div class="row row-submit" style="margin-top: 10px;">
                                                             <div class="container-fluid">
                                                                 <div class="inner">
@@ -178,157 +185,6 @@ datepicker:false,
                     </div>
                 </div>
                 <!-- Book a Service slide End -->
-
-                <!-- Self Drive Slide -->
-                <div class="item slide3 ver3">
-                    <div class="caption">
-                        <div class="container">
-                            <div class="div-table">
-                                <div class="div-cell">
-                                    <div class="caption-content">
-                                        <!-- Search form -->
-                                        <div class="form-search light">
-                                            <form action="<?php echo Yii::app()->params['webURL'] . 'selfdrive' ?>" method="POST" class="form-find-car">
-                                                <div class="form-title">
-                                                    <i class="fa fa-globe"></i>
-                                                    <h2>Search a vehicle for your journey.</h2>
-                                                </div>
-                                                <div class="row row-inputs">
-                                                    <div class="container-fluid">
-                                                        <div class="col-sm-7">
-                                                            <div class="form-group input-group date has-icon has-label">
-                                                                <label for="picdate">Start Trip Date</label>
-                                                                <input type="text" class="input-group date form_datetime form-control" name="trip_start_date_time" id="trip_start_date_time" value="<?php
-                            $date = new DateTime('now', new DateTimeZone('Asia/Kolkata'));
-                            $date->modify("+2 hours");
-								$moment=strtotime($date->format('d-m-Y H:i'));
-				$rounded_seconds = round($moment / (30 * 60)) * (30 * 60);
-                            echo  date('d-m-Y H:i',$rounded_seconds);
-                            ?>">						
-                            <span class="form-control-icon"><i class="fa fa-calendar"></i></span>
-                                                            </div>
-                                                        </div>
-                                                       
-                                                    </div>
-                                                </div>
-
-                                                <div class="row row-inputs">
-                                                    <div class="container-fluid">
-                                                        <div class="col-sm-7">
-                                                            <div class="form-group input-group date has-icon has-label">
-                                                                <label for="picdate">End Trip Date</label>
-                                                                <input type="text" class="input-group date form_datetime form-control" name="trip_end_date_time" id="trip_end_date_time" 
-                                   value="<?php $date = new DateTime('now', new DateTimeZone('Asia/Kolkata'));
-								$date->modify("+6 hours");
-								$moment=strtotime($date->format('d-m-Y H:i'));
-				$rounded_seconds = round($moment / (30 * 60)) * (30 * 60);
-				$endate=date('d-m-Y H:i',$rounded_seconds);
-								if(isset($endate))
-								{
-									echo $endate;
-								}
-								else
-								 {
-									  echo date('d-m-Y H:i',$rounded_seconds); 
-								  }
-                                                                  
-                                                                  
-                                                                  ?>">
-                                                                <span class="form-control-icon"><i class="fa fa-calendar"></i></span>
-                                                            </div>
-                                                        </div>
-                                                   
-                                                    </div>
-                                                </div>
-
-                                                <div class="row row-submit">
-                                                    <div class="container-fluid">
-                                                        <div class="inner text-center">
-                                                            <button type="submit" id="formFindCarSubmit" name="self_book" value="self_book" class="btn btn-submit ripple-effect btn-theme">Find Car</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                        <!-- /Search form -->
-                                        <h2 class="caption-title">Self drive for hire</h2>
-                                        <h3 class="caption-subtitle">Opt for your car</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Self Drive Slide End -->
-
-                <!-- Hire a Mechanic Slide -->
-                <div class="item slide2 ver2">
-                    <div class="caption">
-                        <div class="container">
-                            <div class="div-table">
-                                <div class="div-cell">
-                                    <div class="caption-content">
-                                        <!-- Search form -->
-                                        <div class="form-search light">
-                                            <form class="form-find-car" method="post" action="<?php echo Yii::app()->params['webURL'] . 'hiremechanic' ?>">
-          
-                                                <div class="form-title">
-                                                    <i class="fa fa-globe"></i>
-                                                    <h2>Hire a Mechanic</h2>
-                                                </div>
-
-                                                <div class="row row-inputs">
-                                                    <div class="container-fluid">
-                                                        <div class="col-sm-12">
-                                                            <div class="form-group has-icon has-label">
-                                                                <label for="formSearchUpLocation2">Select Mechanic Type</label>
-                                                                
-                                                                <select  name='hire_vehicle_id' id='hire_vehicle_id' class="form-control">
-                                                                    
-                                                                    <?php
-                                                                    if (isset($vehicles) && !empty($vehicles)) {
-                                                                        foreach ($vehicles as $arrVehicle) {
-                                                                            ?>
-                                                                            <option value='<?php echo $arrVehicle['id']; ?>'><?php echo $arrVehicle['name']; ?></option>
-                                                                            <?php
-                                                                        }
-                                                                    }
-                                                                    ?>   
-                                                                </select>
-                                                                
-                                                                                  </div>
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                            <div class="form-group has-icon has-label">
-                                                                <label for="formSearchOffLocation2">Pick Location for Mechanic</label>
-                                                                <input class="geocomplete form-control hireloc1" type="text" placeholder="Location" id="hire_location" name="hire_location" required="">
-                                                               <input type="hidden" class="form-control latlng1" name="location" value=''/>
-                                                                <span class="form-control-icon"><i class="fa fa-map-marker"></i></span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row row-submit">
-                                                    <div class="container-fluid">
-                                                        <div class="inner">
-                                                            <button type="submit" id="hire_mechanic_search" name="hire_mechanic_search" class="btn btn-submit btn-theme pull-right">Search</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                        <!-- /Search form -->
-                                        <h2 class="caption-title">Mechanics for hire.</h2>
-                                        <h3 class="caption-subtitle">Reliable and trust worthy</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Hire a Mechanic Slide End -->
-            </div>
         </div>
 
     </div>

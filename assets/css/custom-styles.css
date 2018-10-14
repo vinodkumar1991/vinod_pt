@@ -1458,6 +1458,63 @@ h3.block-title i.fa-arrow-circle-right{
     border-bottom: 1px solid #a5abb7;
     width: 100%;
 }
+.pic-loc-input .form-control-icon{
+  right: 29px;
+}
+.has-label.pic-loc-input .form-control-icon {
+    top: 25px;
+}
+.main-slider .form-search .pic-loc-input .btn-submit{
+  padding: 6px 25px;
+}
+.choose-serv-type .btn-theme:first-child{
+  margin-right: 10px;
+}
+.choose-serv-type{
+  margin-top: 22px;
+}
+.main-slider .form-search .choose-serv-type .btn-submit{
+  background:#ebea3a;
+  border-color: #ebea3a;
+  color: #222;
+}
+.main-slider .form-search .choose-serv-type .btn-submit:hover{
+  color: #fff;
+}
+/* Our Partners slider css::START*/
+.carousel-control          { width:  4%; }
+.ourprtnr .carousel-control.left,
+.ourprtnr .carousel-control.right{
+  color: #fff !important;
+}
+.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+@media (max-width: 767px) {
+  .carousel-inner .active.left { left: -100%; }
+  .carousel-inner .next        { left:  100%; }
+  .carousel-inner .prev    { left: -100%; }
+  .active > div { display:none; }
+  .active > div:first-child { display:block; }
+
+}
+@media (min-width: 767px) and (max-width: 992px ) {
+  .carousel-inner .active.left { left: -50%; }
+  .carousel-inner .next        { left:  50%; }
+  .carousel-inner .prev    { left: -50%; }
+  .active > div { display:none; }
+  .active > div:first-child { display:block; }
+  .active > div:first-child + div { display:block; }
+}
+@media (min-width: 992px ) {
+  .carousel-inner .active.left { left: -16.7%; }
+  .carousel-inner .next        { left:  16.7%; }
+  .carousel-inner .prev    { left: -16.7%; }  
+}
+/* Our Partners slider css::END*/
+
+
+
+
+
 /*
 .suggested-div h2:before, 
 .suggested-div h2:after {
