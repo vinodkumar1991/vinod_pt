@@ -115,13 +115,13 @@ return array(
             'route' => 4,
             'url' => 'https://control.msg91.com/api/sendhttp.php'
         ),
-        'webURL' => 'http://localhost/MeterPerSecond/MPS_New/index.php/',
-        'imgURL' => 'http://localhost/MeterPerSecond/MPS_New/MPS/images/',
-        'adminImgURL' => 'http://localhost/MeterPerSecond/MPS_New/MPS/images/uploadimages/',
+        //'webURL' => 'http://localhost/MeterPerSecond/MPS_New/index.php/',
+        //'imgURL' => 'http://localhost/MeterPerSecond/MPS_New/MPS/images/',
+        //'adminImgURL' => 'http://localhost/MeterPerSecond/MPS_New/MPS/images/uploadimages/',
 
-        'webURL' => 'http://localhost:8090/MPS/MPS/index.php/',
-        'imgURL' => 'http://localhost:8090/MPS/MPS/images/',
-        'adminImgURL' => 'http://localhost:8090/MPS/MPS/images/uploadimages/',
+        'webURL' => 'http://localhost:8090/14102018/vinod_pt/MPS/index.php/',
+        'imgURL' => 'http://localhost:8090/14102018/vinod_pt/MPS/images/',
+        'adminImgURL' => 'http://localhost:8090/14102018/vinod_pt/MPS/images/uploadimages/',
         'vehicle_variants' => array(
             'petrol' => 1,
             'diesel' => 2

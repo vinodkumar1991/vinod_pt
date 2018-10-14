@@ -11384,3 +11384,34 @@ Stack trace:
 REQUEST_URI=/MPS/MPS/images/service_icon.png
 HTTP_REFERER=http://localhost:8090/MPS/index.php/Booking/BookAService/ConfirmOrder
 ---
+2018/10/14 12:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('SelfDrive/Agent...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/index.php//SelfDrive/Agent/js/jquery.geocomplete.js
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/MPS/index.php//SelfDrive/Agent/Create
+---
+2018/10/14 12:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('SelfDrive/Agent...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/index.php//SelfDrive/Agent/js/locationpicker.jquery.min.js
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/MPS/index.php//SelfDrive/Agent/Create
+---
+2018/10/14 12:46:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_load.gif".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_load.gif
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---

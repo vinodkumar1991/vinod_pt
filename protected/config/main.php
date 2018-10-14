@@ -184,9 +184,10 @@ return array(
         // 'imgURL' => 'http://localhost:8090/MeterPerSecond/MPS_New/images/',
         // 'adminImgURL' => 'http://localhost:8090/MeterPerSecond/MPS_New/MPS/images/uploadimages/',
 
-        'webURL' => 'http://localhost:8090/MPS/index.php/',
-        'imgURL' => 'http://localhost:8090/MPS/MPS/images/',
-        'adminImgURL' => 'http://localhost:8090/MPS/MPS/images/uploadimages/',
+		
+        'webURL' => 'http://localhost:8090/14102018/vinod_pt/index.php/',
+        'imgURL' => 'http://localhost:8090/14102018/vinod_pt/MPS/images/',
+        'adminImgURL' => 'http://localhost:8090/14102018/vinod_pt/MPS/images/uploadimages/',
         'vehicle_variants' => array(
             'petrol' => 1,
             'diesel' => 2
