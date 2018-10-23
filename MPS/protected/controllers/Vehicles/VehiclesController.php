@@ -112,5 +112,26 @@ class VehiclesController extends Controller {
         }
         $this->render('/Vehicles/VehiclesEdit', array('errors' => $arrErrors, 'vehicle_details' => $arrVehicleDetails[0], 'vehicles' => $arrVehiclesTypes, 'years' => $arrYears, 'success' => $strMsg));
     }
+    
+    
+    public function actionCategoryBrandModel(){
+        
+        $arrVehicleTypes = VehicleTypes::getVehicleTypes();
+        $this->render('/Vehicles/AssignBrandModelToCategory', array('vehicle_types' => $arrVehicleTypes));
+    }
+    
+    public function actionCategoryBrandModelReport(){
+        
+        $arrVehicleTypes = VehicleTypes::getVehicleTypes();
+        $this->render('/Vehicles/AssignBrandModelToCategory', array('vehicle_types' => $arrVehicleTypes));
+    }
+    
+    public function actionSaveCategoryInputs(){
+        $arrResponse = [];
+        $arrInputs = $_POST;
+        print_r($arrInputs);
+        die();
+        
+    }
 
 }

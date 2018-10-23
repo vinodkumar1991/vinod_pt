@@ -120,6 +120,7 @@ return array(
         //'adminImgURL' => 'http://localhost/MeterPerSecond/MPS_New/MPS/images/uploadimages/',
 
         'webURL' => 'http://localhost:8090/14102018/vinod_pt/MPS/index.php/',
+        'adminWebURL' => 'http://localhost:8090/14102018/vinod_pt/MPS/index.php/',
         'imgURL' => 'http://localhost:8090/14102018/vinod_pt/MPS/images/',
         'adminImgURL' => 'http://localhost:8090/14102018/vinod_pt/MPS/images/uploadimages/',
         'vehicle_variants' => array(

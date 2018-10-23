@@ -3062,3 +3062,37 @@ Stack trace:
 #14 {main}
 REQUEST_URI=/MPS/
 ---
+2018/10/16 16:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "MPS//vehicles/vehicles/saveCategoryInputs".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('MPS//vehicles/v...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/MPS//vehicles/vehicles/saveCategoryInputs
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/MPS/index.php/Vehicles/Vehicles/CategoryBrandModel
+---
+2018/10/16 16:50:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "MPS//vehicles/vehicles/saveCategoryInputs".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('MPS//vehicles/v...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/MPS//vehicles/vehicles/saveCategoryInputs
+---
+2018/10/16 16:50:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "MPS/vehicles/vehicles/saveCategoryInputs".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('MPS/vehicles/ve...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/MPS/vehicles/vehicles/saveCategoryInputs
+---
+2018/10/16 16:51:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "MPS//vehicles/vehicles/saveCategoryInputs".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('MPS//vehicles/v...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/MPS//vehicles/vehicles/saveCategoryInputs
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/MPS/index.php/Vehicles/Vehicles/CategoryBrandModel
+---
