@@ -11994,3 +11994,547 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
 ---
+2018/10/24 23:35:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/24 23:35:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/24 23:40:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/24 23:40:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/24 23:41:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/24 23:41:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/24 23:47:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/24 23:47:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/24 23:49:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/24 23:49:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/24 23:50:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/24 23:50:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/24 23:50:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/24 23:50:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/24 23:52:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/24 23:52:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/25 00:05:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/25 00:05:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/25 00:06:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/25 00:06:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/25 00:17:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/25 00:17:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/25 00:18:49 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`
+FROM `vehicle_category_brand_models` `vcbm`' at line 1. The SQL statement executed was: SELECT vcbm.vehicle_brand_id `vcbm`.`id`
+FROM `vehicle_category_brand_models` `vcbm`.
+2018/10/25 00:18:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`
+FROM `vehicle_category_brand_models` `vcbm`' at line 1' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\models\VehicleCategoryBrandModels.php(62): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\Forms\AssignBrandModelForm.php(39): VehicleCategoryBrandModels::vehicleBrandModelCategories(Array)
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\validators\CInlineValidator.php(42): AssignBrandModelForm->isAlreadyAssigned('vehicle_categor...', Array)
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(AssignBrandModelForm), 'vehicle_categor...')
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(159): CValidator->validate(Object(AssignBrandModelForm), NULL)
+#6 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\controllers\Vehicles\VehiclesController.php(163): CModel->validate()
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): VehiclesController->actionSaveCategoryInputs()
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('saveCategoryInp...')
+#12 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vehicles/vehicl...')
+#13 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/index.php/vehicles/vehicles/saveCategoryInputs
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/MPS/index.php/Vehicles/Vehicles/CategoryBrandModel
+---
+2018/10/25 00:20:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/25 00:20:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/25 00:20:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/25 00:20:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/25 00:22:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/25 00:22:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/25 00:22:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT `vcbm`.`id`, `vcbm`.`vehicle_brand_id`, `vcbm`.`vehicle_brand_model_id`, `vcbm`.`vehicle_category_id`, `vcbm`.`status`
+FROM `vehicle_category_brand_models` `vcbm`
+WHERE vcbm.vehicle_category_id=:categoryId.
+2018/10/25 00:22:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\models\VehicleCategoryBrandModels.php(62): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\Forms\AssignBrandModelForm.php(40): VehicleCategoryBrandModels::vehicleBrandModelCategories(Array)
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\validators\CInlineValidator.php(42): AssignBrandModelForm->isAlreadyAssigned('vehicle_categor...', Array)
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(AssignBrandModelForm), 'vehicle_categor...')
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(159): CValidator->validate(Object(AssignBrandModelForm), NULL)
+#6 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\controllers\Vehicles\VehiclesController.php(163): CModel->validate()
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): VehiclesController->actionSaveCategoryInputs()
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('saveCategoryInp...')
+#12 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vehicles/vehicl...')
+#13 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/index.php/vehicles/vehicles/saveCategoryInputs
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/MPS/index.php/Vehicles/Vehicles/CategoryBrandModel
+---
+2018/10/25 00:22:52 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT `vcbm`.`id`, `vcbm`.`vehicle_brand_id`, `vcbm`.`vehicle_brand_model_id`, `vcbm`.`vehicle_category_id`, `vcbm`.`status`
+FROM `vehicle_category_brand_models` `vcbm`
+WHERE vcbm.vehicle_category_id=:categoryId.
+2018/10/25 00:22:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\models\VehicleCategoryBrandModels.php(62): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\Forms\AssignBrandModelForm.php(40): VehicleCategoryBrandModels::vehicleBrandModelCategories(Array)
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\validators\CInlineValidator.php(42): AssignBrandModelForm->isAlreadyAssigned('vehicle_categor...', Array)
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(AssignBrandModelForm), 'vehicle_categor...')
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(159): CValidator->validate(Object(AssignBrandModelForm), NULL)
+#6 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\controllers\Vehicles\VehiclesController.php(163): CModel->validate()
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): VehiclesController->actionSaveCategoryInputs()
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('saveCategoryInp...')
+#12 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vehicles/vehicl...')
+#13 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/index.php/vehicles/vehicles/saveCategoryInputs
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/MPS/index.php/Vehicles/Vehicles/CategoryBrandModel
+---
+2018/10/25 00:22:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/25 00:22:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/25 00:22:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT `vcbm`.`id`, `vcbm`.`vehicle_brand_id`, `vcbm`.`vehicle_brand_model_id`, `vcbm`.`vehicle_category_id`, `vcbm`.`status`
+FROM `vehicle_category_brand_models` `vcbm`
+WHERE vcbm.vehicle_category_id=:categoryId.
+2018/10/25 00:22:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\models\VehicleCategoryBrandModels.php(62): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\Forms\AssignBrandModelForm.php(40): VehicleCategoryBrandModels::vehicleBrandModelCategories(Array)
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\validators\CInlineValidator.php(42): AssignBrandModelForm->isAlreadyAssigned('vehicle_categor...', Array)
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(AssignBrandModelForm), 'vehicle_categor...')
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(159): CValidator->validate(Object(AssignBrandModelForm), NULL)
+#6 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\controllers\Vehicles\VehiclesController.php(163): CModel->validate()
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): VehiclesController->actionSaveCategoryInputs()
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('saveCategoryInp...')
+#12 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vehicles/vehicl...')
+#13 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/index.php/vehicles/vehicles/saveCategoryInputs
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/MPS/index.php/Vehicles/Vehicles/CategoryBrandModel
+---
+2018/10/25 00:23:42 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT `vcbm`.`id`, `vcbm`.`vehicle_brand_id`, `vcbm`.`vehicle_brand_model_id`, `vcbm`.`vehicle_category_id`, `vcbm`.`status`
+FROM `vehicle_category_brand_models` `vcbm`
+WHERE vcbm.vehicle_category_id=:categoryId.
+2018/10/25 00:23:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\models\VehicleCategoryBrandModels.php(63): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\Forms\AssignBrandModelForm.php(40): VehicleCategoryBrandModels::vehicleBrandModelCategories(Array)
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\validators\CInlineValidator.php(42): AssignBrandModelForm->isAlreadyAssigned('vehicle_categor...', Array)
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(AssignBrandModelForm), 'vehicle_categor...')
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(159): CValidator->validate(Object(AssignBrandModelForm), NULL)
+#6 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\controllers\Vehicles\VehiclesController.php(163): CModel->validate()
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): VehiclesController->actionSaveCategoryInputs()
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('saveCategoryInp...')
+#12 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vehicles/vehicl...')
+#13 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/index.php/vehicles/vehicles/saveCategoryInputs
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/MPS/index.php/Vehicles/Vehicles/CategoryBrandModel
+---
+2018/10/25 00:24:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT `vcbm`.`id`, `vcbm`.`vehicle_brand_id`, `vcbm`.`vehicle_brand_model_id`, `vcbm`.`vehicle_category_id`, `vcbm`.`status`
+FROM `vehicle_category_brand_models` `vcbm`
+WHERE vcbm.vehicle_category_id=:categoryId.
+2018/10/25 00:24:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\models\VehicleCategoryBrandModels.php(63): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\Forms\AssignBrandModelForm.php(40): VehicleCategoryBrandModels::vehicleBrandModelCategories(Array)
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\validators\CInlineValidator.php(42): AssignBrandModelForm->isAlreadyAssigned('vehicle_categor...', Array)
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(AssignBrandModelForm), 'vehicle_categor...')
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(159): CValidator->validate(Object(AssignBrandModelForm), NULL)
+#6 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\controllers\Vehicles\VehiclesController.php(163): CModel->validate()
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): VehiclesController->actionSaveCategoryInputs()
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('saveCategoryInp...')
+#12 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vehicles/vehicl...')
+#13 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/index.php/vehicles/vehicles/saveCategoryInputs
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/MPS/index.php/Vehicles/Vehicles/CategoryBrandModel
+---
+2018/10/25 00:26:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT `vcbm`.`id`
+FROM `vehicle_category_brand_models` `vcbm`
+WHERE vcbm.vehicle_category_id=:categoryId.
+2018/10/25 00:26:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\models\VehicleCategoryBrandModels.php(63): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\Forms\AssignBrandModelForm.php(40): VehicleCategoryBrandModels::vehicleBrandModelCategories(Array)
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\validators\CInlineValidator.php(42): AssignBrandModelForm->isAlreadyAssigned('vehicle_categor...', Array)
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(AssignBrandModelForm), 'vehicle_categor...')
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(159): CValidator->validate(Object(AssignBrandModelForm), NULL)
+#6 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\controllers\Vehicles\VehiclesController.php(163): CModel->validate()
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): VehiclesController->actionSaveCategoryInputs()
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('saveCategoryInp...')
+#12 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('vehicles/vehicl...')
+#13 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#15 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/index.php/vehicles/vehicles/saveCategoryInputs
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/MPS/index.php/Vehicles/Vehicles/CategoryBrandModel
+---
+2018/10/25 00:31:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/25 00:31:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/25 00:31:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/25 00:31:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/25 00:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/25 00:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/25 00:33:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/js/jquery.min.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/js/jq...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/js/jquery.min.map
+---
+2018/10/25 00:33:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/lib/css/bootstrap.min.css.map".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/lib/css/b...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/admin/lib/css/bootstrap.min.css.map
+---
+2018/10/25 00:39:44 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`vb`.`name` AS `brand_name`, `vbm`.`name` AS `model_name`, `vc`.`name` AS `categ' at line 1. The SQL statement executed was: SELECT vcbm.id as bmc_id `vb`.`name` AS `brand_name`, `vbm`.`name` AS `model_name`, `vc`.`name` AS `category_name`
+FROM `vehicle_category_brand_models` `vcbm`
+JOIN `vehicle_brands` `vb` ON vb.id = vcbm.vehicle_brand_id
+JOIN `vehicle_brand_models` `vbm` ON vbm.id = vcbm.vehicle_brand_model_id
+JOIN `vehicle_categories` `vc` ON vc.id = vcbm.vehicle_category_id.
+2018/10/25 00:39:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`vb`.`name` AS `brand_name`, `vbm`.`name` AS `model_name`, `vc`.`name` AS `categ' at line 1' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\models\VehicleCategoryBrandModels.php(91): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\controllers\Vehicles\VehiclesController.php(177): VehicleCategoryBrandModels::report()
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): VehiclesController->actionReport()
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('Report')
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Vehicles/Vehicl...')
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#11 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/index.php/Vehicles/Vehicles/Report
+---
+2018/10/25 00:40:13 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`vb`.`name` AS `brand_name`
+FROM `vehicle_category_brand_models` `vcbm`
+JOIN `ve' at line 1. The SQL statement executed was: SELECT vbm.name as model_name `vb`.`name` AS `brand_name`
+FROM `vehicle_category_brand_models` `vcbm`
+JOIN `vehicle_brands` `vb` ON vb.id = vcbm.vehicle_brand_id
+JOIN `vehicle_brand_models` `vbm` ON vbm.id = vcbm.vehicle_brand_model_id
+JOIN `vehicle_categories` `vc` ON vc.id = vcbm.vehicle_category_id.
+2018/10/25 00:40:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`vb`.`name` AS `brand_name`
+FROM `vehicle_category_brand_models` `vcbm`
+JOIN `ve' at line 1' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\models\VehicleCategoryBrandModels.php(91): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\controllers\Vehicles\VehiclesController.php(177): VehicleCategoryBrandModels::report()
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): VehiclesController->actionReport()
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('Report')
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Vehicles/Vehicl...')
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#11 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/index.php/Vehicles/Vehicles/Report
+---
+2018/10/25 00:42:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`vb`.`name` AS `brand_name`
+FROM `vehicle_category_brand_models` `vcbm`
+JOIN `ve' at line 1. The SQL statement executed was: SELECT vbm.name as model_name `vb`.`name` AS `brand_name`
+FROM `vehicle_category_brand_models` `vcbm`
+JOIN `vehicle_brands` `vb` ON vb.id = vcbm.vehicle_brand_id
+JOIN `vehicle_brand_models` `vbm` ON vbm.id = vcbm.vehicle_brand_model_id
+JOIN `vehicle_categories` `vc` ON vc.id = vcbm.vehicle_category_id.
+2018/10/25 00:42:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`vb`.`name` AS `brand_name`
+FROM `vehicle_category_brand_models` `vcbm`
+JOIN `ve' at line 1' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\models\VehicleCategoryBrandModels.php(73): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\protected\controllers\Vehicles\VehiclesController.php(177): VehicleCategoryBrandModels::report()
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): VehiclesController->actionReport()
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('Report')
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Vehicles/Vehicl...')
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#11 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/index.php/Vehicles/Vehicles/Report
+---

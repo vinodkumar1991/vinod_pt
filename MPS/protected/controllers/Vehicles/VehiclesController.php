@@ -1,12 +1,15 @@
 <?php
 
-class VehiclesController extends Controller {
+class VehiclesController extends Controller
+{
 
     /**
+     *
      * @author Ctel
      * @return array It will return an array response
      */
-    public function actionVehicle() {
+    public function actionVehicle()
+    {
         $arrErrors = array();
         $strMsg = NULL;
         $arrVehicles = VehicleTypes::getVehicleTypes();
@@ -20,27 +23,34 @@ class VehiclesController extends Controller {
                 $objDataManager = new DataManager();
                 $arrVehicle = $objDataManager->makeData($objVehicle->attributes);
                 $intVehicleId = Vehicles::create($arrVehicle);
-                if (!empty($intVehicleId)) {
+                if (! empty($intVehicleId)) {
                     $strMsg = 'Vehicle mapped successfully.';
                 }
             } else {
                 $arrErrors = $objVehicle->errors;
             }
         }
-        $this->render('/Vehicles/Vehicles', array('vehicles' => $arrVehicles, 'years' => $arrYears, 'errors' => $arrErrors, 'success' => $strMsg));
+        $this->render('/Vehicles/Vehicles', array(
+            'vehicles' => $arrVehicles,
+            'years' => $arrYears,
+            'errors' => $arrErrors,
+            'success' => $strMsg
+        ));
     }
 
     /**
+     *
      * @author Ctel
      * @return string It will return a string
      */
-    public function actionGetVehicleBrandModels() {
+    public function actionGetVehicleBrandModels()
+    {
         $strVehicleModel = '<option value="">--Select Model--</option>';
         $arrVehicleModels = array();
         if (Yii::app()->request->isPostRequest) {
             $intVehicleBrandType = $_POST['vehicleBrand'];
             $arrVehicleModels = VehicleBrandModels::getVehicleBrandModels($intVehicleBrandType);
-            if (!empty($arrVehicleModels)) {
+            if (! empty($arrVehicleModels)) {
                 foreach ($arrVehicleModels as $arrModel) {
                     $strVehicleModel .= '<option value="' . $arrModel['id'] . '">' . $arrModel['name'] . '</option>';
                 }
@@ -49,13 +59,14 @@ class VehiclesController extends Controller {
         echo $strVehicleModel;
     }
 
-    public function actionGetVehicleCategories() {
+    public function actionGetVehicleCategories()
+    {
         $strVehicleCategories = '<option value="">--Select Categories--</option>';
         $arrVehicleModels = array();
         if (Yii::app()->request->isPostRequest) {
             $intVehicle = $_POST['vehicle_id'];
             $arrVehicleCategories = VehicleCategories::getVehicleCategories(1, $intVehicle);
-            if (!empty($arrVehicleCategories)) {
+            if (! empty($arrVehicleCategories)) {
                 foreach ($arrVehicleCategories as $arrCategory) {
                     $strVehicleCategories .= '<option value="' . $arrCategory['id'] . '">' . $arrCategory['name'] . '</option>';
                 }
@@ -64,13 +75,14 @@ class VehiclesController extends Controller {
         echo $strVehicleCategories;
     }
 
-    public function actionGetVehicleBrands() {
+    public function actionGetVehicleBrands()
+    {
         $strVehicleBrand = '<option value="">--Select Brand--</option>';
         $arrVehicleBrands = array();
         if (Yii::app()->request->isPostRequest) {
             $intVehicle = $_POST['vehicle_id'];
             $arrVehicleBrands = VehicleBrands::getVehicleBrands(1, $intVehicle);
-            if (!empty($arrVehicleBrands)) {
+            if (! empty($arrVehicleBrands)) {
                 foreach ($arrVehicleBrands as $arrBrand) {
                     $strVehicleBrand .= '<option value="' . $arrBrand['id'] . '">' . $arrBrand['name'] . '</option>';
                 }
@@ -79,19 +91,25 @@ class VehiclesController extends Controller {
         echo $strVehicleBrand;
     }
 
-    public function actionVehiclesReport() {
+    public function actionVehiclesReport()
+    {
         $arrInputs = $_POST;
         $arrVehicleCategoryMapping = Vehicles::vehiclesReport($arrInputs);
-        $this->render('/Vehicles/VehiclesReport', array('vehicle_mapping' => $arrVehicleCategoryMapping));
+        $this->render('/Vehicles/VehiclesReport', array(
+            'vehicle_mapping' => $arrVehicleCategoryMapping
+        ));
     }
 
-    public function actionEditVehiclesReport() {
+    public function actionEditVehiclesReport()
+    {
         $arrErrors = array();
         $strMsg = NULL;
         $objVehicleUpdateForm = NULL;
         $arrVehiclesTypes = VehicleTypes::getVehicleTypes();
         $intVehicleId = Yii::app()->request->getParam('id');
-        $arrVehicleDetails = Vehicles::model()->vehiclesReport(array('id' => $intVehicleId));
+        $arrVehicleDetails = Vehicles::model()->vehiclesReport(array(
+            'id' => $intVehicleId
+        ));
         $objDataManager = new DataManager();
         $arrYears = $objDataManager->getYears();
         if (isset($_POST['update_vehicle'])) {
@@ -110,28 +128,54 @@ class VehiclesController extends Controller {
                 $arrErrors = $objVehicleUpdateForm->errors;
             }
         }
-        $this->render('/Vehicles/VehiclesEdit', array('errors' => $arrErrors, 'vehicle_details' => $arrVehicleDetails[0], 'vehicles' => $arrVehiclesTypes, 'years' => $arrYears, 'success' => $strMsg));
-    }
-    
-    
-    public function actionCategoryBrandModel(){
-        
-        $arrVehicleTypes = VehicleTypes::getVehicleTypes();
-        $this->render('/Vehicles/AssignBrandModelToCategory', array('vehicle_types' => $arrVehicleTypes));
-    }
-    
-    public function actionCategoryBrandModelReport(){
-        
-        $arrVehicleTypes = VehicleTypes::getVehicleTypes();
-        $this->render('/Vehicles/AssignBrandModelToCategory', array('vehicle_types' => $arrVehicleTypes));
-    }
-    
-    public function actionSaveCategoryInputs(){
-        $arrResponse = [];
-        $arrInputs = $_POST;
-        print_r($arrInputs);
-        die();
-        
+        $this->render('/Vehicles/VehiclesEdit', array(
+            'errors' => $arrErrors,
+            'vehicle_details' => $arrVehicleDetails[0],
+            'vehicles' => $arrVehiclesTypes,
+            'years' => $arrYears,
+            'success' => $strMsg
+        ));
     }
 
+    public function actionCategoryBrandModel()
+    {
+        $arrVehicleTypes = VehicleTypes::getVehicleTypes();
+        $this->render('/Vehicles/AssignBrandModelToCategory', array(
+            'vehicle_types' => $arrVehicleTypes
+        ));
+    }
+
+    public function actionCategoryBrandModelReport()
+    {
+        $arrVehicleTypes = VehicleTypes::getVehicleTypes();
+        $this->render('/Vehicles/AssignBrandModelToCategory', array(
+            'vehicle_types' => $arrVehicleTypes
+        ));
+    }
+
+    public function actionSaveCategoryInputs()
+    {
+        $arrResponse = [];
+        $arrInputs = $_POST;
+        if (! empty($arrInputs)) {
+            $objAssignBrandModelForm = new AssignBrandModelForm();
+            $objAssignBrandModelForm->attributes = $arrInputs;
+            if ($objAssignBrandModelForm->validate()) {
+                $arrValidatedInputs = $objAssignBrandModelForm->attributes;
+                $arrResponse['category_id'] = VehicleCategoryBrandModels::create($arrValidatedInputs);
+                $arrResponse['message'] = 'Assigned Successfully';
+                unset($arrInputs, $arrValidatedInputs);
+            } else {
+                $arrResponse['errors'] = $objAssignBrandModelForm->errors;
+            }
+        }
+        echo json_encode($arrResponse);
+    }
+    
+    
+    public function actionReport(){
+        $arrCategoriesModels = VehicleCategoryBrandModels::report();
+        print_r($arrCategoriesModels);
+        die();
+    }
 }

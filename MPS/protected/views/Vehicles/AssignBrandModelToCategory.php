@@ -25,6 +25,7 @@
         <form class="form-horizontal lcns" method="post"
 			enctype="multipart/form-data">
 			<!--Vehicle Types :: START-->
+			<div id="assign_success"></div>
 			<div class="form-group">
 				<label class="col-sm-2 control-label">Vehicle Types</label>
 				<div class="col-sm-3">
@@ -110,16 +111,74 @@
 function assignBrandModelCategory(){
 
         var objInputs ={
+                 id : null,
                  vehicle_type_id : $("#vehicle_type_id").val(),
                  vehicle_brand_id : $("#vehicle_brand_id").val(),
                  vehicle_model_id : $("#vehicle_model_id").val(),
-                 vehicle_category_id : $("#vehicle_category_id").val()
+                 vehicle_category_id : $("#vehicle_category_id").val(),
+                 status : 'active',
                 };
         $.post('<?php echo Yii::app()->params['adminWebURL'].'vehicles/vehicles/saveCategoryInputs';?>',objInputs,function(response){
-            alert(response);
+        	makeEmpty();
+        
+                  	  var response = $.parseJSON(response);
+		        if(response.hasOwnProperty('errors')){
+		            //Vehicle Type
+		      	  if(undefined != response.errors.vehicle_type_id && response.errors.vehicle_type_id.length > 0){
+		      		   $("#err_vehicle_type").html(response.errors.vehicle_type_id);
+		      		   }
+		      	//Vehicle Brand
+		      	  if(undefined != response.errors.vehicle_brand_id && response.errors.vehicle_brand_id.length > 0){
+		      		   $("#err_vehicle_brand_id").html(response.errors.vehicle_brand_id);
+		      		   }
+		      	//Vehicle Model
+		      	  if(undefined != response.errors.vehicle_model_id && response.errors.vehicle_model_id.length > 0){
+		      		   $("#err_vehicle_model_id").html(response.errors.vehicle_model_id);
+		      		   }
+		      	//Vehicle Category
+		      	  if(undefined != response.errors.vehicle_category_id && response.errors.vehicle_category_id.length > 0){
+		      		   $("#err_vehicle_category_id").html(response.errors.vehicle_category_id);
+		      		   }
+		 		   return false;
+		            }else{
+			            makeFieldsEmpty();
+		             $("#assign_success").html(response.message);	           
+		              return true;         
+		                }
             
             });
  }
+
+ function makeEmpty(){
+	 $("#assign_success").empty();
+    $("#err_vehicle_type").empty();
+    $("#err_vehicle_brand_id").empty();
+    $("#err_vehicle_model_id").empty();
+    $("#err_vehicle_category_id").empty();
+	return true;
+}
+
+ function makeFieldsEmpty(){
+	//Vehicle Category
+	 	$('#vehicle_category_id').val('').trigger('change');
+	 	$("#vehicle_category_id").select2({placeholder: "--Select Vehicle Category--"});
+	 	$("#vehicle_category_id").html("");
+	 	
+	//Vehicle Model
+ 	$('#vehicle_model_id').val('').trigger('change');
+ 	$("#vehicle_model_id").select2({placeholder: "--Select Vehicle Model--"});
+ 	$("#vehicle_model_id").html("");
+ 	 
+     //Vehicle Brand
+ 	$('#vehicle_brand_id').val('').trigger('change');
+ 	$("#vehicle_brand_id").select2({placeholder: "--Select Vehicle Brand--"});
+ 	$("#vehicle_brand_id").html("");
+ 	
+ 	//Vehicle Type
+ 	$('#vehicle_type_id').val('').trigger('change');
+ 	$("#vehicle_type_id").select2({placeholder: "--Select Vehicle Type--"});
+ 	return true;
+	 }
 
 function getBrands(intVehicleType){
    var objInputs = {
