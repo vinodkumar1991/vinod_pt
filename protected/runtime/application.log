@@ -3096,3 +3096,972 @@ Stack trace:
 REQUEST_URI=/14102018/vinod_pt/index.php/MPS//vehicles/vehicles/saveCategoryInputs
 HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/MPS/index.php/Vehicles/Vehicles/CategoryBrandModel
 ---
+2018/10/30 23:17:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:17:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:17:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:17:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "imgages".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('imgages')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('imgages')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/imgages/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:17:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:17:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "imgages".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('imgages')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('imgages')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/imgages/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:17:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/images/car-bg.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "imgages".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('imgages')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('imgages')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/imgages/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "imgages".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('imgages')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('imgages')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/imgages/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/images/car-bg.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/images/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/images/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/images/car-bg.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/images/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/images/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/images/car-bg.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/images/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/images/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/images/car-bg.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:19:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:19:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/images/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:19:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:19:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:19:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:19:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/images/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:19:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('images')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('images')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/images/car-bg.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:28:49 [error] [php] Use of undefined constant Yii - assumed 'Yii' (C:\xampp\htdocs\14102018\vinod_pt\protected\views\Booking\AsapService.php:6)
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(869): BookAServiceController->renderFile()
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(782): BookAServiceController->renderPartial()
+#2 C:\xampp\htdocs\14102018\vinod_pt\protected\controllers\Booking\BookAServiceController.php(1123): BookAServiceController->render()
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): BookAServiceController->actionAsapBooking()
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): BookAServiceController->runAction()
+#6 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): BookAServiceController->runActionWithFilters()
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): BookAServiceController->run()
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CWebApplication->run()
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+2018/10/30 23:28:57 [error] [php] Use of undefined constant Yii - assumed 'Yii' (C:\xampp\htdocs\14102018\vinod_pt\protected\views\Booking\AsapService.php:6)
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(869): BookAServiceController->renderFile()
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(782): BookAServiceController->renderPartial()
+#2 C:\xampp\htdocs\14102018\vinod_pt\protected\controllers\Booking\BookAServiceController.php(1123): BookAServiceController->render()
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): BookAServiceController->actionAsapBooking()
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): BookAServiceController->runAction()
+#6 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): BookAServiceController->runActionWithFilters()
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): BookAServiceController->run()
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CWebApplication->run()
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+2018/10/30 23:29:14 [error] [php] The use statement with non-compound name 'Yii' has no effect (C:\xampp\htdocs\14102018\vinod_pt\protected\views\Booking\AsapService.php:2)
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(869): BookAServiceController->renderFile()
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(782): BookAServiceController->renderPartial()
+#2 C:\xampp\htdocs\14102018\vinod_pt\protected\controllers\Booking\BookAServiceController.php(1123): BookAServiceController->render()
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): BookAServiceController->actionAsapBooking()
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): BookAServiceController->runAction()
+#6 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): BookAServiceController->runActionWithFilters()
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): BookAServiceController->run()
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CWebApplication->run()
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+2018/10/30 23:34:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:34:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/img/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:34:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:34:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/img/car-bg.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:34:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/img/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:36:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/img/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:36:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/img/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:36:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/img/car-bg.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:36:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/img/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:36:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/img/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:36:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/img/car-bg.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:41:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/img/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:41:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/img/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/img/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/img/arrow.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:45:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "car-bg.jpg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('car-bg.jpg')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('car-bg.jpg')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/car-bg.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:45:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "car-bg.jpg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('car-bg.jpg')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('car-bg.jpg')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/car-bg.jpg
+---
+2018/10/30 23:45:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "car-bg.jpg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('car-bg.jpg')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('car-bg.jpg')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/car-bg.jpg
+---
+2018/10/30 23:59:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/img/car-bg.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/30 23:59:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#5 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/img/car-bg.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/31 01:17:01 [error] [exception.CException] exception 'CException' with message 'Property "CStringValidator.tooSmall" is not defined.' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\validators\CValidator.php(189): CComponent->__set('tooSmall', 'Minimum length ...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(287): CValidator::createValidator('length', Object(BookAsapServiceForm), 'customer_name', Array)
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(547): CModel->getValidators()
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(468): CModel->getSafeAttributeNames()
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#6 C:\xampp\htdocs\14102018\vinod_pt\protected\controllers\Booking\BookAServiceController.php(1138): CComponent->__set('attributes', Array)
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): BookAServiceController->actionSaveAsapService()
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('SaveAsapService')
+#12 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#13 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#15 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php//Booking/BookAService/SaveAsapService
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/31 01:17:32 [error] [exception.CException] exception 'CException' with message 'Property "CStringValidator.tooSmall" is not defined.' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\validators\CValidator.php(189): CComponent->__set('tooSmall', 'Minimum length ...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(287): CValidator::createValidator('length', Object(BookAsapServiceForm), 'customer_name', Array)
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(547): CModel->getValidators()
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(468): CModel->getSafeAttributeNames()
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#6 C:\xampp\htdocs\14102018\vinod_pt\protected\controllers\Booking\BookAServiceController.php(1138): CComponent->__set('attributes', Array)
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): BookAServiceController->actionSaveAsapService()
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('SaveAsapService')
+#12 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#13 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#15 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php//Booking/BookAService/SaveAsapService
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/31 01:18:06 [error] [exception.CException] exception 'CException' with message 'Property "CStringValidator.tooBig" is not defined.' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\validators\CValidator.php(189): CComponent->__set('tooBig', 'Maximum length ...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(287): CValidator::createValidator('length', Object(BookAsapServiceForm), 'customer_name', Array)
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(547): CModel->getValidators()
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(468): CModel->getSafeAttributeNames()
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#6 C:\xampp\htdocs\14102018\vinod_pt\protected\controllers\Booking\BookAServiceController.php(1138): CComponent->__set('attributes', Array)
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): BookAServiceController->actionSaveAsapService()
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('SaveAsapService')
+#12 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#13 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#15 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php//Booking/BookAService/SaveAsapService
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/31 01:57:57 [error] [exception.CException] exception 'CException' with message 'Property "BookAsapServiceForm.booking_date" is not defined.' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(472): CComponent->__set('booking_date', '018-01-01')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#2 C:\xampp\htdocs\14102018\vinod_pt\protected\controllers\Booking\BookAServiceController.php(1138): CComponent->__set('attributes', Array)
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): BookAServiceController->actionSaveAsapService()
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('SaveAsapService')
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#11 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php//Booking/BookAService/SaveAsapService
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/31 01:57:58 [error] [exception.CException] exception 'CException' with message 'Property "BookAsapServiceForm.booking_date" is not defined.' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(472): CComponent->__set('booking_date', '018-01-01')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#2 C:\xampp\htdocs\14102018\vinod_pt\protected\controllers\Booking\BookAServiceController.php(1138): CComponent->__set('attributes', Array)
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): BookAServiceController->actionSaveAsapService()
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('SaveAsapService')
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#11 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php//Booking/BookAService/SaveAsapService
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/31 01:57:58 [error] [exception.CException] exception 'CException' with message 'Property "BookAsapServiceForm.booking_date" is not defined.' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(472): CComponent->__set('booking_date', '018-01-01')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#2 C:\xampp\htdocs\14102018\vinod_pt\protected\controllers\Booking\BookAServiceController.php(1138): CComponent->__set('attributes', Array)
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): BookAServiceController->actionSaveAsapService()
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('SaveAsapService')
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#11 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php//Booking/BookAService/SaveAsapService
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/31 01:57:58 [error] [exception.CException] exception 'CException' with message 'Property "BookAsapServiceForm.booking_date" is not defined.' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(472): CComponent->__set('booking_date', '018-01-01')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#2 C:\xampp\htdocs\14102018\vinod_pt\protected\controllers\Booking\BookAServiceController.php(1138): CComponent->__set('attributes', Array)
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): BookAServiceController->actionSaveAsapService()
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('SaveAsapService')
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#11 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php//Booking/BookAService/SaveAsapService
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---
+2018/10/31 01:58:21 [error] [exception.CException] exception 'CException' with message 'Property "BookAsapServiceForm.booking_date" is not defined.' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CModel.php(472): CComponent->__set('booking_date', '018-01-01')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#2 C:\xampp\htdocs\14102018\vinod_pt\protected\controllers\Booking\BookAServiceController.php(1138): CComponent->__set('attributes', Array)
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\actions\CInlineAction.php(49): BookAServiceController->actionSaveAsapService()
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): CController->run('SaveAsapService')
+#8 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Booking/BookASe...')
+#9 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#11 {main}
+REQUEST_URI=/14102018/vinod_pt/index.php//Booking/BookAService/SaveAsapService
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
+---

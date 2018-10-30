@@ -1,6 +1,5 @@
 <?php
 
-
 // Reference : http://www.yiiframework.com/forum/index.php/topic/5554-redirect-problems/
 ob_start('My_OB');
 
@@ -184,10 +183,11 @@ return array(
         // 'imgURL' => 'http://localhost:8090/MeterPerSecond/MPS_New/images/',
         // 'adminImgURL' => 'http://localhost:8090/MeterPerSecond/MPS_New/MPS/images/uploadimages/',
 
-		
         'webURL' => 'http://localhost:8090/14102018/vinod_pt/index.php/',
         'imgURL' => 'http://localhost:8090/14102018/vinod_pt/MPS/images/',
         'adminImgURL' => 'http://localhost:8090/14102018/vinod_pt/MPS/images/uploadimages/',
+        'frontImgURL' => 'http://localhost:8090/14102018/vinod_pt/assets/img/',
+        'frontAssetURL' => 'http://localhost:8090/14102018/vinod_pt/assets/',
         'vehicle_variants' => array(
             'petrol' => 1,
             'diesel' => 2
