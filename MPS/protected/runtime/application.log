@@ -12556,3 +12556,246 @@ Stack trace:
 REQUEST_URI=/14102018/vinod_pt/MPS/images/service_icon.png
 HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
 ---
+2018/11/01 00:30:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_load.gif".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_load.gif
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/01 00:30:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_load.gif".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_load.gif
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/01 00:30:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_load.gif".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_load.gif
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/01 00:30:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_icon.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_icon.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/01 00:31:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_icon.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_icon.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/01 00:31:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_icon.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_icon.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/01 00:31:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_icon.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_icon.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/01 00:31:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_icon.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_icon.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/01 00:31:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_icon.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_icon.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/01 00:37:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_load.gif".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_load.gif
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/01 00:37:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_load.gif".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_load.gif
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/01 00:37:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_load.gif".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_load.gif
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/01 00:37:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_load.gif".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_load.gif
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/01 21:45:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_load.gif".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_load.gif
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/01 21:45:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_load.gif".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_load.gif
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/02 02:22:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_load.gif".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_load.gif
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/02 02:23:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_load.gif".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_load.gif
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/02 02:23:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_load.gif".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_load.gif
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/02 02:23:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_icon.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_icon.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/02 02:23:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_icon.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_icon.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/02 02:24:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_icon.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_icon.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/02 02:24:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_icon.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_icon.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/02 02:24:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_icon.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_icon.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/02 02:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_icon.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_icon.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/02 02:25:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_icon.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_icon.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/02 02:29:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_icon.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_icon.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---
+2018/11/02 03:13:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/service_load.gif".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/service_...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\MPS\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/MPS/images/service_load.gif
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/bookacar
+---

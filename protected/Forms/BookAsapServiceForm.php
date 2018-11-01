@@ -27,6 +27,8 @@ class BookAsapServiceForm extends CFormModel
 
     public $customer_longitude;
 
+    public $total_estimated_cost;
+
     /**
      *
      * @author Ctel
@@ -36,8 +38,9 @@ class BookAsapServiceForm extends CFormModel
     {
         return array(
             array(
-                'customer_name,customer_mobile,make_id,model_id,vehicle_service_id,booking_date,booking_time_slot,customer_location,customer_latitude,customer_longitude',
-                'required'
+                'customer_name,customer_mobile,make_id,model_id,vehicle_service_id,booking_date,booking_time_slot,customer_location,customer_latitude,customer_longitude,total_estimated_cost',
+                'required',
+                'message' => '{attribute} is required'
             ),
             // Customer Name
             array(
@@ -71,7 +74,7 @@ class BookAsapServiceForm extends CFormModel
                 'type',
                 'type' => 'date',
                 'message' => '{attribute} is not a date',
-                'dateFormat' => 'yyyy-MM-dd'
+                'dateFormat' => 'yyyy-mm-dd'
             )
             // Booking Time Slot
             // Customer Google Address

@@ -1123,7 +1123,7 @@ class BookAServiceController extends Controller
         $intVehicleType = 1; // 1 => Car
         $intStatus = 1;
         $arrVehicle = $this->getVehicleDetails($intVehicleType, $intStatus);
-        $this->render('/Booking/AsapService', array(
+        $this->renderPartial('/Booking/AsapService', array(
             'services' => $arrVehicle['serviceTypes'],
             'makes' => $arrVehicle['vehicleBrands']
         ));

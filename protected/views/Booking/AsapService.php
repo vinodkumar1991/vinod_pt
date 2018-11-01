@@ -2,144 +2,93 @@
 <html>
 <head>
 <title>Quick Booking</title>
-<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-	crossorigin="anonymous">
-<!-- <link rel="stylesheet" type="text/css" -->
-<!-- 	href="css/bootstrap-theme.min.css"> -->
+
+<link rel="stylesheet" type="text/css"
+	href="<?php echo Yii::app()->params['frontAssetURL'].'css/quick-booking-style.css'; ?>">
+<link rel="stylesheet" type="text/css"
+	href="<?php echo Yii::app()->params['frontAssetURL'].'css/bootstrap.min.css'; ?>">
+<link rel="stylesheet" type="text/css"
+	href="<?php echo Yii::app()->params['frontAssetURL'].'css/bootstrap-theme.min.css'; ?>">
+<link rel="stylesheet" type="text/css"
+	href="<?php echo Yii::app()->params['frontAssetURL'].'css/jquery-ui.css'; ?>">
 
 <script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<!-- <script src="js/bootstrap.min.js"></script> -->
+	src="<?php echo Yii::app()->params['frontAssetURL'].'js/jquery.min.js'; ?>"></script>
 <script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-	integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-	crossorigin="anonymous"></script>
+	src="<?php echo Yii::app()->params['frontAssetURL'].'js/bootstrap.min.js'; ?>"></script>
+<script
+	src="<?php echo Yii::app()->params['frontAssetURL'].'js/jquery-ui.min.js'; ?>"></script>
 
-<style type="text/css">
-img {
-	max-width: 100%;
-}
+<script type="text/javascript"
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDqtP2ENbJEwPAzJBsffFncbWhKyucIX8"></script>
+<script type="text/javascript"
+	src="https://maps.googleapis.com/maps/api/js?sensor=true&libraries=places"></script>
+<script type="text/javascript"
+	src="<?php echo Yii::app()->params['frontAssetURL'] . 'js/jquery.placepicker.js'; ?>"></script>
 
-.wdth-100 {
-	display: inline-block;
-	position: relative;
-	width: 100%;
-}
-
-.car-bg-wrapper {
-	background:
-		url('http://localhost:8090/14102018/vinod_pt/assets/img/car-bg.jpg')
-		no-repeat top center/cover;
-	width: 100%;
-	max-height: 100%;
-	min-height: 630px;
-}
-
-.inr-ctn {
-	margin: 50px 0 0;
-}
-
-.lft-contant {
-	background: rgb(255, 255, 255, 0.8);
-	padding: 20px 30px;
-	float: left;
-	width: 58%;
-	margin: 0 2% 0;
-	min-height: 480px;
-	color: #2c2c2c;
-}
-
-.lft-contant .title {
-	font-size: 60px;
-	line-height: 70px;
-}
-
-.service-list {
-	margin: 30px 0 0;
-}
-
-.service-list li {
-	margin: 0 0 10px;
-	font-size: 24px;
-	font-weight: 600;
-}
-
-.rght-form-wrap {
-	float: left;
-	width: 38%;
-	background: #f5f5f5;
-}
-
-.rght-form-wrap {
-	min-height: 480px;
-}
-
-.rght-form-wrap .title-text {
-	font-weight: 600;
-	padding: 0 0 30px;
-}
-
-.mrg-btm-15 {
-	margin-bottom: 15px;
-}
-</style>
 </head>
 
 <body>
-
 	<div class="wdth-100">
 		<div class="car-bg-wrapper">
 			<div class="container">
 				<div class="inr-ctn">
 					<div class="lft-contant">
+						<div class="text-center">
+							<img
+								src="<?php
+
+        echo Yii::app()->params['frontAssetURL'] . 'img/logo-mps.png';
+        ?>">
+						</div>
 						<h1 class="title">Car Service, repair, and detailing at your
 							doorstep</h1>
 						<ul class="list-unstyled service-list">
 							<li><img
-								src="<?php echo Yii::app()->params['frontImgURL'].'arrow.png';?>">
+								src="<?php echo Yii::app()->params['frontAssetURL'].'img/arrow.png'; ?>">
 								90 min service</li>
 							<li><img
-								src="<?php echo Yii::app()->params['frontImgURL'].'arrow.png';?>">
+								src="<?php echo Yii::app()->params['frontAssetURL'].'img/arrow.png'; ?>">
 								6 months service warranty</li>
 							<li><img
-								src="<?php echo Yii::app()->params['frontImgURL'].'arrow.png';?>">
+								src="<?php echo Yii::app()->params['frontAssetURL'].'img/arrow.png'; ?>">
 								Genuine spares</li>
 							<li><img
-								src="<?php echo Yii::app()->params['frontImgURL'].'arrow.png';?>">
+								src="<?php echo Yii::app()->params['frontAssetURL'].'img/arrow.png'; ?>">
 								100% transparent Billing</li>
 						</ul>
+						<div class="play-wrap">
+							<span>Metrepersecond is now on Google Play Store </span> <img
+								src="<?php echo Yii::app()->params['frontAssetURL'].'img/playstore_img.png'; ?>"
+								width="180">
+						</div>
 					</div>
 					<div class="rght-form-wrap">
 						<div class="col-md-12 order-md-1">
 							<h2 class="text-center mb-3 title-text">Book a service now</h2>
 							<form class="needs-validation" method="post">
-								<div class="row mrg-btm-15">
-									<!-- Customer Name :: START -->
-									<div class="col-md-6 mb-3">
-										<label for="">Name</label> <input type="text"
+								<div class="row mrg-btm-10">
+									<div class="col-md-12 mb-3">
+										<label for="">Name</label><input type="text"
 											class="form-control" name="customer_name" id="customer_name"
 											value="" maxlength="100" /> <span id="err_customer_name"></span>
+										<!-- <div class="invalid-feedback">
+                                  Valid first name is required.
+                                </div> -->
 									</div>
-									<!-- Customer Name :: END -->
-									<!-- Customer Mobile :: START -->
-									<div class="col-md-6 mb-3">
-										<label for="">Mobile</label> <input type="text"
+									<div class="col-md-12 mb-3">
+										<label for="">Mobile No.</label> <input type="text"
 											class="form-control" id="customer_mobile"
 											name="customer_mobile" value="" maxlength="10" /> <span
 											id="err_customer_mobile"></span>
 									</div>
-									<!-- Customer Mobile :: END -->
 								</div>
 
-								<div class="row mrg-btm-15">
-									<!-- Make :: START -->
+								<div class="row mrg-btm-10">
 									<div class="col-md-6 mb-3">
 										<label for="">Make</label> <select class="form-control"
 											id="make_id" name="make_id"
-											onchange="getMakeModels(this.value)">
+											onchange="getMakeModels(this.value);getEstimatedCost()">
 											<option value="">--Choose Make--</option>
 											<?php
 
@@ -153,22 +102,19 @@ img {
         ?>
 											</select> <span id="err_make"></span>
 									</div>
-									<!-- Make :: END -->
-									<!-- Model :: START -->
 									<div class="col-md-6 mb-3">
 										<label for="">Model</label> <select class="form-control"
-											id="model_id" name="model_id">
+											id="model_id" name="model_id" onchange="getEstimatedCost()">
 											<option value="">--Choose Model--</option>
 										</select> <span id="err_model"></span>
 									</div>
-									<!-- Model :: END -->
 								</div>
 
-								<div class="row mrg-btm-15">
-									<div class="col-md-8 mb-3">
+								<div class="row mrg-btm-10">
+									<div class="col-md-6 mb-3">
 										<label for="">Type Of Service</label> <select
 											class="form-control" id="vehicle_service_id"
-											name="vehicle_service_id">
+											name="vehicle_service_id" onchange="getEstimatedCost()">
 											<option value="">--Choose Service Type--</option>
 											<?php
 
@@ -182,32 +128,52 @@ img {
         ?>
 										</select> <span id="err_vehicle_service_id"></span>
 									</div>
-									<div class="col-md-4 mb-3">
+									<div class="col-md-6 mb-3">
 										<label for="">Estimated Cost</label> <input type="text"
-											class="form-control" id="" value="" required="">
+											class="form-control" id="total_estimated_cost"
+											name="total_estimated_cost" value="" readonly /> <span
+											id="err_total_estimated_cost"></span>
 									</div>
 								</div>
 
-								<div class="row mrg-btm-15">
+								<div class="row mrg-btm-10">
 									<div class="col-md-6 mb-3">
 										<label for="">Date</label> <input type="text"
 											class="form-control" id="booking_date" name="booking_date"
 											value="" /> <span id="err_booking_date"></span>
 									</div>
+									<input type="hidden" id="hidden_booked_date"
+										name="hidden_booked_date" value="" />
 									<div class="col-md-6 mb-3">
-										<label for="">Time Slot</label> <input type="text"
-											class="form-control" id="" value="" required="">
+										<label for="">Time Slot</label> <select class="form-control"
+											id="booking_time_slot" name="booking_time_slot">
+											<option value="">--Choose Time Slot--</option>
+										</select> <span id="err_booking_time_slot"></span>
 									</div>
 								</div>
-								<div class="text-center">
-									<button class="btn btn-primary btn-md" type="button"
-										style="margin: 20px 0px;" onclick="doAsapService()">Book a
-										Service</button>
+
+								<div class="row mrg-btm-10" data-example>
+									<div class="col-md-12">
+										<input class="placepicker form-control"
+											data-map-container-id="collapseOne" />
+										<div id="collapseOne" class="collapse">
+											<div class="placepicker-map thumbnail"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row mrg-btm-10">
+									<div class="col-md-6">
+										<button class="btn btn-yellow" type="button"
+											onclick="doAsapService()">Book a Service</button>
+									</div>
+									<div class="col-md-6">
+										<div class="mob-no">
+											or Call <span>832-862-0888</span>
+										</div>
+									</div>
 								</div>
 						
 						</div>
-
-
 						</form>
 					</div>
 				</div>
@@ -215,10 +181,54 @@ img {
 		</div>
 	</div>
 	</div>
+	<script type="text/javascript">
 
-</body>
+  //Date Picker
+    $('#booking_date').datepicker({
+    	
+        autoSize : true,
+        //changeMonth: true,
+        //changeYear: true,
+        //showButtonPanel: true,
+        //appendText: "(date month year)",
+         altField: "#hidden_booked_date",
+         altFormat: 'yy-mm-dd',
+        dateFormat: "dd M yy",
+        minDate:0,
+        //stepMonths: 0//Used to show only current month calendar
+        //numberOfMonths:2
+        maxDate : '+2M',
+//         onSelect: function(date) {
+//             alert($("#hidden_booked_date").val());
+//         },
+    }).attr('readonly','readonly');
 
-<script type="text/javascript">
+//Google Map geolocation and auto complete Address
+$(document).ready(function() {
+
+        // Basic usage
+        $(".placepicker").placepicker();
+
+        // Advanced usage
+        $("#advanced-placepicker").each(function() {
+          var target = this;
+          var $collapse = $(this).parents('.form-group').next('.collapse');
+          var $map = $collapse.find('.another-map-class');
+
+          var placepicker = $(this).placepicker({
+            map: $map.get(0),
+            placeChanged: function(place) {
+              console.log("place changed: ", place.formatted_address, this.getLocation());
+            }
+          }).data('placepicker');
+        });
+
+      }); // END document.ready
+
+</script>
+
+	<script type="text/javascript">
+	loadByDefault();
   function doAsapService(){
 	     var objInputs = {
                   customer_name : $("#customer_name").val(),
@@ -226,8 +236,8 @@ img {
                   make_id : $("#make_id").val(),
                   model_id : $("#model_id").val(),
                   vehicle_service_id : $("#vehicle_service_id").val(),
-                  booking_date : '018-01-01',
-                  booking_time_slot :'',
+                  booking_date : $("#hidden_booked_date").val(),
+                  booking_time_slot :$("#booking_time_slot").val(),
                    
 	    	     };
 	     $.post('<?php echo Yii::app()->params['webURL'].'/Booking/BookAService/SaveAsapService'; ?>',objInputs,function(response){
@@ -257,6 +267,14 @@ img {
      	//Booking Date
      	  if(undefined != response.errors.booking_date && response.errors.booking_date.length > 0){
      		   $("#err_booking_date").html(response.errors.booking_date);
+     		   }
+     	//Total Estimated Cost
+     	  if(undefined != response.errors.total_estimated_cost && response.errors.total_estimated_cost.length > 0){
+     		   $("#err_total_estimated_cost").html(response.errors.total_estimated_cost);
+     		   }
+     	//Booking Time Slot
+     	  if(undefined != response.errors.booking_time_slot && response.errors.booking_time_slot.length > 0){
+     		   $("#err_booking_time_slot").html(response.errors.booking_time_slot);
      		   }
 		   return false;
            }else{
@@ -288,8 +306,41 @@ img {
 		    $("#err_make").empty();
 		    $("#err_model").empty();
 		    $("#err_vehicle_service_id").empty();
+		    $("#err_total_estimated_cost").empty();
+		    $("#err_booking_date").empty();
 			return true;
 	  }
 
+  function getEstimatedCost(){
+          var intMakeId = intModelId = intVehicleServiceId = '';
+          intMakeId = $("#make_id").val();
+          intModelId = $("#model_id").val();
+          intVehicleServiceId = $("#vehicle_service_id").val();
+          if(intMakeId != "" && intModelId !="" && intVehicleServiceId != ""){
+               var objInputs = {
+                        brand_id : intMakeId,
+                        model_id : intModelId,
+                        vehicle_id : 1,//Default Car
+                        plan_id : 26,//Default Basic Plan
+                        service_id : intVehicleServiceId,
+                       };
+               $.post('<?php echo Yii::app()->params['webURL'].'/Booking/BookAService/GetRepairs'; ?>',objInputs,function(response){
+                   $("#total_estimated_cost").val(0);
+                   //Labour Amount
+                   if(undefined != response.amount && response.amount >= 0){
+                	   $("#total_estimated_cost").val(response.amount);
+             		   } 		  
+         		  });
+              }
+          return true;
+	  }
+
+
+  function loadByDefault(){
+	  $("#total_estimated_cost").val(0);
+	  return true;
+	  }
 </script>
+</body>
+
 </html>
