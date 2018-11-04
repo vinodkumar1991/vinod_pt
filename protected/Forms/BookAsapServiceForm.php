@@ -21,13 +21,18 @@ class BookAsapServiceForm extends CFormModel
 
     public $booking_time_slot;
 
-    public $customer_location;
+    // public $customer_location;
 
-    public $customer_latitude;
+    // public $customer_latitude;
 
-    public $customer_longitude;
-
+    // public $customer_longitude;
     public $total_estimated_cost;
+
+    public $vehicle_manfacture_year;
+
+    public $vehicle_fuel_type;
+
+    public $customer_area;
 
     /**
      *
@@ -36,9 +41,10 @@ class BookAsapServiceForm extends CFormModel
      */
     public function rules()
     {
+        // customer_location,customer_latitude,customer_longitude,
         return array(
             array(
-                'customer_name,customer_mobile,make_id,model_id,vehicle_service_id,booking_date,booking_time_slot,customer_location,customer_latitude,customer_longitude,total_estimated_cost',
+                'customer_name,customer_mobile,make_id,model_id,vehicle_service_id,booking_date,booking_time_slot,total_estimated_cost,vehicle_manfacture_year,vehicle_fuel_type,customer_area',
                 'required',
                 'message' => '{attribute} is required'
             ),
@@ -75,6 +81,32 @@ class BookAsapServiceForm extends CFormModel
                 'type' => 'date',
                 'message' => '{attribute} is not a date',
                 'dateFormat' => 'yyyy-mm-dd'
+            ),
+            // Vehicle Manfacture Year
+            array(
+                'vehicle_manfacture_year',
+                'match',
+                'pattern' => '/^[0-9]+$/u',
+                'message' => 'Vehicle manfacture year allows only numerics'
+            ),
+            array(
+                'vehicle_manfacture_year',
+                'length',
+                'min' => 4,
+                'max' => 4
+            ),
+            // Customer Area
+            array(
+                'customer_area',
+                'match',
+                'pattern' => '/^[A-Za-z0-9 \']+$/u',
+                'message' => 'Customer area allows only alphabets and numerics'
+            ),
+            array(
+                'customer_area',
+                'length',
+                'min' => 2,
+                'max' => 55
             )
             // Booking Time Slot
             // Customer Google Address
@@ -100,7 +132,10 @@ class BookAsapServiceForm extends CFormModel
             'booking_time_slot' => 'Service Booking Time Slot',
             'customer_location' => 'Customer Address',
             'customer_latitude' => 'Google Latitude',
-            'customer_longitude' => 'Google Longitude'
+            'customer_longitude' => 'Google Longitude',
+            // 'vehicle_manfacture_year' => 'Vehicle Manfacture Year',
+            'vehicle_fuel_type' => 'Vehicle Fuel Type',
+            'customer_area' => 'Customer Area'
         );
     }
 }

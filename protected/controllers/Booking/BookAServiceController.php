@@ -1123,9 +1123,11 @@ class BookAServiceController extends Controller
         $intVehicleType = 1; // 1 => Car
         $intStatus = 1;
         $arrVehicle = $this->getVehicleDetails($intVehicleType, $intStatus);
+        $arrVehicleFuelTypes = VehicleVariants::getVehicleVeriants();
         $this->renderPartial('/Booking/AsapService', array(
             'services' => $arrVehicle['serviceTypes'],
-            'makes' => $arrVehicle['vehicleBrands']
+            'makes' => $arrVehicle['vehicleBrands'],
+            'vehicle_fuel_types' => $arrVehicleFuelTypes
         ));
     }
 
@@ -1138,6 +1140,27 @@ class BookAServiceController extends Controller
             $objBookAsapServiceForm->attributes = $arrInputs;
             if ($objBookAsapServiceForm->validate()) {
                 $arrValidatedInputs = $objBookAsapServiceForm->attributes;
+                $arrSlotDetails = explode(' To ', $arrValidatedInputs['booking_time_slot']);
+                $strSlotStartTime = $strSlotEndTime = null;
+                $arrStartEndSlotDet = [];
+                while (list ($key, $slot_date) = each($arrSlotDetails)) {
+                    $arrSlotDate = [];
+                    $arrSlotDate = explode(' ', $slot_date);
+                    $arrStartEndSlotDet[] = $arrSlotDate[1];
+                }
+                unset($arrValidatedInputs['booking_time_slot']);
+                $arrValidatedInputs['booked_start_slot'] = $arrStartEndSlotDet[0];
+                $arrValidatedInputs['booked_end_slot'] = $arrStartEndSlotDet[1];
+                $arrValidatedInputs['total_amount'] = 0;
+                $arrValidatedInputs['created_date'] = date('Y-m-d H:i:s');
+                $arrMaxOrderNumber = AsapBookings::getNextOrderNumber();
+                $arrValidatedInputs['order_number'] = empty($arrMaxOrderNumber) ? Yii::app()->params['booking_time_gap']['order_start_number'] : ($arrMaxOrderNumber['order_number'] + 1);
+                $arrValidatedInputs['order_status'] = 'NEW';
+                $strOrderNumber = AsapBookings::create($arrValidatedInputs);
+                $strOrderNumberLength = strlen($strOrderNumber);
+                $strOrderNumber = str_pad($strOrderNumber, (Yii::app()->params['booking_time_gap']['order_number_length'] - $strOrderNumberLength), '0', STR_PAD_LEFT);
+                $arrResponse['order_number'] = Yii::app()->params['booking_time_gap']['order_booking_code'] . $strOrderNumber;
+                $arrResponse['message'] = 'Order Created Successfully';
             } else {
                 $arrResponse['errors'] = $objBookAsapServiceForm->errors;
             }
@@ -1160,28 +1183,6 @@ class BookAServiceController extends Controller
         echo $strVehicleModel;
     }
 
-    // public function actionGetTimeSlots()
-    // {
-    // $arrResponse = [];
-    // $arrInputs = $_POST;
-    // if (! empty($arrInputs)) {
-    // $arrParams = Yii::app()->params['booking_time_gap'];
-    // $strCurrentTime = date('h:i A', time());
-    // $strNextSlotStartTime = date('h:i A', time() + ($arrParams['time_gap'] * 60 * 60));
-    // $strTimeSlotOption = '<option value="">--Choose Time Slot--</option>';
-    // $arrTimeGap = $this->getTimeGap($strNextSlotStartTime);
-    // $arrTimeSlotsData = [];
-    // for ($i = 1; $i <= $arrTimeGap['diff_time_in_hours']; $i ++) {
-    // $strIncrementHours = $arrParams['gap_between_time_to_time'] * $i;
-    // $arrTimeSlotsData[] = date('h:i A', (strtotime($strNextSlotStartTime) + $strIncrementHours));
-    // }
-    // foreach ($arrTimeSlotsData as $key => $value) {
-    // $strTimeSlotOption .= '<option value="">' . $strNextSlotStartTime . ' To ' . $value . '</option>';
-    // }
-    // $arrResponse['time_slots_booked_date'] = $strTimeSlotOption;
-    // }
-    // echo json_encode($arrResponse);
-    // }
     public function actionGetTimeSlots()
     {
         $arrResponse = [];

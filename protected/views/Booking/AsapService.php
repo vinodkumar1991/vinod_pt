@@ -21,13 +21,13 @@
 
 <!-- <script type="text/javascript" -->
 <!-- 	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDqtP2ENbJEwPAzJBsffFncbWhKyucIX8"></script> -->
-<script async defer
-	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDqtP2ENbJEwPAzJBsffFncbWhKyucIX8&callback=initMap"
-	type="text/javascript"></script>
-<script type="text/javascript"
-	src="https://maps.googleapis.com/maps/api/js?sensor=true&libraries=places"></script>
-<script type="text/javascript"
-	src="<?php echo Yii::app()->params['frontAssetURL'] . 'js/jquery.placepicker.js'; ?>"></script>
+<!-- <script async defer -->
+<!-- 	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDqtP2ENbJEwPAzJBsffFncbWhKyucIX8&callback=initMap" -->
+<!-- 	type="text/javascript"></script> -->
+<!-- <script type="text/javascript" -->
+<!-- 	src="https://maps.googleapis.com/maps/api/js?sensor=true&libraries=places"></script> -->
+<!-- <script type="text/javascript" -->
+<!-- src="<?php //echo Yii::app()->params['frontAssetURL'] . 'js/jquery.placepicker.js'; ?>"></script> -->
 
 </head>
 
@@ -70,6 +70,7 @@
 						<div class="col-md-12 order-md-1">
 							<h2 class="text-center mb-3 title-text">Book a service now</h2>
 							<form class="needs-validation" method="post">
+								<div id="order_success"></div>
 								<div class="row mrg-btm-10">
 									<div class="col-md-12 mb-3">
 										<label for="">Name</label><input type="text"
@@ -155,33 +156,68 @@
 									</div>
 								</div>
 
-								<div class="row mrg-btm-10" data-example>
-									<div class="col-md-12">
-										<input class="placepicker form-control"
-											data-map-container-id="collapseOne" />
-										<div id="collapseOne" class="collapse">
-											<div class="placepicker-map thumbnail"></div>
-										</div>
+
+								<div class="row mrg-btm-10">
+									<div class="col-md-6 mb-3">
+										<label for="">Year Of Manfacture</label> <input type="text"
+											class="form-control" id="vehicle_manfacture_year"
+											name="vehicle_manfacture_year" value="" maxlength="4" /> <span
+											id="err_vehicle_manfacture_year"></span>
+									</div>
+									<div class="col-md-6 mb-3">
+										<label for="">Fuel Type</label> <select class="form-control"
+											id="vehicle_fuel_type" name="vehicle_fuel_type">
+											<option value="">--Choose Fuel Type--</option>
+											<?php
+
+        if (! empty($vehicle_fuel_types)) {
+            foreach ($vehicle_fuel_types as $arrFuelType) {
+                ?>
+											        <option value="<?php echo $arrFuelType['name']; ?>"><?php echo $arrFuelType['name']; ?></option>
+											        <?php
+            }
+        }
+        ?>
+										</select> <span id="err_vehicle_fuel_type"></span>
 									</div>
 								</div>
-								<div class="row mrg-btm-10">
-									<div class="col-md-6">
-										<button class="btn btn-yellow" type="button"
-											onclick="doAsapService()">Book a Service</button>
-									</div>
-									<div class="col-md-6">
-										<div class="mob-no">
-											or Call <span>832-862-0888</span>
-										</div>
+
+								<!-- 								<div class="row mrg-btm-10" data-example> -->
+								<!-- 									<div class="col-md-12"> -->
+								<!-- 										<input class="placepicker form-control" -->
+								<!-- 											data-map-container-id="collapseOne" /> -->
+								<!-- 										<div id="collapseOne" class="collapse"> -->
+								<!-- 											<div class="placepicker-map thumbnail"></div> -->
+								<!-- 										</div> -->
+								<!-- 									</div> -->
+								<!-- 								</div> -->
+								<div class="row mrg-btm-10" data-example>
+									<div class="col-md-12">
+										<label for="">Enter Your Area</label> <input type="text"
+											class="form-control" id="customer_area" name="customer_area"
+											value="" maxlength="55" /> <span id="err_customer_area"></span>
 									</div>
 								</div>
 						
 						</div>
-						</form>
+						<div class="row mrg-btm-10">
+							<div class="col-md-6">
+								<button class="btn btn-yellow" type="button"
+									onclick="doAsapService()">Confirm Booking</button>
+							</div>
+							<div class="col-md-6">
+								<div class="mob-no">
+									or Call <span>832-862-0888</span>
+								</div>
+							</div>
+						</div>
+
 					</div>
+					</form>
 				</div>
 			</div>
 		</div>
+	</div>
 	</div>
 	</div>
 	<script type="text/javascript">
@@ -206,27 +242,27 @@
          },
     }).attr('readonly','readonly').attr("placeholder", "Choose Booking Date");
 
-//Google Map geolocation and auto complete Address
-$(document).ready(function() {
+// //Google Map geolocation and auto complete Address
+// $(document).ready(function() {
 
-        // Basic usage
-        $(".placepicker").placepicker();
+//         // Basic usage
+//         $(".placepicker").placepicker();
 
-        // Advanced usage
-        $("#advanced-placepicker").each(function() {
-          var target = this;
-          var $collapse = $(this).parents('.form-group').next('.collapse');
-          var $map = $collapse.find('.another-map-class');
+//         // Advanced usage
+//         $("#advanced-placepicker").each(function() {
+//           var target = this;
+//           var $collapse = $(this).parents('.form-group').next('.collapse');
+//           var $map = $collapse.find('.another-map-class');
 
-          var placepicker = $(this).placepicker({
-            map: $map.get(0),
-            placeChanged: function(place) {
-              console.log("place changed: ", place.formatted_address, this.getLocation());
-            }
-          }).data('placepicker');
-        });
+//           var placepicker = $(this).placepicker({
+//             map: $map.get(0),
+//             placeChanged: function(place) {
+//               console.log("place changed: ", place.formatted_address, this.getLocation());
+//             }
+//           }).data('placepicker');
+//         });
 
-      }); // END document.ready
+//       }); // END document.ready
 
 </script>
 
@@ -241,7 +277,10 @@ $(document).ready(function() {
                   vehicle_service_id : $("#vehicle_service_id").val(),
                   booking_date : $("#hidden_booked_date").val(),
                   booking_time_slot :$("#booking_time_slot").val(),
-                  total_estimated_cost : $("#total_estimated_cost").val(), 
+                  total_estimated_cost : $("#total_estimated_cost").val(),
+                  vehicle_manfacture_year : $("#vehicle_manfacture_year").val(),
+                  vehicle_fuel_type : $("#vehicle_fuel_type").val(),
+                  customer_area : $("#customer_area").val(), 
 	    	     };
 	     $.post('<?php echo Yii::app()->params['webURL'].'/Booking/BookAService/SaveAsapService'; ?>',objInputs,function(response){
 	    	 makeEmpty();
@@ -279,18 +318,46 @@ $(document).ready(function() {
      	  if(undefined != response.errors.booking_time_slot && response.errors.booking_time_slot.length > 0){
      		   $("#err_booking_time_slot").html(response.errors.booking_time_slot);
      		   }
+     	//Year Of Manfacture
+     	  if(undefined != response.errors.vehicle_manfacture_year && response.errors.vehicle_manfacture_year.length > 0){
+     		   $("#err_vehicle_manfacture_year").html(response.errors.vehicle_manfacture_year);
+     		   }
+     	//Vehicle Fuel Type
+     	  if(undefined != response.errors.vehicle_fuel_type && response.errors.vehicle_fuel_type.length > 0){
+     		   $("#err_vehicle_fuel_type").html(response.errors.vehicle_fuel_type);
+     		   }
+     	//Customer Area
+     	  if(undefined != response.errors.customer_area && response.errors.customer_area.length > 0){
+     		   $("#err_customer_area").html(response.errors.customer_area);
+     		   }
 		   return false;
            }else{
 	            makeFieldsEmpty();
-            $("#assign_success").html(response.message);	           
+            $("#order_success").html(response.message+" Your Order Number Is : "+response.order_number);	           
              return true;         
                }
 			  });
-			  return true;
 		  }
 	     
-	     
-	  
+
+	  function makeFieldsEmpty(){
+		  $("#customer_name").val("");
+		  $("#customer_mobile").val("");
+		  $("#make_id").val("");
+		  $("#model_id").val("");
+		  $("#model_id").html("");
+		  $("#vehicle_service_id").val("");
+		  $("#hidden_booked_date").val("");
+		  $('#booking_date').val("");
+		  $("#booking_time_slot").val("");
+		  $("#booking_time_slot").html("");
+		  $("#total_estimated_cost").val("");
+		  $("#vehicle_manfacture_year").val("");
+		  $("#vehicle_fuel_type").val("");
+		  $("#customer_area").val("");
+		  $("#order_success").val("");
+		  return true;
+		  }
 
   function getMakeModels(make_id){
 	  var objInputs = {
@@ -312,6 +379,9 @@ $(document).ready(function() {
 		    $("#err_total_estimated_cost").empty();
 		    $("#err_booking_date").empty();
 		    $("#err_booking_time_slot").empty();
+		    $("#err_vehicle_manfacture_year").empty();
+		    $("#err_vehicle_fuel_type").empty();
+		    $("#err_customer_area").empty();
 			return true;
 	  }
 
