@@ -200,7 +200,7 @@
         minDate:0,
         //stepMonths: 0//Used to show only current month calendar
         //numberOfMonths:2
-        maxDate : '+2M',
+        maxDate : '+6D',
          onSelect: function(date) {
              getSlots($("#hidden_booked_date").val());
          },
@@ -241,7 +241,7 @@ $(document).ready(function() {
                   vehicle_service_id : $("#vehicle_service_id").val(),
                   booking_date : $("#hidden_booked_date").val(),
                   booking_time_slot :$("#booking_time_slot").val(),
-                   
+                  total_estimated_cost : $("#total_estimated_cost").val(), 
 	    	     };
 	     $.post('<?php echo Yii::app()->params['webURL'].'/Booking/BookAService/SaveAsapService'; ?>',objInputs,function(response){
 	    	 makeEmpty();
@@ -311,6 +311,7 @@ $(document).ready(function() {
 		    $("#err_vehicle_service_id").empty();
 		    $("#err_total_estimated_cost").empty();
 		    $("#err_booking_date").empty();
+		    $("#err_booking_time_slot").empty();
 			return true;
 	  }
 
@@ -328,7 +329,7 @@ $(document).ready(function() {
                         service_id : intVehicleServiceId,
                        };
                $.post('<?php echo Yii::app()->params['webURL'].'/Booking/BookAService/GetRepairs'; ?>',objInputs,function(response){
-                   $("#total_estimated_cost").val(0);
+                    $("#total_estimated_cost").val(0);
                    //Labour Amount
                    if(undefined != response.amount && response.amount >= 0){
                 	   $("#total_estimated_cost").val(response.amount);

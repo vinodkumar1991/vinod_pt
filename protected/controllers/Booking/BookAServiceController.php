@@ -1203,19 +1203,32 @@ class BookAServiceController extends Controller
         $arrParams = Yii::app()->params['booking_time_gap'];
         $strTodayDate = date('Y-m-d');
         $intDateResponse = CommonFunctions::validateDates($strTodayDate, $strCustomerChoosenDate);
-        if (1 == $intDateResponse) {
-            if (strtotime(date('H:i:s')) < strtotime($arrParams['business_end_slot'])) {
 
-                $strNextSlotStartTime = date('h:i A', strtotime($arrParams['next_day_business_start_time_before_businessf_hours']));
+        if (1 == $intDateResponse) {
+            $arrResponseOnDates = CommonFunctions::getDateDifferences(date('Y-m-d H:i:s'), $strCustomerChoosenDate);
+            if (strtotime(date('H:i:s')) < strtotime($arrParams['business_end_slot'])) {
+                if (($arrResponseOnDates['minutes'] / 1440) <= 1) {
+                    $strNextSlotStartTime = date('h:i A', strtotime($arrParams['next_day_business_start_time']));
+                } else {
+                    $strNextSlotStartTime = date('h:i A', strtotime($arrParams['next_day_business_start_time_before_businessf_hours']));
+                }
             } else {
-                $strNextSlotStartTime = date('h:i A', strtotime($arrParams['next_day_business_start_time']));
+
+                if (($arrResponseOnDates['minutes'] / 1440) <= 1) {
+                    $strNextSlotStartTime = date('h:i A', strtotime($arrParams['next_day_business_start_time']));
+                } else {
+                    $strNextSlotStartTime = date('h:i A', strtotime($arrParams['next_day_business_start_time_before_businessf_hours']));
+                }
             }
         } else {
             if (strtotime(date('H:i:s')) > strtotime($arrParams['business_end_slot'])) {
                 $strNextSlotStartTime = null;
             } else {
-                if (strtotime(date('H:i:s')) < strtotime($arrParams['business_start_time'])) {
+                $arrTimeGap = CommonFunctions::getDateDifferences(date('H:i:s'), $arrParams['business_end_slot']);
+                if ((strtotime(date('H:i:s')) < strtotime($arrParams['business_start_time']))) {
                     $strNextSlotStartTime = date('h:i A', strtotime($arrParams['next_day_business_start_time']));
+                } elseif ((strtotime(date('H:i:s')) < strtotime($arrParams['business_end_slot'])) && ($arrTimeGap['minutes'] < ($arrParams['time_gap'] * 60))) {
+                    $strNextSlotStartTime = null;
                 } else {
                     $strNextSlotStartTime = date('h:i A', time() + ($arrParams['time_gap'] * 60 * 60));
                 }
