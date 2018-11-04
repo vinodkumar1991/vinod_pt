@@ -204,7 +204,7 @@
          onSelect: function(date) {
              getSlots($("#hidden_booked_date").val());
          },
-    }).attr('readonly','readonly');
+    }).attr('readonly','readonly').attr("placeholder", "Choose Booking Date");
 
 //Google Map geolocation and auto complete Address
 $(document).ready(function() {
