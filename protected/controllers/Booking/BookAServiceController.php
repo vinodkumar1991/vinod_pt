@@ -1159,6 +1159,98 @@ class BookAServiceController extends Controller
         }
         echo $strVehicleModel;
     }
+
+    // public function actionGetTimeSlots()
+    // {
+    // $arrResponse = [];
+    // $arrInputs = $_POST;
+    // if (! empty($arrInputs)) {
+    // $arrParams = Yii::app()->params['booking_time_gap'];
+    // $strCurrentTime = date('h:i A', time());
+    // $strNextSlotStartTime = date('h:i A', time() + ($arrParams['time_gap'] * 60 * 60));
+    // $strTimeSlotOption = '<option value="">--Choose Time Slot--</option>';
+    // $arrTimeGap = $this->getTimeGap($strNextSlotStartTime);
+    // $arrTimeSlotsData = [];
+    // for ($i = 1; $i <= $arrTimeGap['diff_time_in_hours']; $i ++) {
+    // $strIncrementHours = $arrParams['gap_between_time_to_time'] * $i;
+    // $arrTimeSlotsData[] = date('h:i A', (strtotime($strNextSlotStartTime) + $strIncrementHours));
+    // }
+    // foreach ($arrTimeSlotsData as $key => $value) {
+    // $strTimeSlotOption .= '<option value="">' . $strNextSlotStartTime . ' To ' . $value . '</option>';
+    // }
+    // $arrResponse['time_slots_booked_date'] = $strTimeSlotOption;
+    // }
+    // echo json_encode($arrResponse);
+    // }
+    public function actionGetTimeSlots()
+    {
+        $arrResponse = [];
+        $arrInputs = $_POST;
+        if (! empty($arrInputs)) {
+            $arrParams = Yii::app()->params['booking_time_gap'];
+            $strCustomerChoosenDate = $arrInputs['booking_date'] . ' ' . date('H:i:s');
+            $strBusinessClosingDate = $arrParams['business_end_time'];
+            $arrResponse = $this->getTimeGaps($arrInputs['booking_date']);
+        }
+        echo json_encode($arrResponse);
+    }
+
+    private function getTimeGaps($strCustomerChoosenDate)
+    {
+        $arrResponse = [];
+        $strTimeSlotOption = '<option value="">--Choose Time Slot--</option>';
+        // Validate Today Date and Customer Choosen Date
+        $arrParams = Yii::app()->params['booking_time_gap'];
+        $strTodayDate = date('Y-m-d');
+        $intDateResponse = CommonFunctions::validateDates($strTodayDate, $strCustomerChoosenDate);
+        if (1 == $intDateResponse) {
+            if (strtotime(date('H:i:s')) < strtotime($arrParams['business_end_slot'])) {
+
+                $strNextSlotStartTime = date('h:i A', strtotime($arrParams['next_day_business_start_time_before_businessf_hours']));
+            } else {
+                $strNextSlotStartTime = date('h:i A', strtotime($arrParams['next_day_business_start_time']));
+            }
+        } else {
+            if (strtotime(date('H:i:s')) > strtotime($arrParams['business_end_slot'])) {
+                $strNextSlotStartTime = null;
+            } else {
+                if (strtotime(date('H:i:s')) < strtotime($arrParams['business_start_time'])) {
+                    $strNextSlotStartTime = date('h:i A', strtotime($arrParams['next_day_business_start_time']));
+                } else {
+                    $strNextSlotStartTime = date('h:i A', time() + ($arrParams['time_gap'] * 60 * 60));
+                }
+            }
+        }
+        $arrTimeGap = $this->getTimeGap($strNextSlotStartTime, $strCustomerChoosenDate);
+        if (0 != $arrTimeGap['diff_time_in_hours']) {
+            $arrTimeSlotsData = [];
+            for ($i = 1; $i <= $arrTimeGap['diff_time_in_hours']; $i ++) {
+                $strIncrementHours = $arrParams['gap_between_time_to_time'] * $i;
+                $arrTimeSlotsData[$strCustomerChoosenDate . ' ' . date('H:i:s', (strtotime($strNextSlotStartTime) + $strIncrementHours))] = date('h:i A', (strtotime($strNextSlotStartTime) + $strIncrementHours));
+            }
+            foreach ($arrTimeSlotsData as $key => $value) {
+                $strTimeSlotOption .= '<option value="' . date('Y-m-d H:i:s', strtotime('-60' . ' minutes', strtotime($key))) . ' To ' . $key . '">' . date('h:i A', strtotime($value) - (60 * 60)) . ' To ' . $value . '</option>';
+            }
+        } else {
+            $arrResponse['err_response'] = 'No slots are available for today. Try for next day';
+        }
+        $arrResponse['time_slots_booked_date'] = $strTimeSlotOption;
+        $arrResponse['time_gap_in_hrs'] = $arrTimeGap['diff_time_in_hours'];
+        return $arrResponse;
+    }
+
+    private function getTimeGap($strNextSlotStartTime, $strCustomerChoosenDate)
+    {
+        $arrResponse = [];
+        $floatDiffTime = 0;
+        if (! empty($strNextSlotStartTime)) {
+            $strBusinessEndTime = $strCustomerChoosenDate . ' ' . Yii::app()->params['booking_time_gap']['business_end_slot'];
+            $arrDoubleDiffTime = CommonFunctions::getDateDifferences($strBusinessEndTime, $strCustomerChoosenDate . ' ' . $strNextSlotStartTime);
+            $floatDiffTime = floor(($arrDoubleDiffTime['minutes'] / 60));
+        }
+        $arrResponse['diff_time_in_hours'] = $floatDiffTime;
+        return $arrResponse;
+    }
 }
 
 ?>

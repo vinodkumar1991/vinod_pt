@@ -69,6 +69,7 @@ return array(
                 'selfdrive' => 'Self/SelfDrive/SelfDrive',
                 'hiremechanic' => 'HireMechanic/Hire',
                 'vehicleguide' => 'VehicleGuide/Home',
+                'quickbooking' => 'Booking/BookAService/AsapBooking',
                 '<controller:\w+>/<id:\d+>' => '<controller>/view',
                 '<controller:\w+>' => '<controller>/index',
                 '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
@@ -162,6 +163,16 @@ return array(
     // application-level parameters that can be accessed
     // using Yii::app()->params['paramName']
     'params' => array(
+        'booking_time_gap' => array(
+            'time_gap' => 4, // In hours
+            'time_gap_in_min' => 120,
+            'gap_between_time_to_time' => 3600, // In Seconds
+            'business_start_time' => '11:00:00',
+            'business_end_slot' => '19:00:00',
+            'next_day_business_start_time' => '13:00:00',
+            'next_day_business_start_time_before_businessf_hours' => '10:00:00',
+            'business_end_time' => date('Y-m-d') . ' ' . '19:00:00'
+        ),
         // this is used in contact page
         'adminEmail' => 'webmaster@example.com',
         'secureToken' => '*(_+=c/T\el~`',

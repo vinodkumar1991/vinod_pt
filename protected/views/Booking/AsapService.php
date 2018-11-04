@@ -19,8 +19,11 @@
 <script
 	src="<?php echo Yii::app()->params['frontAssetURL'].'js/jquery-ui.min.js'; ?>"></script>
 
-<script type="text/javascript"
-	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDqtP2ENbJEwPAzJBsffFncbWhKyucIX8"></script>
+<!-- <script type="text/javascript" -->
+<!-- 	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDqtP2ENbJEwPAzJBsffFncbWhKyucIX8"></script> -->
+<script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDqtP2ENbJEwPAzJBsffFncbWhKyucIX8&callback=initMap"
+	type="text/javascript"></script>
 <script type="text/javascript"
 	src="https://maps.googleapis.com/maps/api/js?sensor=true&libraries=places"></script>
 <script type="text/javascript"
@@ -198,9 +201,9 @@
         //stepMonths: 0//Used to show only current month calendar
         //numberOfMonths:2
         maxDate : '+2M',
-//         onSelect: function(date) {
-//             alert($("#hidden_booked_date").val());
-//         },
+         onSelect: function(date) {
+             getSlots($("#hidden_booked_date").val());
+         },
     }).attr('readonly','readonly');
 
 //Google Map geolocation and auto complete Address
@@ -340,6 +343,28 @@ $(document).ready(function() {
 	  $("#total_estimated_cost").val(0);
 	  return true;
 	  }
+
+  function getSlots(booking_date){
+	  var objInputs = {
+            booking_date : booking_date
+			  };
+	  $.post('<?php echo Yii::app()->params['webURL'].'/Booking/BookAService/GetTimeSlots'; ?>',objInputs,function(response){
+		  makeSlotsEmpty();
+            		 var response = $.parseJSON(response);
+            		 //Error Response
+               	  if(undefined != response.time_gap_in_hrs && response.time_gap_in_hrs ==  0){
+               		   $("#err_booking_time_slot").html(response.err_response);
+               		   }
+            		$("#booking_time_slot").html(response.time_slots_booked_date);
+		  });
+            		  return true;
+	  }
+
+  function makeSlotsEmpty(){
+	  $("#err_booking_time_slot").empty();
+	  $("#booking_time_slot").empty();
+      return true;
+   }
 </script>
 </body>
 
