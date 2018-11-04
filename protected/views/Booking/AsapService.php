@@ -61,9 +61,11 @@
 								100% transparent Billing</li>
 						</ul>
 						<div class="play-wrap">
-							<span>Metrepersecond is now on Google Play Store </span> <img
+							<span>Metrepersecond is now on Google Play Store </span> <a
+								href="<?php echo Yii::app()->params['app_download_link']; ?>"
+								target="_blank"><img
 								src="<?php echo Yii::app()->params['frontAssetURL'].'img/playstore_img.png'; ?>"
-								width="180">
+								width="180" /></a>
 						</div>
 					</div>
 					<div class="rght-form-wrap">
@@ -118,7 +120,8 @@
 									<div class="col-md-6 mb-3">
 										<label for="">Type Of Service</label> <select
 											class="form-control" id="vehicle_service_id"
-											name="vehicle_service_id" onchange="getEstimatedCost()">
+											name="vehicle_service_id"
+											onchange="getEstimatedCost();getServiceDescription(this.value)">
 											<option value="">--Choose Service Type--</option>
 											<?php
 
@@ -136,8 +139,9 @@
 										<label for="">Estimated Cost</label> <input type="text"
 											class="form-control" id="total_estimated_cost"
 											name="total_estimated_cost" value="" readonly /> <span
-											id="err_total_estimated_cost"></span>
+											id="err_total_estimated_cost"></span> <span id="service_note"></span>
 									</div>
+
 								</div>
 
 								<div class="row mrg-btm-10">
@@ -412,6 +416,7 @@
 
   function loadByDefault(){
 	  $("#total_estimated_cost").val(0);
+	  $("#service_note").empty();
 	  return true;
 	  }
 
@@ -436,6 +441,31 @@
 	  $("#booking_time_slot").empty();
       return true;
    }
+
+  function getServiceDescription(intVehicleServiceType){
+	  var strDescription = '';
+	  makeEmptyNote();
+	  switch (intVehicleServiceType) {
+	    case '1':
+	    	strDescription = 'Price shown here is labor only. Spares and consumables used will be charged extra as per MRP'; 
+	        $("#service_note").html(strDescription);     
+	        break;
+	    case '3':
+	    	strDescription = 'Price shown here is visiting charge only. Final price will be based on the scope of work after inspection.'; 
+	        $("#service_note").html(strDescription);
+	        break;
+	    case '8':
+	    	strDescription = 'Price shown here is Inspection charge only. If there is any additional repair, it will be adjusted in the final price'; 
+	        $("#service_note").html(strDescription);
+	        break;
+	        return true;
+	}
+	  }
+
+  function makeEmptyNote(){
+           $("#service_note").empty();
+           return true;
+	   }
 </script>
 </body>
 
