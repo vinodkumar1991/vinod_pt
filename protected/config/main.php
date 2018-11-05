@@ -172,9 +172,9 @@ return array(
             'next_day_business_start_time' => '13:00:00',
             'next_day_business_start_time_before_businessf_hours' => '10:00:00',
             'business_end_time' => date('Y-m-d') . ' ' . '19:00:00',
-            'order_start_number' => '000001',
+            'order_start_number' => '004567',
             'order_booking_code' => 'MTRPSC',
-            'order_number_length' => 7
+            'order_number_length' => 6
         ),
         // this is used in contact page
         'adminEmail' => 'webmaster@example.com',

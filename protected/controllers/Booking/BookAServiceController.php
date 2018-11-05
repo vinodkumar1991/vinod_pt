@@ -1160,7 +1160,10 @@ class BookAServiceController extends Controller
                 $arrValidatedInputs['order_status'] = 'NEW';
                 $strOrderNumber = AsapBookings::create($arrValidatedInputs);
                 $strOrderNumberLength = strlen($strOrderNumber);
-                $strOrderNumber = str_pad($strOrderNumber, (Yii::app()->params['booking_time_gap']['order_number_length'] - $strOrderNumberLength), '0', STR_PAD_LEFT);
+                $objDataManager = new DataManager();
+                $arrZeros = $objDataManager->getZeros();
+                $strOrderNumber = $arrZeros[(Yii::app()->params['booking_time_gap']['order_number_length'] - $strOrderNumberLength)] . $strOrderNumber;
+                // $strOrderNumber = str_pad($strOrderNumber, (Yii::app()->params['booking_time_gap']['order_number_length'] - $strOrderNumberLength), '0', STR_PAD_LEFT);
                 $strSmsConfirmationNumber = $this->actionSendOtherService([
                     'order_number' => $strOrderNumber,
                     'other_mobile' => $arrValidatedInputs['customer_mobile']

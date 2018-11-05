@@ -336,7 +336,7 @@
      		   }
 		   return false;
            }else{
-	            makeFieldsEmpty();
+	   //         makeFieldsEmpty();
             $("#order_success").html(response.message+" Your Order Number Is : "+response.order_number);	           
              return true;         
                }
