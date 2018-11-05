@@ -359,8 +359,8 @@
 		  $("#vehicle_manfacture_year").val("");
 		  $("#vehicle_fuel_type").val("");
 		  $("#customer_area").val("");
-		  $("#order_success").val("");
-		  $("#service_note").val("");
+		  $("#order_success").html("");
+		  $("#service_note").empty();
 		  return true;
 		  }
 
@@ -387,10 +387,13 @@
 		    $("#err_vehicle_manfacture_year").empty();
 		    $("#err_vehicle_fuel_type").empty();
 		    $("#err_customer_area").empty();
+		    $("#order_success").empty();
+		    $("#service_note").empty();
 			return true;
 	  }
 
   function getEstimatedCost(){
+	  $("#total_estimated_cost").val(0);
           var intMakeId = intModelId = intVehicleServiceId = '';
           intMakeId = $("#make_id").val();
           intModelId = $("#model_id").val();
