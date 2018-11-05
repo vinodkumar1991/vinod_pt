@@ -360,6 +360,7 @@
 		  $("#vehicle_fuel_type").val("");
 		  $("#customer_area").val("");
 		  $("#order_success").val("");
+		  $("#service_note").val("");
 		  return true;
 		  }
 
@@ -416,6 +417,7 @@
 
   function loadByDefault(){
 	  $("#total_estimated_cost").val(0);
+	  $("#service_note").empty();
 	  $("#service_note").empty();
 	  return true;
 	  }

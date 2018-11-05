@@ -503,6 +503,8 @@ class BookAServiceController extends Controller
             $arrCustomer['message'] = $objDataManager->getOtherServiceTemplate($arrOther);
         } elseif (1 == $intSign) {
             $arrCustomer['message'] = $objDataManager->getOnlineCRNTemplate($arrOther);
+        } elseif (2 == $intSign) {
+            $arrCustomer['message'] = $objDataManager->getAsapServiceTemplate($arrOther);
         }
         $arrSmsData = array_merge($arrSmsData, $arrCustomer);
         $objectSMSManager = new SMSManager($arrSmsData);
@@ -1159,8 +1161,13 @@ class BookAServiceController extends Controller
                 $strOrderNumber = AsapBookings::create($arrValidatedInputs);
                 $strOrderNumberLength = strlen($strOrderNumber);
                 $strOrderNumber = str_pad($strOrderNumber, (Yii::app()->params['booking_time_gap']['order_number_length'] - $strOrderNumberLength), '0', STR_PAD_LEFT);
+                $strSmsConfirmationNumber = $this->actionSendOtherService([
+                    'order_number' => $strOrderNumber,
+                    'other_mobile' => $arrValidatedInputs['customer_mobile']
+                ], 2);
                 $arrResponse['order_number'] = Yii::app()->params['booking_time_gap']['order_booking_code'] . $strOrderNumber;
                 $arrResponse['message'] = 'Order Created Successfully';
+                $arrResponse['sms_confirmation_number'] = $strSmsConfirmationNumber;
             } else {
                 $arrResponse['errors'] = $objBookAsapServiceForm->errors;
             }

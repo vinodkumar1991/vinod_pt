@@ -114,3 +114,12 @@ Stack trace:
 #15 {main}
 REQUEST_URI=/14102018/vinod_pt/index.php/Booking/BookAService/AsapBooking
 ---
+2018/11/05 20:19:41 [error] [php] Undefined index: customer_phone (C:\xampp\htdocs\14102018\vinod_pt\protected\controllers\Booking\BookAServiceController.php:1167)
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(286): BookAServiceController->runAction()
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CController.php(265): BookAServiceController->runActionWithFilters()
+#2 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(282): BookAServiceController->run()
+#3 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CWebApplication->run()
+REQUEST_URI=/14102018/vinod_pt/index.php//Booking/BookAService/SaveAsapService

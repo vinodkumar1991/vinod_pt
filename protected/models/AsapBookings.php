@@ -64,7 +64,7 @@ class AsapBookings extends CActiveRecord
             $objDB->select('ab.order_number');
             $objDB->from('asap_bookings as ab');
             $objDB->order(array(
-                'ab.order_number desc'
+                'ab.id desc'
             ));
             $objDB->limit(1);
             $arrCities = $objDB->queryRow();
