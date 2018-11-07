@@ -11,80 +11,94 @@
  *
  * @author ctel-cpu-33
  */
-class OrdersController extends Controller {
+class OrdersController extends Controller
+{
 
-    public function actionOrders() {
+    public function actionOrders()
+    {
         $arrOrders = Orders::getBookingOrdersList($intOrder = NULL, $strOrderNo = NULL);
-        $this->render('/Reports/Orders/Bookings', array('arrOrders' => $arrOrders));
+        $this->render('/Reports/Orders/Bookings', array(
+            'arrOrders' => $arrOrders
+        ));
     }
 
-    //Modification Shops Orders
-    public function actionModificationOrders() {
+    // Modification Shops Orders
+    public function actionModificationOrders()
+    {
         $objOrders = new Orders();
         $arrModificationOrders = $objOrders->getModificationBookingOrdersList();
-        $this->render('/Reports/Orders/ModificationOrders', array('arrModificationOrders' => $arrModificationOrders));
+        $this->render('/Reports/Orders/ModificationOrders', array(
+            'arrModificationOrders' => $arrModificationOrders
+        ));
     }
 
-    /* function actionGeneratePDF(){
-      //echo 'Hi';exit;
-      $mPDF1 = Yii::app()->ePdf->mpdf();
+    /*
+     * function actionGeneratePDF(){
+     * //echo 'Hi';exit;
+     * $mPDF1 = Yii::app()->ePdf->mpdf();
+     *
+     * # You can easily override default constructor's params
+     * $mPDF1 = Yii::app()->ePdf->mpdf('', 'A4');
+     *
+     * $objOrders=new Orders();
+     * $arrOrders=$objOrders->getBookingOrdersList();
+     *
+     * # render (full page)
+     * $mPDF1->WriteHTML($this->renderPartial('/Reports/Orders/Bookings',array('arrOrders'=>$arrOrders), true));
+     * # Outputs ready PDF
+     * $mPDF1->Output();
+     *
+     * }
+     */
 
-      # You can easily override default constructor's params
-      $mPDF1 = Yii::app()->ePdf->mpdf('', 'A4');
-
-      $objOrders=new Orders();
-      $arrOrders=$objOrders->getBookingOrdersList();
-
-      # render (full page)
-      $mPDF1->WriteHTML($this->renderPartial('/Reports/Orders/Bookings',array('arrOrders'=>$arrOrders), true));
-      # Outputs ready PDF
-      $mPDF1->Output();
-
-      } */
-
-    //Package listing Screen
-    public function actionAddPackageAmount() {
-
+    // Package listing Screen
+    public function actionAddPackageAmount()
+    {
         $arrVehicleType = Orders::getVehicleType();
         $arrPlanType = Orders::getPlanType();
         $arrServiceType = Orders::getServiceType();
         $arrPackage = Orders::getServicePackageAmount($ServiceID = NULL);
-        $this->render('/Reports/Orders/AddPackageAmount', array('arrPackage' => $arrPackage,
+        $this->render('/Reports/Orders/AddPackageAmount', array(
+            'arrPackage' => $arrPackage,
             'arrVehicleType' => $arrVehicleType,
             'arrPlanType' => $arrPlanType,
-            'arrServiceType' => $arrServiceType)
-        );
+            'arrServiceType' => $arrServiceType
+        ));
     }
 
-    //Ajax View Details
-    public function actionViewPackageDetails() {
+    // Ajax View Details
+    public function actionViewPackageDetails()
+    {
         if (Yii::app()->request->isPostRequest) {
             $ServiceID = $_POST['Service_ID'];
             $arrDetails = Orders::getServicePackageAmount($ServiceID);
             echo json_encode($arrDetails);
-            exit;
+            exit();
         }
     }
 
-    //Ajax  Update the values
-    public function actionUpdateServicePackage() {
+    // Ajax Update the values
+    public function actionUpdateServicePackage()
+    {
         if (Yii::app()->request->isPostRequest) {
             $arrInput = $_POST;
             $arrValue = $this->actionPrepareInput($arrInput);
             $arrResponse = Orders::updateServicePackageAmount($arrValue);
             echo 'Updated Successfully';
-            exit;
+            exit();
         }
     }
 
-    public function actionPrepareInput($arrInput) {
+    public function actionPrepareInput($arrInput)
+    {
         $objCommon = new DataManager();
         $arrCommon = $objCommon->getDefaults();
         $arrValue = array_merge($arrInput, $arrCommon);
         return $arrValue;
     }
 
-    public function actionAddVehiclePackageAmount() {
+    public function actionAddVehiclePackageAmount()
+    {
         $arrErrors = array();
         $objPackageForm = NULL;
         $arrVehicles = VehicleTypes::getVehicleTypes();
@@ -103,34 +117,71 @@ class OrdersController extends Controller {
                 $arrErrors = $objPackageForm->errors;
             }
         }
-        $this->render('/Reports/Orders/AddVehiclePackageAmount', array('errors' => $arrErrors, 'vehicles' => $arrVehicles, 'plans' => $arrPlans, 'packageForm' => $objPackageForm));
+        $this->render('/Reports/Orders/AddVehiclePackageAmount', array(
+            'errors' => $arrErrors,
+            'vehicles' => $arrVehicles,
+            'plans' => $arrPlans,
+            'packageForm' => $objPackageForm
+        ));
     }
 
-    public function actionSelfDriveOrders() {
+    public function actionSelfDriveOrders()
+    {
         $intAgentUserId = 0;
-        if (!empty(Yii::app()->session['user_id']) && 6 != Yii::app()->session['role_id']) { // 6 for superadmin
+        if (! empty(Yii::app()->session['user_id']) && 6 != Yii::app()->session['role_id']) { // 6 for superadmin
             $intAgentUserId = Yii::app()->session['user_id'];
         }
-        $arrOrders = SelfdriveBookings::model()->getOrders(array('agent_user_id' => $intAgentUserId));
+        $arrOrders = SelfdriveBookings::model()->getOrders(array(
+            'agent_user_id' => $intAgentUserId
+        ));
 
-        $this->render('/Reports/Orders/SelfDriveOrders', array('orders' => $arrOrders));
+        $this->render('/Reports/Orders/SelfDriveOrders', array(
+            'orders' => $arrOrders
+        ));
     }
 
-    public function actionHireOrders() {
+    public function actionHireOrders()
+    {
         $arrOrders = HireOrders::model()->getOrders();
-        $this->render('/Reports/Orders/HireOrders', array('orders' => $arrOrders));
+        $this->render('/Reports/Orders/HireOrders', array(
+            'orders' => $arrOrders
+        ));
     }
 
-    public function actionDelayOrders() {
+    public function actionDelayOrders()
+    {
         if (Yii::app()->request->isPostRequest) {
             $arrInput = $_POST;
             if ($arrInput["delayflag"] == 1) {
-                $arrDelayOrders = Orders::model()->UpdateDelayOrders(array('order_status' => 14, 'previous_order_status' => $arrInput['order_status']), $arrInput['order_number']);
+                $arrDelayOrders = Orders::model()->UpdateDelayOrders(array(
+                    'order_status' => 14,
+                    'previous_order_status' => $arrInput['order_status']
+                ), $arrInput['order_number']);
             } else {
-                $arrDelayOrders = Orders::model()->UpdateDelayOrders(array('order_status' => $arrInput['previous_order_status']), $arrInput['order_number']);
+                $arrDelayOrders = Orders::model()->UpdateDelayOrders(array(
+                    'order_status' => $arrInput['previous_order_status']
+                ), $arrInput['order_number']);
             }
             echo $arrDelayOrders;
         }
     }
 
+    public function actionAsapOrders()
+    {
+        $arrModifiedOrders = array();
+        $arrOrders = AsapBookings::asapOrders();
+        if (! empty($arrOrders)) {
+            foreach ($arrOrders as $arrOrder) {
+                $strOrderNumberLength = strlen($arrOrder['order_number']);
+                $objDataManager = new DataManager();
+                $arrZeros = $objDataManager->getZeros();
+                $strOrderNumber = $arrZeros[(Yii::app()->params['booking_time_gap']['order_number_length'] - $strOrderNumberLength)] . $arrOrder['order_number'];
+                $arrOrder['order_number'] = Yii::app()->params['booking_time_gap']['order_booking_code'] . $strOrderNumber;
+                $arrModifiedOrders[] = $arrOrder;
+            }
+        }
+        $this->render('/Reports/Orders/AsapOrders', array(
+            'arrOrders' => $arrModifiedOrders
+        ));
+    }
 }

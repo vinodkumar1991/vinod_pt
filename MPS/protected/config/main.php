@@ -107,6 +107,19 @@ return array(
         )
     ),
     'params' => array(
+        'booking_time_gap' => array(
+            'time_gap' => 4, // In hours
+            'time_gap_in_min' => 120,
+            'gap_between_time_to_time' => 3600, // In Seconds
+            'business_start_time' => '11:00:00',
+            'business_end_slot' => '19:00:00',
+            'next_day_business_start_time' => '13:00:00',
+            'next_day_business_start_time_before_businessf_hours' => '10:00:00',
+            'business_end_time' => date('Y-m-d') . ' ' . '19:00:00',
+            'order_start_number' => '004567',
+            'order_booking_code' => 'MTRPSC',
+            'order_number_length' => 6
+        ),
         'adminEmail' => 'webmaster@example.com',
         'secureToken' => '*(_+=c/T\el~`',
         'sms' => array(
@@ -115,9 +128,9 @@ return array(
             'route' => 4,
             'url' => 'https://control.msg91.com/api/sendhttp.php'
         ),
-        //'webURL' => 'http://localhost/MeterPerSecond/MPS_New/index.php/',
-        //'imgURL' => 'http://localhost/MeterPerSecond/MPS_New/MPS/images/',
-        //'adminImgURL' => 'http://localhost/MeterPerSecond/MPS_New/MPS/images/uploadimages/',
+        // 'webURL' => 'http://localhost/MeterPerSecond/MPS_New/index.php/',
+        // 'imgURL' => 'http://localhost/MeterPerSecond/MPS_New/MPS/images/',
+        // 'adminImgURL' => 'http://localhost/MeterPerSecond/MPS_New/MPS/images/uploadimages/',
 
         'webURL' => 'http://localhost:8090/14102018/vinod_pt/MPS/index.php/',
         'adminWebURL' => 'http://localhost:8090/14102018/vinod_pt/MPS/index.php/',

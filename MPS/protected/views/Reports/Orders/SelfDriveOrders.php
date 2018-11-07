@@ -11,6 +11,8 @@
             <li class="active"><a href="<?php echo Yii::app()->params['webURL'] . 'Reports/Orders/Orders/SelfDriveOrders/' ?>">Self Drive Agent</a></li>                                           
             <li><a href="<?php echo Yii::app()->params['webURL'] . 'Reports/Orders/Orders/HireOrders/' ?>">Hire A Mechanic</a></li>
             <li><a href="<?php echo Yii::app()->params['webURL'] . 'Reports/Orders/Orders/ModificationOrders/' ?>">Modification Shops</a></li>
+            <li><a
+			href="<?php echo Yii::app()->params['webURL'] . 'Reports/Orders/Orders/AsapOrders/' ?>">Quick Bookings</a></li>
             <?php
         }
         ?>

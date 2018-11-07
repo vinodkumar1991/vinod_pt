@@ -3,6 +3,8 @@
         <li><a href="<?php echo Yii::app()->params['webURL'] . 'Reports/Orders/Orders/Orders/' ?>">Book A Service</a></li>
         <li><a href="<?php echo Yii::app()->params['webURL'] . 'Reports/Orders/Orders/SelfDriveOrders/' ?>">Self Drive Agent</a></li>                                           
         <li><a href="<?php echo Yii::app()->params['webURL'] . 'Reports/Orders/Orders/HireOrders/' ?>">Hire A Mechanic</a></li>
+        <li><a
+			href="<?php echo Yii::app()->params['webURL'] . 'Reports/Orders/Orders/AsapOrders/' ?>">Quick Bookings</a></li>
         <li class="active"><a href="javascript:void(0);">Modification Shops</a></li>
     </ul>
 </div>

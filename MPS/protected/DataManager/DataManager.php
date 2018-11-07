@@ -1083,6 +1083,16 @@ class DataManager {
         $strNewOrderNumber = $strKey . $intNumber;
         return $strNewOrderNumber;
     }
+    
+    public function getZeros()
+    {
+        return array(
+            '0' => '',
+            '1' => '0',
+            '2' => '00',
+            '3' => '000'
+        );
+    }
 
 }
 

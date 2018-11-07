@@ -20,8 +20,7 @@
 			href="<?php echo Yii::app()->params['webURL'] . 'Reports/Orders/Orders/ModificationOrders/' ?>">Modification
 				Shops</a></li>
 		<li><a
-			href="<?php echo Yii::app()->params['webURL'] . 'Reports/Orders/Orders/AsapOrders/' ?>">Quick
-				Bookings</a></li>
+			href="<?php echo Yii::app()->params['webURL'] . 'Reports/Orders/Orders/AsapOrders/' ?>">Quick Bookings</a></li>
             <?php
         }
         ?>
@@ -38,23 +37,19 @@
 			<tr>
 				<th>Sl No.</th>
 				<th>OrderId</th>
-				<th>Vehicle Type</th>
+				<th>Order Status</th>
+				<th>Customer Name</th>
+				<th>Customer Mobile</th>
 				<th>Brand</th>
 				<th>Model</th>
-				<th>Customer Name</th>
-				<th>Email Id</th>
-				<th>Mobile No</th>
-				<th>Address</th>
-				<th>Service Name</th>
-				<th>Plan Name</th>
-				<th>Amount</th>
-				<th>Book Date</th>
-				<th>PickUp Date&Time</th>
-				<th>Location</th>
-				<th>Latitude</th>
-				<th>Longitude</th>
-				<th>Status</th>
-				<th>Action</th>
+				<th>Vehicle Service Type</th>
+				<th>Labour Amount</th>
+				<th>Booked Date</th>
+				<th>Start Slot</th>
+				<th>End Slot</th>
+				<th>Vehicle Manfacture Year</th>
+				<th>Fuel Type</th>
+				<th>Customer Area</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -66,43 +61,19 @@
                     <tr>
 				<td><?php echo $i; ?></td>
 				<td><?php echo isset($row['order_number']) ? $row['order_number'] : NULL; ?></td>
-				<td><?php echo isset($row['vehicle_type']) ? $row['vehicle_type'] : NULL; ?></td>
+				<td><?php echo isset($row['order_status']) ? $row['order_status'] : NULL; ?></td>
+				<td><?php echo isset($row['customer_name']) ? $row['customer_name'] : NULL; ?></td>
+				<td><?php echo isset($row['customer_phone']) ? $row['customer_phone'] : NULL; ?></td>
 				<td><?php echo isset($row['brand_name']) ? $row['brand_name'] : NULL; ?></td>
-				<td><?php echo isset($row['model_name']) ? $row['model_name'] : NULL; ?></td>
-				<td><?php echo isset($row['customer_primary_fullname']) ? $row['customer_primary_fullname'] : NULL; ?></td>
-				<td><?php echo isset($row['customer_primary_email']) ? $row['customer_primary_email'] : NULL; ?></td>
-				<td><?php echo isset($row['customer_primary_phone']) ? $row['customer_primary_phone'] : NULL; ?></td>
-				<td><?php echo isset($row['customer_address']) ? $row['customer_address'] : NULL; ?></td>
-				<td><?php echo isset($row['service_name']) ? $row['service_name'] : NULL; ?></td>
-				<td><?php echo isset($row['plan_name']) ? $row['plan_name'] : NULL; ?></td>
-				<td><?php echo isset($row['amount']) ? $row['amount'] : NULL; ?></td>
-				<td><?php echo isset($row['order_created_date']) ? $row['order_created_date'] : NULL; ?></td>
+				<td><?php echo isset($row['brand_model_name']) ? $row['brand_model_name'] : NULL; ?></td>
+				<td><?php echo isset($row['vehicle_service_type']) ? $row['vehicle_service_type'] : NULL; ?></td>
+				<td><?php echo isset($row['labour_amount']) ? $row['labour_amount'] : NULL; ?></td>
 				<td><?php echo isset($row['order_booked_date']) ? $row['order_booked_date'] : NULL; ?></td>
-				<td><?php echo isset($row['location']) ? $row['location'] : NULL; ?></td>
-				<td><?php echo isset($row['latitude']) ? $row['latitude'] : NULL; ?></td>
-				<td><?php echo isset($row['longitude']) ? $row['longitude'] : NULL; ?></td>
-				<td><?php echo Yii::app()->params['order_staus'][$row['order_status']]; ?></td>
-				<td><a class="view-u" title="View Invoice" style="cursor: pointer"
-					href="<?php echo Yii::app()->params['webURL'] . 'Invoice/Invoice/Invoice?OrdNo=' . $row['order_number'] ?>">
-						<i aria-hidden="true" class="fa fa-eye"></i>
-				</a> 
-                            <?php if( (!empty($row['order_status'])) && (5 == $row['order_status'] || 13 == $row['order_status']) ) { ?>
-                            <button class="btn btn-info"
-						name="order_delay" id="order_delay"
-						value="<?php echo $row['order_number'];?>"
-						onclick="OrderDelay(this.value,<?php echo $row['order_status']; ?>,'',1)">Delay
-					</button>    
-                            
-                            <?php } ?>
-                             <?php if( (!empty($row['order_status'])) && (14 == $row['order_status'])) { ?>
-                            <button class="btn btn-primary"
-						name="order_relay" id="order_relay"
-						value="<?php echo $row['order_number'];?>"
-						onclick="OrderDelay(this.value,<?php echo $row['order_status']; ?>,<?php echo $row['previous_order_status']; ?>,0)">Relay
-					</button>    
-                            
-                            <?php } ?>
-                        </td>
+				<td><?php echo isset($row['order_start_time']) ? $row['order_start_time'] : NULL; ?></td>
+				<td><?php echo isset($row['order_end_time']) ? $row['order_end_time'] : NULL; ?></td>
+				<td><?php echo isset($row['year_of_manfacture']) ? $row['year_of_manfacture'] : NULL; ?></td>
+				<td><?php echo isset($row['fuel_type']) ? $row['fuel_type'] : NULL; ?></td>
+				<td><?php echo isset($row['customer_area']) ? $row['customer_area'] : NULL; ?></td>
 			</tr>
                     <?php
                     $i ++;
