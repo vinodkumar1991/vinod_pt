@@ -202,8 +202,8 @@
 									</select> <span id="err_vehicle_service_id" class="text-danger"></span>
 								</div>
 								<div class="col-sm-6 padding-top-10">
-									<label for="">Estimated Cost*</label> <input type="text"
-										class="form-control" id="total_estimated_cost"
+									<label for="">Estimated Cost (In Rupees)</label> <input
+										type="text" class="form-control" id="total_estimated_cost"
 										name="total_estimated_cost" value="" readonly /> <span
 										id="err_total_estimated_cost" class="text-danger"></span>
 								</div>
