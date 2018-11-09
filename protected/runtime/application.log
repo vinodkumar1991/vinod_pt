@@ -123,3 +123,1596 @@ Stack trace:
 #4 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
 #5 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CWebApplication->run()
 REQUEST_URI=/14102018/vinod_pt/index.php//Booking/BookAService/SaveAsapService
+2018/11/10 00:10:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/quick-booking-default.css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/quic...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/css/quick-booking-default.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/quick-booking-custom.css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/quic...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/css/quick-booking-custom.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/gear.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/gear...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/gear.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/transparency.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/tran...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/transparency.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/warranty.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/warr...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/warranty.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/quick-booking-default.css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/quic...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/css/quick-booking-default.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/gear.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/gear...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/gear.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/quick-booking-custom.css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/quic...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/css/quick-booking-custom.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/transparency.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/tran...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/transparency.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/warranty.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/warr...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/warranty.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/quick-booking-default.css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/quic...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/css/quick-booking-default.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/quick-booking-custom.css".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/quic...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/css/quick-booking-custom.css
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/gear.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/gear...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/gear.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/warranty.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/warr...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/warranty.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:10:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/transparency.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/tran...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/transparency.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/gear.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/gear...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/gear.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/warranty.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/warr...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/warranty.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/transparency.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/tran...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/transparency.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/date.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/date...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/date.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/ml.jpg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/ml.j...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/ml.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/door.svg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/door...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/door.svg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/next.svg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/next...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/next.svg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/fb.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/fb.p...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/fb.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/car.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/car....')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/car.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/service.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/serv...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/service.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/gear.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/gear...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/gear.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/transparency.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/tran...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/transparency.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/ml.jpg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/ml.j...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/ml.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/warranty.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/warr...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/warranty.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/date.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/date...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/date.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/door.svg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/door...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/door.svg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/fb.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/fb.p...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/fb.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/next.svg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/next...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/next.svg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/car.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/car....')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/car.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/service.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/serv...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/service.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/gear.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/gear...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/gear.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/date.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/date...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/date.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/ml.jpg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/ml.j...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/ml.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/warranty.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/warr...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/warranty.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/door.svg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/door...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/door.svg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/transparency.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/tran...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/transparency.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/gear.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/gear...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/gear.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/door.svg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/door...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/door.svg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/ml.jpg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/ml.j...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/ml.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/transparency.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/tran...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/transparency.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/warranty.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/warr...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/warranty.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/date.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/date...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/date.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/gear.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/gear...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/gear.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/ml.jpg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/ml.j...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/ml.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/warranty.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/warr...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/warranty.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/transparency.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/tran...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/transparency.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/next.svg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/next...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/next.svg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/door.svg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/door...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/door.svg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/date.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/date...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/date.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/gear.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/gear...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/gear.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/transparency.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/tran...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/transparency.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/warranty.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/warr...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/warranty.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/date.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/date...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/date.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/ml.jpg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/ml.j...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/ml.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/door.svg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/door...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/door.svg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/gear.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/gear...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/gear.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/warranty.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/warr...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/warranty.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/transparency.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/tran...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/transparency.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/door.svg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/door...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/door.svg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/date.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/date...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/date.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/ml.jpg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/ml.j...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/ml.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/gear.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/gear...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/gear.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/warranty.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/warr...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/warranty.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/ml.jpg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/ml.j...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/ml.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/transparency.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/tran...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/transparency.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/door.svg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/door...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/door.svg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/date.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/date...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/date.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/fb.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/fb.p...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/fb.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/next.svg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/next...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/next.svg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/car.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/car....')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/car.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/service.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/serv...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/service.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/gear.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/gear...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/gear.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/warranty.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/warr...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/warranty.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/transparency.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/tran...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/transparency.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/date.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/date...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/date.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/ml.jpg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/ml.j...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/ml.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/door.svg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/door...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/door.svg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/gear.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/gear...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/gear.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/transparency.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/tran...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/transparency.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/warranty.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/warr...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/warranty.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/ml.jpg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/ml.j...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/ml.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/door.svg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/door...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/door.svg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/date.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/date...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/date.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/fb.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/fb.p...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/fb.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/next.svg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/next...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/next.svg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/service.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/serv...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/service.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/car.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/car....')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/car.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/gear.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/gear...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/gear.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/warranty.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/warr...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/warranty.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/ml.jpg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/ml.j...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/ml.jpg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/door.svg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/door...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/door.svg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/transparency.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/tran...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/transparency.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/timer.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/time...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/timer.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/date.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/date...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/date.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/service.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/serv...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/service.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/fb.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/fb.p...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/fb.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/next.svg".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/next...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/next.svg
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/car.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/car....')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/car.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-default.css
+---
+2018/11/10 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:14:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:14:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:16:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:16:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:18:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:18:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:19:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:19:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:19:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:19:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:20:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:20:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:21:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:21:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:21:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:23:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:23:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/imag...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-custom.css
+---
+2018/11/10 00:23:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/imag...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-custom.css
+---
+2018/11/10 00:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/imag...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-custom.css
+---
+2018/11/10 00:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/imag...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-custom.css
+---
+2018/11/10 00:26:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:26:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/imag...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-custom.css
+---
+2018/11/10 00:26:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/imag...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-custom.css
+---
+2018/11/10 00:30:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:30:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:30:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:32:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:33:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:34:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:34:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:35:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/imag...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-custom.css
+---
+2018/11/10 00:35:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/imag...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-custom.css
+---
+2018/11/10 00:36:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:37:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/imag...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-custom.css
+---
+2018/11/10 00:37:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/css/imag...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/assets/css/quick-booking-custom.css
+---
+2018/11/10 00:41:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:44:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 00:45:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 01:00:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 01:01:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 01:02:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 01:02:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 01:03:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 01:03:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 01:04:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/
+---
+2018/11/10 01:04:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/index.php/
+---
