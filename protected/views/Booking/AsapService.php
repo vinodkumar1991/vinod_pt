@@ -205,7 +205,9 @@
 									<label for="">Estimated Cost (In Rupees)</label> <input
 										type="text" class="form-control" id="total_estimated_cost"
 										name="total_estimated_cost" value="" readonly /> <span
-										id="err_total_estimated_cost" class="text-danger"></span>
+										id="err_total_estimated_cost" class="text-danger"></span> <input
+										type="hidden" id="hidden_total_estimated_cost"
+										name="hidden_total_estimated_cost" value="" />
 								</div>
 							</div>
 
@@ -573,7 +575,7 @@
 					vehicle_service_id : $("#vehicle_service_id").val(),
 					booking_date : $("#hidden_booked_date").val(),
 					booking_time_slot :$("#booking_time_slot").val(),
-					total_estimated_cost : $("#total_estimated_cost").val(),
+					total_estimated_cost : $("#hidden_total_estimated_cost").val(),
 					vehicle_manfacture_year : $("#vehicle_manfacture_year").val(),
 					vehicle_fuel_type : $("#vehicle_fuel_type").val(),
 					customer_area : $("#customer_area").val(), 
@@ -653,6 +655,7 @@
 			$("#customer_area").val("");
 			$("#order_success").html("");
 			$("#service_note").empty();
+			$("#hidden_total_estimated_cost").val("");
 			return true;
 			}
 
@@ -700,9 +703,11 @@
 						};
 				$.post('<?php echo Yii::app()->params['webURL'].'/Booking/BookAService/GetRepairs'; ?>',objInputs,function(response){
 						$("#total_estimated_cost").val(0);
+						$("#hidden_total_estimated_cost").val(0);
 					//Labour Amount
 					if(undefined != response.amount && response.amount >= 0){
 						$("#total_estimated_cost").val(response.amount);
+						$("#hidden_total_estimated_cost").val(response.amount);
 						} 		  
 					});
 				}
