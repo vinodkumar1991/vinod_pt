@@ -1045,7 +1045,7 @@ class DataManager
         $strTemplate = NULL;
         $strOrderNumber = isset($arrData['order_number']) ? Yii::app()->params['booking_time_gap']['order_booking_code'] . $arrData['order_number'] : NULL;
         $strSupportOfAsapNumber = Yii::app()->params['customer_info']['support_mobile_asap'];
-        $strTemplate .= 'Dear Customer your order ID : ' . $strOrderNumber . ' has been received. For more updates on the order please call +' . $strSupportOfAsapNumber . '. Thank you for choosing us. Metre Per Second - Doorstep Car Care';
+        $strTemplate .= 'Dear Customer your order ID : ' . $strOrderNumber . ' has been received. For more updates on the order please call ' . urlencode($strSupportOfAsapNumber) . '. Thank you for choosing us. Metre Per Second - Doorstep Car Care';
         return $strTemplate;
     }
 

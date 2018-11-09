@@ -31,6 +31,7 @@ class SMSManager {
      * @return string It will return a token response upon sms success
      */
     public function fireSMS() {
+      //  print_r($this->getData()); die();
         $strSMS = self::send($this->getData());
         return $strSMS;
     }
