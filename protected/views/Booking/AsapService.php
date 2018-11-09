@@ -334,7 +334,7 @@
 					<div class="col-md-6 padding-bottom-50">
 						<div class="why-mps-image why_mps_reminder"></div>
 						<p class="how-it-works-header">Service at your Dorostep</p>
-						<p class="how-it-works-description">There’s no picking your
+						<p class="how-it-works-description">There&rsquo;s no picking your
 							vehicle, driving it to another remote location and getting it
 							serviced there. Because all services at Metre Per Second are
 							provided at your Doorstep which gives you one more option to rely
