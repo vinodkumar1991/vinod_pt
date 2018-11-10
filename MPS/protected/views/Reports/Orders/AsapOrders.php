@@ -20,7 +20,8 @@
 			href="<?php echo Yii::app()->params['webURL'] . 'Reports/Orders/Orders/ModificationOrders/' ?>">Modification
 				Shops</a></li>
 		<li><a
-			href="<?php echo Yii::app()->params['webURL'] . 'Reports/Orders/Orders/AsapOrders/' ?>">Quick Bookings</a></li>
+			href="<?php echo Yii::app()->params['webURL'] . 'Reports/Orders/Orders/AsapOrders/' ?>">Quick
+				Bookings</a></li>
             <?php
         }
         ?>
@@ -37,6 +38,7 @@
 			<tr>
 				<th>Sl No.</th>
 				<th>OrderId</th>
+				<th>Customer Booked Date</th>
 				<th>Order Status</th>
 				<th>Customer Name</th>
 				<th>Customer Mobile</th>
@@ -61,6 +63,7 @@
                     <tr>
 				<td><?php echo $i; ?></td>
 				<td><?php echo isset($row['order_number']) ? $row['order_number'] : NULL; ?></td>
+				<td><?php echo isset($row['customer_booked_date_time']) ? $row['customer_booked_date_time'] : NULL; ?></td>
 				<td><?php echo isset($row['order_status']) ? $row['order_status'] : NULL; ?></td>
 				<td><?php echo isset($row['customer_name']) ? $row['customer_name'] : NULL; ?></td>
 				<td><?php echo isset($row['customer_phone']) ? $row['customer_phone'] : NULL; ?></td>
