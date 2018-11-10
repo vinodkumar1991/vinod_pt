@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Metre Per Second - Quick Booking</title>
+<title>Doorstep Car Service and Repair</title>
 <link rel="stylesheet" type="text/css"
 	href="<?php echo Yii::app()->params['frontAssetURL'].'css/bootstrap.min.css'; ?>">
 <link rel="stylesheet" type="text/css"
@@ -114,7 +114,7 @@
 
 
 						<div class="h4 text-center">
-							<p class="contactus-number-font">Interact with us</p>
+							<p class="contactus-number-font">Follow us on</p>
 							<div class="social">
 								<a href="https://www.Facebook.com/metrepersecond"
 									style="background-color: #405890;"
@@ -510,8 +510,9 @@
         </footer> -->
 
 	<footer>
-		<p class="text-center copyright"><?php echo '&copy'.' '.date('Y');?> Metre Per Second - Doorstep
-			Car Care</p>
+		<p class="text-center copyright"><?php echo '&copy'.' '.date('Y');?> Metre Per Second - Doorstep Car Care</p>
+		<p class="text-center text-muted">Metre Per Second is the registered
+			trademark of Secundo Per Metre Online Solutions Private Limited.</p>
 	</footer>
 
 
