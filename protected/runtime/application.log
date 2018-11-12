@@ -1878,3 +1878,29 @@ Stack trace:
 REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
 HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
 ---
+2018/11/10 17:08:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
+2018/11/10 17:09:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "kMPS/index".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('kMPS/index')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/kMPS
+---
+2018/11/10 22:29:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/img/favicon.ico".' in C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/img/favi...')
+#1 C:\xampp\htdocs\14102018\vinod_pt\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\14102018\vinod_pt\index.php(101): CApplication->run()
+#3 {main}
+REQUEST_URI=/14102018/vinod_pt/assets/img/favicon.ico
+HTTP_REFERER=http://localhost:8090/14102018/vinod_pt/
+---
